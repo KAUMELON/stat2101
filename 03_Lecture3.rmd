@@ -248,9 +248,10 @@ overall resources and operations of the computer.
 of all other programs that reside in the computer, including application
 programs and other system software.
 
-### Objectives of Operating System  
+### Objectives of Operating System   
 
-- The objectives of the operating system are −
+The objectives of the operating system are:  
+
 
 - To make the computer system convenient to use in an efficient manner.
 

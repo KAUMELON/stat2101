@@ -9,6 +9,7 @@ fig:ic
 fig:vlsi
 fig:ulsi
 fig:cpu
+fig:memtab
 introduction-to-computers
 definition
 characteristics
@@ -58,4 +59,19 @@ shareware
 public-domain-software
 bannerware
 hardware-components--computer-memory
+computer-memory
+primary-memory
+random-access-memory-ram
+static-ram-sram
+dynamic-ram-dram
+read-only-memory-rom
+cache-memory
+registers-1
+secondary-memory
+magnetic-storage-systems
+optical-storage-systems
+solid-state-storage-devices
+cloud-storage-systems
+tertiary-storage-device
+role-of-different-types-of-memories-in-computers
 references

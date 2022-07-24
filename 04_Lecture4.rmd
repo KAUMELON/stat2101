@@ -1,5 +1,6 @@
 # Hardware Components- Computer Memory  
 
+## Computer memory  
 Computer memory refers to the different types of data storage technology
 used by a computer. Memory is a place where computer store data,
 instructions and results temporarily or permanently. Mainly computer
@@ -14,13 +15,14 @@ information.  Data are stored in binary form in all types of memory.\
 The key difference between primary and secondary memory is speed of
 access.
 
-**Primary memory** is also known as internal memory, main memory,
+### Primary memory  
+It is also known as internal memory, main memory,
 primary/internal storage device.  It includes register, cache memory,
 ROM and RAM, and is located either in or close to the CPU on the
 computer motherboard, enabling the CPU to read data from primary memory
 very quickly indeed. It is used to store data that the CPU needs
-immediately so that it does not have to wait for it to be delivered.  
-Characteristics of Primary/Main Memory:·          
+immediately so that it does not have to wait for it to be delivered. 
+Characteristics of Primary/Main Memory:
 
 -   These are semiconductor memories.
 
@@ -28,8 +30,7 @@ Characteristics of Primary/Main Memory:·          
 
 -   Can be volatile or non-volatile memory
 
--   Data is erased if stored in voltile memory and is permanent when
-    > stored in non-volatile memory
+-   Data is erased if stored in voltile memory and is permanent when stored in non-volatile memory
 
 -   It is the working memory of the computer.
 
@@ -37,14 +38,13 @@ Characteristics of Primary/Main Memory:·          
 
 -   A computer cannot run without the primary memory
 
--   Have low storage capacity when compared to secondary storage/memory
-    > and more expensive
+-   Have low storage capacity when compared to secondary storage/memory and more expensive
 
--   CPU can directly access data using bus
+-   CPU can directly access data using bus  
 
- 
 
-**i) Random Access Memory (RAM)**\
+### Random Access Memory (RAM)  
+
 RAM refers to the main memory that microprocessor can read from and
 write to. Data can be stored and retrieved at random from anywhere
 within the RAM, no matter where the data is. Data or instructions to be
@@ -52,48 +52,52 @@ processed by the CPU must be placed in the RAM. The contents of RAM are
 lost when power is switched off. Therefore, RAM is a volatile memory.
 
 The speed of a RAM refers to how fast the data in memory is accessed. It
-is measured\
+is measured
 in Mega Hertz (MHz). When a computer is in use, its RAM contains the
-following:\
-1. The operating system software.\
-2. The application software currently being used.\
-3. Any data that is being processed.
+following:
+1. The operating system software.  
+ 
+2. The application software currently being used.  
 
- RAM is mainly categorized into two, Static RAM and Dynamic RAM.
+3. Any data that is being processed.  
+RAM is mainly categorized into two, Static RAM and Dynamic RAM.
 
-**Static RAM (SRAM)** stores a bit of data using the state of a six
+### Static RAM (SRAM)  
+SRAM stores a bit of data using the state of a six
 transistor memory cell. It keeps data in the memory as long as power is
 supplied to the system and does not need refreshing.  As such, SRAM is
 faster but also more expensive, making DRAM the more prevalent memory in
 computer systems.
 
-**Dynamic RAM (DRAM)** stores a bit data using a pair of transistor and
+### Dynamic RAM (DRAM)  
+DRAM stores a bit data using a pair of transistor and
 capacitor which constitute a DRAM memory cell. Since transistors always
 leak a small amount, the capacitors will slowly discharge, causing
 information stored in it to drain; hence, DRAM has to be refreshed
 (given a new electronic charge) every few milliseconds to retain data. 
 It is slower, less expensive and consumes lesser power than SRAM.
 
-**ii)Read Only Memory (ROM)        **\
+### Read Only Memory (ROM)  
+
 ROM is a permanent memory that can perform only read operations and its
 contents cannot be easily altered. ROM is non-volatile; the contents are
 retained even after the power is switched off. ROM is used in most
-computers to hold a small, special piece rograms called firmware. 
-The  \'boot up\' program known as bootstrap instructions, software that
+computers to hold a small, special piece rograms called firmware.
+The \'boot up\' program known as bootstrap instructions, software that
 runs when the computer is switched on or \'boots up\'are usually found
-in the Basic Input Output System (BIOS) chip, an example of the ROM. 
+in the Basic Input Output System (BIOS) chip, an example of the ROM.
 Bootstrap instructions check the computer\'s hardware and then loads the
-operating system.  ROM is slower than RAM.
+operating system. ROM is slower than RAM.
 
-Some modified types of ROM are now in use, they are: \
-**1. PROM -** Programmable ROM which can be programmed only once. PROMs\
-are programmed at the time of manufacture.\
-**2. EPROM -** Erasable Programmable ROM that can be erased using ultra
-violet\
-radiation and can be programmed using special electronic circuits.\
-**3. EEPROM -** Electrically Erasable Programmable ROM which can be
-erased and\
-rewritten electrically.
+Some modified types of ROM are now in use, they are:  
+
+  
+1. **PROM -** Programmable ROM which can be programmed only once. PROMs are programmed at the time of manufacture.  
+
+2. **EPROM -** Erasable Programmable ROM that can be erased using ultra
+violet radiation and can be programmed using special electronic circuits.
+3. **EEPROM -** Electrically Erasable Programmable ROM which can be
+erased and rewritten electrically.
 
 Comparison between RAM and ROM memory
 
@@ -109,7 +113,8 @@ Comparison between RAM and ROM memory
   Accessibility       The data stored is easily accessible                                                    The data stored is not as easily accessible as in RAM
   Cost                Costlier                                                                                cheaper than RAM.
 
-**iii) Cache memory**\
+### Cache memory  
+
 Cache memory is a small and fast memory between the processor and RAM
 (main memory). Frequently accessed data, instructions, intermediate
 results, etc. are stored in cache memory for quick access. When the
@@ -136,21 +141,20 @@ Cache (8 MB) and Level 4 Cache (128 MB).
 
 -   Cache memory has limited capacity.
 
--   It is very expensive.
+-   It is very expensive.  
 
-i**v)Registers**
+### Registers  
 
 CPU contains a few special purpose, temporary storage units known as
 registers. They are high-speed memory locations used for holding
 instructions, data and intermediate results that are currently being
-processed.
+processed.  
 
-**A bus is a set of wires that is used to connect the different internal
-components of the computer system for the purpose of transferring data
-as well addresses amongst them.**
+>A bus is a set of wires that is used to connect the different internal components of the computer system for the purpose of transferring data as well addresses amongst them.
 
-**\
-Secondary memory** by contrast, is usually physically located within a
+
+## Secondary memory  
+Secondary memory by contrast, is usually physically located within a
 separate storage device, such as a hard disk drive or Solid State Drive
 (SSD), which is connected to the computer system either directly or over
 a network. The cost per gigabyte of secondary memory is much lower, but
@@ -184,23 +188,22 @@ Secondary storage systems can be classified as follows:
 
 \(4\) Online storage systems
 
-**Magnetic storage systems** can be defined as the storage systems that
+### Magnetic storage systems  
+It can be defined as the storage systems that
 store the data on a magnetised medium, with the help of magnetised
 particles. Magnetic tapes, magnetic disks, hard disks, floppy disks are
 examples of magnetic storage systems.
 
 They can store any type of data, such as text, audio, video, image.
 
- 
-
-Magnetic tapes: The plastic tapes with magnetic coating that are used
+**Magnetic tapes:** The plastic tapes with magnetic coating that are used
 for storing the data. They are similar to the normal recording tapes.
 The data stored on the magnetic tapes can be accessed using the
 sequential access method.
 
  
 
-Magnetic Disks: A flat disk that is covered with magnetic coating for
+**Magnetic Disks:** A flat disk that is covered with magnetic coating for
 holding information. It is used to store digital information in the form
 of small and magnetised needles. These needles help in encoding a single
 bit of information by getting polarized in one direction represented by
@@ -208,19 +211,20 @@ bit of information by getting polarized in one direction represented by
 of data and provides the facility of erasing and re-recording the data
 as many times as required.
 
-The **optical storage systems** use the laser light as the optical
-medium to retrieve as well as record data.  The optical storage devices
+### optical storage systems  
+Optical storage systems use the laser light as the optical
+medium to retrieve as well as record data. The optical storage devices
 are either read-only or writable.
 
-**Solid-state Storage Devices** were developed in 1978 by Storage Tek
+### Solid-state Storage Devices  
+These were developed in 1978 by Storage Tek
 Company. They do not use magnetic and optical medium to store data.
 Instead, use semiconductor devices. They contains all the properties of
 hard disk drives to store the data and use solid-state memory, which has
 no moving parts. The examples of SSD are flash memory cards and
 Universal Serial Bus (USB) devices
 
-**Cloud Storage Systems**
-
+### Cloud Storage Systems   
 This is storage of data on servers that are provided as service by data
 centres distributed globally.  As a result, the data that are stored
 here can be accessed from multiple distributed connected resources from
@@ -228,8 +232,8 @@ anywhere in the world.  Cloud storage provide greater accessibility,
 reliability, rapid deployment, strong protection for data backup,
 archival and disaster recovery purposes.
 
-**Tertiary Storage Device**\
-\
+## Tertiary Storage Device  
+
 It involves a robotic arm mechanism which will mount/dismount removable
 mass storage media into a storage device.. It is a comprehensive
 computer storage systemthat is usually very slow and so is usually used
@@ -239,7 +243,7 @@ human operators.  Data are stored in magnetic tapes, magnetic disks,
 optical storage devices and then stored in libraries to be further
 accessed via the robotic arm.
 
-**Role of different types of memories in** **computer**
+## Role of different types of memories in computers
 
 Let us discuss an example of data processing. Consider the case of a
 payroll program to calculate the salary of an employee. The data for all
@@ -250,13 +254,17 @@ data representing the hours worked and the wages is moved to their
 respective registers. Using data on the hours worked and the wage, ALU
 makes calculations based on instructions from control unit. For further
 calculations, it moves the overtime hours, bonuses, etc. from cache to
-registers. As\
-the CPU finishes calculations about one employee, the data about the
+registers. As the CPU finishes calculations about one employee, the data about the
 next employee is brought from secondary storage into RAM, then cache and
 eventually into the registers.
 
-Below table summarises the characteristics of the various kinds of data
-storage in the storage hierarchy.
+Below table summarizes the characteristics of the various kinds of data
+storage in the storage hierarchy.   
 
-![](media\image1.png){width="6.268055555555556in"
-height="1.7861111111111112in"}
+
+
+```{r memtab, echo=FALSE,fig.cap='Data storage in the storage hierarchy',out.width="90%", fig.align='center'}
+knitr::include_graphics(rep("images/memorytab.png"))
+```  
+
+

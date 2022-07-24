@@ -63,7 +63,7 @@ tracking which instructions the **CPU** should execute next.
 
  
 
-```{r cpu, echo=FALSE,fig.cap='An ultra large scale integrated circuit',out.width="80%", fig.align='center'}
+```{r cpu, echo=FALSE,fig.cap='Components of CPU',out.width="80%", fig.align='center'}
 knitr::include_graphics(rep("images/cpu.png"))
 ``` 
 
