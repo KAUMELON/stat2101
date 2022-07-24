@@ -1,0 +1,262 @@
+# Hardware Components- Computer Memory  
+
+Computer memory refers to the different types of data storage technology
+used by a computer. Memory is a place where computer store data,
+instructions and results temporarily or permanently. Mainly computer
+memory can be classified into three, they are** primary memory,
+secondary memory and tertiary memory.  **
+
+They differ in the way used to store data. Data, intermediate results
+and results of ongoing jobs are temporarily stored in Primary memory.
+Secondary memory on the other hand permanently holds data and
+information.  Data are stored in binary form in all types of memory.\
+\
+The key difference between primary and secondary memory is speed of
+access.
+
+**Primary memory** is also known as internal memory, main memory,
+primary/internal storage device.  It includes register, cache memory,
+ROM and RAM, and is located either in or close to the CPU on the
+computer motherboard, enabling the CPU to read data from primary memory
+very quickly indeed. It is used to store data that the CPU needs
+immediately so that it does not have to wait for it to be delivered.  
+Characteristics of Primary/Main Memory:·          
+
+-   These are semiconductor memories.
+
+-   It is known as the main memory.
+
+-   Can be volatile or non-volatile memory
+
+-   Data is erased if stored in voltile memory and is permanent when
+    > stored in non-volatile memory
+
+-   It is the working memory of the computer.
+
+-   Faster than secondary memories.
+
+-   A computer cannot run without the primary memory
+
+-   Have low storage capacity when compared to secondary storage/memory
+    > and more expensive
+
+-   CPU can directly access data using bus
+
+ 
+
+**i) Random Access Memory (RAM)**\
+RAM refers to the main memory that microprocessor can read from and
+write to. Data can be stored and retrieved at random from anywhere
+within the RAM, no matter where the data is. Data or instructions to be
+processed by the CPU must be placed in the RAM. The contents of RAM are
+lost when power is switched off. Therefore, RAM is a volatile memory.
+
+The speed of a RAM refers to how fast the data in memory is accessed. It
+is measured\
+in Mega Hertz (MHz). When a computer is in use, its RAM contains the
+following:\
+1. The operating system software.\
+2. The application software currently being used.\
+3. Any data that is being processed.
+
+ RAM is mainly categorized into two, Static RAM and Dynamic RAM.
+
+**Static RAM (SRAM)** stores a bit of data using the state of a six
+transistor memory cell. It keeps data in the memory as long as power is
+supplied to the system and does not need refreshing.  As such, SRAM is
+faster but also more expensive, making DRAM the more prevalent memory in
+computer systems.
+
+**Dynamic RAM (DRAM)** stores a bit data using a pair of transistor and
+capacitor which constitute a DRAM memory cell. Since transistors always
+leak a small amount, the capacitors will slowly discharge, causing
+information stored in it to drain; hence, DRAM has to be refreshed
+(given a new electronic charge) every few milliseconds to retain data. 
+It is slower, less expensive and consumes lesser power than SRAM.
+
+**ii)Read Only Memory (ROM)        **\
+ROM is a permanent memory that can perform only read operations and its
+contents cannot be easily altered. ROM is non-volatile; the contents are
+retained even after the power is switched off. ROM is used in most
+computers to hold a small, special piece rograms called firmware. 
+The  \'boot up\' program known as bootstrap instructions, software that
+runs when the computer is switched on or \'boots up\'are usually found
+in the Basic Input Output System (BIOS) chip, an example of the ROM. 
+Bootstrap instructions check the computer\'s hardware and then loads the
+operating system.  ROM is slower than RAM.
+
+Some modified types of ROM are now in use, they are: \
+**1. PROM -** Programmable ROM which can be programmed only once. PROMs\
+are programmed at the time of manufacture.\
+**2. EPROM -** Erasable Programmable ROM that can be erased using ultra
+violet\
+radiation and can be programmed using special electronic circuits.\
+**3. EEPROM -** Electrically Erasable Programmable ROM which can be
+erased and\
+rewritten electrically.
+
+Comparison between RAM and ROM memory
+
+  **DIFFERENCE**      **RAM**                                                                                 **ROM**
+  ------------------- --------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------
+  Data retention      RAM is a volatile memory which could store the data as long as the power is supplied.   ROM is a non-volatile memory which could retain the data even when power is turned off.
+  Working type        Data stored in RAM can be retrieved and altered.                                        Data stored in ROM can only be read.
+  Use                 Used to store the data that has to be currently processed by CPU temporarily.           It stores the instructions required during bootstrap of the computer.
+  Speed               It is a high-speed memory.                                                              It is much slower than the RAM.
+  CPU Interaction     The CPU can access the data stored on it.                                               The CPU can not access the data stored on it unless the data is stored in RAM.
+  Size and Capacity   Large size with higher capacity.                                                        Small size with less capacity.
+  Used as/in          CPU Cache, Primary memory.                                                              Firmware, Micro-controllers
+  Accessibility       The data stored is easily accessible                                                    The data stored is not as easily accessible as in RAM
+  Cost                Costlier                                                                                cheaper than RAM.
+
+**iii) Cache memory**\
+Cache memory is a small and fast memory between the processor and RAM
+(main memory). Frequently accessed data, instructions, intermediate
+results, etc. are stored in cache memory for quick access. When the
+processor needs to read from or write to a location in RAM, it first
+checks whether a copy of that data is in the cache. If so, the processor
+immediately reads the cache, which is much faster than reading from RAM.
+Cache is more expensive than RAM, but it is worth using it in order to
+maximise system performance. Commonly used cache memories and their
+capacities are Level 1 Cache (128 KB), Level 2 Cache (1 MB), Level 3
+Cache (8 MB) and Level 4 Cache (128 MB).
+
+*The advantages of cache memory are as follows −*
+
+-   Cache memory is faster than main memory.
+
+-   It consumes less access time as compared to main memory.
+
+-   It stores the program that can be executed within a short period of
+    time.
+
+-   It stores data for temporary use.
+
+*The disadvantages of cache memory are as follows −*
+
+-   Cache memory has limited capacity.
+
+-   It is very expensive.
+
+i**v)Registers**
+
+CPU contains a few special purpose, temporary storage units known as
+registers. They are high-speed memory locations used for holding
+instructions, data and intermediate results that are currently being
+processed.
+
+**A bus is a set of wires that is used to connect the different internal
+components of the computer system for the purpose of transferring data
+as well addresses amongst them.**
+
+**\
+Secondary memory** by contrast, is usually physically located within a
+separate storage device, such as a hard disk drive or Solid State Drive
+(SSD), which is connected to the computer system either directly or over
+a network. The cost per gigabyte of secondary memory is much lower, but
+the read and write speeds are significantly slower.  Characteristics of
+Secondary Storage Devices:
+
+-   These are magnetic and optical memories.
+
+-   It is known as the backup memory, auxiliary memory
+
+-   It is a non-volatile memory.
+
+-   Data is permanently stored even if power is switched off.
+
+-   It is used for storage of data in a computer or outside it
+
+-   Computer may run without the secondary memory.
+
+-   Slower than primary memories and less expensive
+
+-   Magnetic Storage, Optical storage, Solid State Devices, Online
+    Systems
+
+Secondary storage systems can be classified as follows:
+
+\(1\) Magnetic
+
+\(2\) Optical
+
+\(3\) Solid state
+
+\(4\) Online storage systems
+
+**Magnetic storage systems** can be defined as the storage systems that
+store the data on a magnetised medium, with the help of magnetised
+particles. Magnetic tapes, magnetic disks, hard disks, floppy disks are
+examples of magnetic storage systems.
+
+They can store any type of data, such as text, audio, video, image.
+
+ 
+
+Magnetic tapes: The plastic tapes with magnetic coating that are used
+for storing the data. They are similar to the normal recording tapes.
+The data stored on the magnetic tapes can be accessed using the
+sequential access method.
+
+ 
+
+Magnetic Disks: A flat disk that is covered with magnetic coating for
+holding information. It is used to store digital information in the form
+of small and magnetised needles. These needles help in encoding a single
+bit of information by getting polarized in one direction represented by
+1, and opposite direction represented by 0. It allows the random access
+of data and provides the facility of erasing and re-recording the data
+as many times as required.
+
+The **optical storage systems** use the laser light as the optical
+medium to retrieve as well as record data.  The optical storage devices
+are either read-only or writable.
+
+**Solid-state Storage Devices** were developed in 1978 by Storage Tek
+Company. They do not use magnetic and optical medium to store data.
+Instead, use semiconductor devices. They contains all the properties of
+hard disk drives to store the data and use solid-state memory, which has
+no moving parts. The examples of SSD are flash memory cards and
+Universal Serial Bus (USB) devices
+
+**Cloud Storage Systems**
+
+This is storage of data on servers that are provided as service by data
+centres distributed globally.  As a result, the data that are stored
+here can be accessed from multiple distributed connected resources from
+anywhere in the world.  Cloud storage provide greater accessibility,
+reliability, rapid deployment, strong protection for data backup,
+archival and disaster recovery purposes.
+
+**Tertiary Storage Device**\
+\
+It involves a robotic arm mechanism which will mount/dismount removable
+mass storage media into a storage device.. It is a comprehensive
+computer storage systemthat is usually very slow and so is usually used
+to archive data that is not accessed frequently.  This type of storage
+is used for storing extra-ordinarily large data stores accessed without
+human operators.  Data are stored in magnetic tapes, magnetic disks,
+optical storage devices and then stored in libraries to be further
+accessed via the robotic arm.
+
+**Role of different types of memories in** **computer**
+
+Let us discuss an example of data processing. Consider the case of a
+payroll program to calculate the salary of an employee. The data for all
+the employees is available in the hard disk. All the data about a
+particular employee is taken to the RAM and from there data related to
+salary calculation (bonus, deductions, etc.) is taken to the cache. The
+data representing the hours worked and the wages is moved to their
+respective registers. Using data on the hours worked and the wage, ALU
+makes calculations based on instructions from control unit. For further
+calculations, it moves the overtime hours, bonuses, etc. from cache to
+registers. As\
+the CPU finishes calculations about one employee, the data about the
+next employee is brought from secondary storage into RAM, then cache and
+eventually into the registers.
+
+Below table summarises the characteristics of the various kinds of data
+storage in the storage hierarchy.
+
+![](media\image1.png){width="6.268055555555556in"
+height="1.7861111111111112in"}

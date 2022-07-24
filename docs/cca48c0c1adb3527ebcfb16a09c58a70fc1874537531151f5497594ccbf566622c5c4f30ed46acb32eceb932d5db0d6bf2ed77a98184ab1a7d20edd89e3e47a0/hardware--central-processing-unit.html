@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Page not found | LECTURE NOTES OF STAT 2101</title>
+  <title>Chapter 2 Hardware- Central Processing Unit | LECTURE NOTES OF STAT 2101</title>
   <meta name="description" content="A BOOK FOR UNDERGRADUATE PROGRAMME IN AGRICULTURE" />
   <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Page not found | LECTURE NOTES OF STAT 2101" />
+  <meta property="og:title" content="Chapter 2 Hardware- Central Processing Unit | LECTURE NOTES OF STAT 2101" />
   <meta property="og:type" content="book" />
   
   <meta property="og:image" content="/images/cover.PNG" />
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="https://github.com/KAUMELON/stat3202" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Page not found | LECTURE NOTES OF STAT 2101" />
+  <meta name="twitter:title" content="Chapter 2 Hardware- Central Processing Unit | LECTURE NOTES OF STAT 2101" />
   
   <meta name="twitter:description" content="A BOOK FOR UNDERGRADUATE PROGRAMME IN AGRICULTURE" />
   <meta name="twitter:image" content="/images/cover.PNG" />
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-
-
+<link rel="prev" href="introduction-to-computers.html"/>
+<link rel="next" href="computer-software.html"/>
 <script src="libs/header-attrs-2.11/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
@@ -161,19 +161,208 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="page-not-found" class="section level1">
-<h1>Page not found</h1>
-<p>The page you requested cannot be found (perhaps it was moved or renamed).</p>
-<p>You may want to try searching to find the page's new location, or use
-the table of contents to find the page you are looking for.</p>
+<div id="hardware--central-processing-unit" class="section level1" number="2">
+<h1><span class="header-section-number">Chapter 2</span> Hardware- Central Processing Unit</h1>
+<div id="the-central-processing-unit-cpu" class="section level2" number="2.1">
+<h2><span class="header-section-number">2.1</span> The central processing unit (CPU)</h2>
+<p>CPU is the computer component that is
+responsible for interpreting and executing most of the commands from the
+other hardware and software of the system. It is considered to be the
+brain of the computer as most of the processing work is done here.  CPU
+performs all types of data processing operations, stores data,
+intermediate results and instructions (program), and controls the
+operation of all parts of the computer.  It relies on a chipset located
+on the motherboard.  This chipset containing millions of tiny
+transistors that manipulate data that is being input into the computer. 
+The measurement used to compute speed of a CPU is Hertz.  The speed of
+the CPU is determined by a clock cycle, which means number of pulses per
+second.  When there are more number of pulses/second, the processor is
+capable of processing more data. </p>
+<p>CPU also has cache memory that is a buffer between the RAM and the
+processor.  The cache memory stores the most frequently used data and
+instructions for immediate access and helps to reduce average data
+access time from the main memory.  Some CPUs have multiple processors on
+a single chip and are called microprocessors. </p>
+<table>
+<thead>
+<tr class="header">
+<th align="left"><strong>Computer Type</strong></th>
+<th align="left"><strong>Speed</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Personal Computers</td>
+<td align="left">Mega Hertz (MHz) and Giga Hertz (GHz)</td>
+</tr>
+<tr class="even">
+<td align="left">WorkStations/Mini Computers / Mainframes</td>
+<td align="left">Millions of Instructions Per Second (MIPS) and Billions of Instructions Per Second (BIPS)</td>
+</tr>
+<tr class="odd">
+<td align="left">Super Computers</td>
+<td align="left">Millions of FLoating point Operations Per Second (MFLOPS), Billions of FLOPS called GFLOPS and TeraFLOPS, (TFLOPS = 10<sup>12</sup>)</td>
+</tr>
+</tbody>
+</table>
+<p> <br />
+### Types of processors</p>
+<p>Processors are manufactured by Intel and Advanced Micro Devices (AMD)
+and so these are the only two types of computer processors available in
+the market today.  Intel's desktop <strong>CPUs</strong> include Celeron, Pentium
+and Core.  Based on expression of information they can be either 32 bit
+or 64 bit.  Three types of processors are:</p>
+<ul>
+<li><p>Complex Instruction Set Computer architecture (CISC) that have large
+instruction sets, variable length instructions and varied addressing
+modes</p></li>
+<li><p>Reduced Instruction Set Computer architecture (RISC)– which have
+smaller instruction sets and place extra demand on the programmers</p></li>
+<li><p>Explicitly Parallel Instruction Computing (EPIC) – this permits the
+processor to perform operations in a parallel fashion</p></li>
+</ul>
+<p>The CPU performs Arithmetic operations, extracts data from memory and
+executes commands. In processing data,
+the <strong>CPU</strong> performs <strong>four</strong> basic steps: Fetch: Each instruction is
+stored in memory and has its own address. The <strong>processor</strong> takes this
+address number from the program counter, which is responsible for
+tracking which instructions the <strong>CPU</strong> should execute next.</p>
+<div id="components-of-the-cpu" class="section level3" number="2.1.1">
+<h3><span class="header-section-number">2.1.1</span> Components of the CPU</h3>
+<ul>
+<li><p>Control Unit</p></li>
+<li><p>ALU (Arithmetic Logic Unit)</p></li>
+<li><p>Registers</p></li>
+</ul>
+<p> </p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:cpu"></span>
+<img src="images/cpu.png" alt="An ultra large scale integrated circuit" width="80%" />
+<p class="caption">
+Figure 2.1: An ultra large scale integrated circuit
+</p>
+</div>
+<p>Although the main memory was once considered to be part of the CPU,
+today as the boundaries shift, it has become a separate entity and the
+CPU now comprises of registers and cache memory for temporary storage of
+data. </p>
+<div id="registers" class="section level4" number="2.1.1.1">
+<h4><span class="header-section-number">2.1.1.1</span> Registers</h4>
+<p>These are storage areas that store data, instructions and intermediate
+results temporarily.  They are not part of the memory and work under the
+direction of the Control Unit, so as to provide additional storage and
+enhance space speed. They provide information to other units of the
+computer when needed.  They accept, temporarily hold and transfer
+instructions and data, and help with the arithmetic and logic
+operations. The functions of these registers are:</p>
+<ul>
+<li><p>Storage of all the data and the instructions required for
+processing.</p></li>
+<li><p>Storage of intermediate results of processing.</p></li>
+<li><p>Storage of the final results of processing before these results are
+released to an output device.</p></li>
+<li><p>All inputs and outputs are transmitted through these registers</p></li>
+</ul>
+<p>The data/information stored in the registers are in the form of binary
+digits (bits), 0 and 1.  (8 bits = 1 byte)</p>
+<p>They are used for Instant Access Storage. These registers have been
+assigned specific names and related roles as follows:</p>
+<ul>
+<li><p><em>Accumulator</em> – holds the instruction that is to be executed, the
+data to be manipulated and the results of computation</p></li>
+<li><p><em>Memory Address Register</em> – to keep track of the active memory
+location</p></li>
+<li><p><em>Memory Buffer Register</em> – to temporarily hold data or results
+taken from or to be placed in memory</p></li>
+<li><p><em>Program Control Register </em>– holds the address of the next
+instruction that is to be accessed</p></li>
+<li><p><em>Input /Output Register –</em> to communicate with the input/output
+devices</p></li>
+<li><p><em>General-Purpose Register</em> – that is used for a variety of
+functions</p></li>
+</ul>
+</div>
+<div id="control-unit" class="section level4" number="2.1.1.2">
+<h4><span class="header-section-number">2.1.1.2</span> Control Unit</h4>
+<p>This unit has circuits that utilise electrical signals to controls the
+operations of all parts of the computer related to storage and execution
+of instructions, by communicating with the ALU and the memory.  However,
+it does not carry out any actual data processing operations.</p>
+<p>Functions of this unit are −</p>
+<ul>
+<li><p>It is responsible for controlling the transfer of data and
+instructions among other units of a computer.</p></li>
+<li><p>It manages and coordinates all the units of the computer.</p></li>
+<li><p>It obtains the instructions from the memory, interprets them, and
+directs the operation of the computer.</p></li>
+<li><p>It communicates with Input/ Output devices for transfer of data or
+results from storage.</p></li>
+<li><p>It does not process or store data.</p></li>
+</ul>
+</div>
+<div id="alu-arithmetic-logic-unit" class="section level4" number="2.1.1.3">
+<h4><span class="header-section-number">2.1.1.3</span> ALU (Arithmetic Logic Unit)</h4>
+<p>This unit contains circuits that perform both arithmetic and logical
+operations.  Addition, subtraction, division and multiplication are the
+four arithmetic operations performed by the ALU.  The cost of the ALU
+increases as the operations performed by it becomes complex and more
+heat is dissipated.  Logical operations pertaining to comparisons
+between numbers, between letters or between characters are also
+performed by the ALU.  The ALU consists of two subsections namely,</p>
+<ul>
+<li><p>Arithmetic Unit</p></li>
+<li><p>Logic Unit</p></li>
+</ul>
+<div id="arithmetic-unit" class="section level5" number="2.1.1.3.1">
+<h5><span class="header-section-number">2.1.1.3.1</span> Arithmetic Unit</h5>
+<p>Function of arithmetic section is to perform arithmetic operations like
+addition, subtraction, multiplication, and division, through
+bit-shifting operations.  All complex operations are done by making
+repetitive use of the above operations.  In some processors there is one
+arithmetic unit for fixed-point operations and another for floating
+point calculations. </p>
+</div>
+<div id="logic-unit" class="section level5" number="2.1.1.3.2">
+<h5><span class="header-section-number">2.1.1.3.2</span> Logic Unit</h5>
+<p>Function of logic section is to perform logic operations such as
+comparing, selecting, matching, and merging of data.  Logical operations
+performed by the logical section are as follows:</p>
+<ul>
+<li><p><em>Equal-to condition</em><strong> (=).</strong> This is the test where two values are
+compared to check for equality.</p></li>
+<li><p><em>Less-than condition</em><strong> (&lt;).</strong> Comparison is made to check if value
+is less than the other.</p></li>
+<li><p><em>Greater-than condition</em><strong> (&gt;).</strong> In this case, two values are
+compared to check if one is greater than the other.</p></li>
+<li><p><em>Less than or equal to condition</em><strong> (&lt;=).</strong> Two values are checked
+to find if one is less than the other or atleast equal to it.</p></li>
+<li><p><em>Greater than or equal to</em><strong> (&gt;=).</strong>  Two values are compared to
+check if one is greater than the other or atleast equal to it.</p></li>
+<li><p><em>Not equal to </em><strong>(=).</strong>  Comparison between two values are made to
+show that they are not equal to each other.</p></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="internal-communication-of-cpu" class="section level2" number="2.2">
+<h2><span class="header-section-number">2.2</span> Internal Communication of CPU</h2>
+<ul>
+<li><p>Between CPU and the Memory - is connected by means of massive
+circuit board called motherboard and it contain small parts called
+buses which perform special functions</p></li>
+<li><p>Between the CPU and the Input/Output Devices - is also connected by
+buses and CU performs an important function</p></li>
+</ul>
+
+</div>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-
-
+<a href="introduction-to-computers.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="computer-software.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

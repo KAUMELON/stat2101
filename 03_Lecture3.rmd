@@ -1,0 +1,376 @@
+# Computer Software  
+
+## Software  
+Software is a set of programs, procedures, algorithms and associated
+data, designed to perform a well-defined function.  A program is a
+sequence of instructions written to solve a particular problem. There
+are two types of software viz. Application Software and System Software
+(Platform Software)
+
+### Application Software  
+products are designed to satisfy a particular
+need of a particular environment.  All software applications prepared in
+the computer lab can come under the category of Application software. 
+Application software may consist of a single program, such as
+Microsoft\'s notepad for writing and editing a simple text.  It may also
+consist of a collection of programs, often called a software package,
+which work together to accomplish a task, such as a spreadsheet
+package.  Examples are MS Word, MS Excel. MS Access, MS PP, notepad,
+payroll, mark sheet software, IT software, Aadhar Card software
+
+*Application Software *are generally written in High Level Language and
+so are easier to understand.  They are comparatively easier to design,
+are close to the user and are generally more interactive.  Manipulation,
+editing and use of application software are easier when compared to
+system software.  However, since they have to be translated into machine
+language before being processed, they are slower.
+
+### System Software  
+It is a collection of programs designed to operate,
+control, and extend the processing capabilities of the computer itself. 
+They are generally prepared by the computer manufacturers. These
+software products comprise of programs written in low-level languages,
+which interact with the hardware at a very basic level. System software
+serves as the interface between the hardware and the end users.  Some
+examples of system software are Operating System, Compilers, Interpreter
+and Assemblers
+
+*System Software *are generally written in low-level language and so are
+not easily understood by the user.  However, they are close to the
+system and do not require any translation before being executed.  Hence
+they have high speed.  They possesses less interactive abilities, are
+small sized programs and are extremely difficult to design, manipulate
+and edit. 
+
+#### System Software Types  
+
+Systems software can be categorized under the following:
+
+- **Operating system:** Harnesses communication between hardware,
+system programs, and other applications (Windows, Unix, OSX)
+
+- **Device driver:** Enables device communication with the OS and other
+programs
+
+- **Firmware:** Enables device control and identification
+
+- **Translator:** Translates high-level languages to low-level machine
+codes (Compilers, Assemblers, Interpreters)
+
+- **Utility:** Ensures optimum functionality of devices and
+applications e.g. anti-virus software, backup software and disk tools
+
+- **Device Drivers** These system software make it possible for all
+connected components and external add-ons to perform their intended
+tasks and as directed by the OS. Without drivers, the OS would not
+assign any duties to the components. Examples of devices which require
+drivers: are mouse, keyboard, soundcard, displaycard, network card and
+printer. Usually, the operating system come with drivers for most
+devices. By default, drivers for input devices such as the mouse and
+keyboard will be installed. If a device is newer than the operating
+system, the user may have to download drivers from manufacturer websites
+or alternative sources.
+
+## Utilities  
+These are system software that exist between system and
+application software. They are diagnostic programs, perform maintenance
+tasks for the computer and ensure that the computer performs optimally.
+They focus on the operation of a computer and so are highly technical. 
+Their tasks vary from crucial data security to disk drive
+defragmentation. Most are third-party tools but may come bundled with
+the operating system. Third-party tools are available individually or
+bundled together such as with Hiren Boot CD, Ultimate Boot CD, and
+Kaspersky Rescue Disk.
+
+### Examples of utility software  
+
+- *Antivirus* and security software for the security of files and
+applications, e.g., Malwarebytes, Microsoft Security Essentials, and AVG
+
+- *Disk partition services* such as Windows Disk Management, Easeus
+Partition Master, and Partition Magic.
+
+- *Disk defragmentation* to organize scattered files on the drive.
+Examples include Disk Defragmenter, Perfect Disk, Disk Keeper, Comodo
+Free Firewall, and Little Snitch
+
+- *Archivers* whichoutput single file when the input is a directory or
+set of files a stream or a single file when provided with a directory or
+a set of files.
+
+- *Backup Software* that duplicate/ mirror all files to utilise in case
+of a disk failure to restore all files.
+
+- *Clipboard Managers* expand the clipboard functionality of an operating
+system.
+
+- *Cryptographic utilities* encrypt and decrypt files.
+
+- *Data Compression utilities* produces condensed and dense files as output when normal files are input
+
+- *Data Synchronisation utilities* establish consistency among data
+from a source to a target data storage and vice versa. There are several
+branches of this type of utility:
+
+- *File synchronisation utilities* maintain consistency between two
+sources. They may be used to create redundancy or backup copies but are
+also used to help users carry their digital music, photos and video in
+their mobile devices.
+
+- *Revision control utilities* are intended to deal with situations where
+more than one user ttempts to simultaneously modify the same file.
+
+- *Disk Checkers* which scan operating hard drive.
+
+- *Disk cleaners* help the identification and deletion of superfluous
+files, or those that utilise excessive disk space.
+
+- *Disk Compression utilities* can
+transparently compress/uncompress
+the contents of a disk, increasing the capacity of the disk.
+
+- *Disk space analysers* assist in ascertaining folder and sub folder
+sizes and help determining the volume of disk space used.
+
+- *Disk storage utilities*  
+
+- *File manager utilities that* help with normal data management tasks
+like deletion, insertion, move, copy, merge, modification and generation
+of data.
+
+- *Hex editors* directly modify the text or data of a file.
+
+- *Memory testers* check for memory failures.
+
+- *Network Utilities* scrutinise network configuration, connectivity,
+settings, data transfer and log events
+
+- *Registry cleaner utilities* clean and optimize the Windows
+Registry through removal of unused registry keys
+
+- *Screen savers* were desired to prevent phosphor-burn-in on CRT and plasma computer monitors by blanking the screen or filling it with moving images or patterns when the computer is not in use. Contemporary screen savers are used primarily for entertainment or security.
+
+- *System monitor utility* for monitoring resources and 
+performance in
+a computer system.
+
+- *System profiler utility* provide detailed information about the
+software installed and hardware attached to the computer.  
+
+
+## Firmware  
+It is the operational software embedded within a flash, ROM,
+or EPROM memory chip for the OS to identify it. It directly manages and
+controls all activities of any single hardware. Traditionally, firmware
+used to mean fixed software as denoted by the word *firm*. It was
+installed on non-volatile chips and could be upgraded only by swapping
+them with new, pre-programmed chips.  This was done to differentiate
+them from high-level software, which could be updated without having to
+swap components. Today, firmware is stored in flash chips, which can be
+upgraded without swapping semiconductor chips.
+
+The most important firmware in computers today is installed by the
+manufacturer on the motherboard and can be accessed through the old BIOS
+(Basic Input/Output System) or the new UEFI (Unified Extended Firmware
+Interface) platforms. It is the configuration interface which loads
+first when the computer is powered up and is going through POST (Power
+On Self Test). The user can change the BIOS and UEFI settings by
+pressing special keys (a function key, delete, or the esc key) at
+boot-up to load the configuration page
+
+Though they work differently, firmware compliments drivers in a few
+ways. Both give identity to hardware devices, with the latter making the
+operating system see the device. The major difference between the two
+is that firmware will always reside within devices while drivers will
+install within the operating system
+
+## Assemblers  
+Assemblers are computer programs that translate programs written in
+Assembly Language into machine language.  The translated program is
+called an object program.  The Assembler checks the accuracy of each
+instruction and generates diagnostic messages, if there are errors in
+the program.  
+
+Steps followed by Assemblers are:
+
+- Input source program in Assembly Language through an input device.
+
+- Use Assembler to produce object program in machine language.
+
+- Execute the program.
+
+## Compiler  
+Compiler is a program that translates codes written in High Level
+Languages (HLL), into executable machine language. This is a complex
+process when compared to the translation using assemblers. The compiler
+translates the entire source code into machine code before execution.
+During translation, compilers provide error messages after appropriate
+diagnosis of the HLL code. Each time the corrections have to be made and
+recompiled until all errors are resolved.
+
+Compilation involves
+
+- Translation of the HLL source program to machine code
+
+- Tracing of variables in the program
+
+- Inclusion of subroutine links
+
+- Memory allocation for the variables and program\
+Generation of error messages , if required
+
+## Interpreter  
+Interpreter is a program that translates codes written in HLL into
+machine codes. Each line of code is diagnosed for errors and error
+messages are given.  Once errors are corrected, the line is translated
+into machine code, which is the executable version. This means that the
+interpreter translates each instruction, executes it and only then the
+next instruction is translated and this goes on until end of the
+program. In this case, object code is not stored and reused. Each time
+the program is executed, the interpreter translates each instruction
+afresh. The disadvantage of an interpreter is that
+
+- Instructions in the program must be translated each time they are
+executed.
+
+- Due to this, interpretation is 20 times slower that compilation
+
+## Operating System  
+It is a program with the following features −
+
+- An operating system is a program that acts as an interface between
+the software and the computer hardware.
+
+- It is an integrated set of specialized programs used to manage
+overall resources and operations of the computer.
+
+- It is a specialized software that controls and monitors the execution
+of all other programs that reside in the computer, including application
+programs and other system software.
+
+### Objectives of Operating System  
+
+- The objectives of the operating system are −
+
+- To make the computer system convenient to use in an efficient manner.
+
+- To hide the details of the hardware resources from the users.
+
+- To provide users a convenient interface to use the computer system.
+
+- To act as an intermediary between the hardware and its users, making
+it easier for the users to access and use other resources.
+ 
+- To manage the resources of a computer system.
+
+- To keep track of who is using which resource, granting resource
+requests, and mediating conflicting requests from different programs and
+users.
+
+- To provide efficient and fair sharing of resources among users and
+programs.
+
+### Characteristics of Operating System  
+
+Here is a list of some of the most prominent characteristic features of
+Operating Systems −
+
+- **Memory Management**− Keeps track of the primary memory, i.e. what
+part of it is in use by whom, what part is not in use, etc. and
+allocates the memory when a process or program requests it.
+
+- **Processor Management**− Allocates the processor (CPU) to a process
+and deallocates the processor when it is no longer required.
+
+- **Device Management**− Keeps track of all the devices. This is also
+called I/O controller that decides which process gets the device, when,
+and for how much time.
+
+- **File Management**− Allocates and de-allocates the resources and
+decides who gets the resources.
+
+- **Security**− Prevents unauthorized access to programs and data by
+means of passwords and other similar techniques.
+
+- **Job Accounting**− Keeps track of time and resources used by
+various jobs and/or users.
+
+- **Control Over System Performance**− Records delays between the
+request for a service and from the system.  
+
+
+ **Popular internet/web OSs are:** 
+                         
+ - Chrome OS  
+ - Club Linux  
+ - Remix OS                       
+                                     
+**Popular mobile OSs are:**       
+
+- iPhone OS  
+- Android OS  
+- Windows Phone                  
+                                
+
+## Examples of Operating Systems  
+
+### Popular OSs for computers are:  
+
+
+- Windows 10
+
+- Mac OS X
+
+- Ubuntu
+
+### Popular network/server OSs are:  
+
+- Ubuntu Server
+
+- Windows Server
+
+- Red Hat Enterprise  
+
+### Examples of Mobile OS  
+
+- Android (Google)  
+
+- iOS (Apple)
+
+- Bada, Tizen (Samsung)
+
+- Symbian OS (Nokia)
+
+- Blackberry OS (Research In Motion)
+
+- Windows OS(Microsoft)
+
+
+
+## Freeware, Shareware, Open Source Software
+
+### Freeware 
+It is a copyrighted software that may be used as utilities.
+They are completely free of cost and may be downloaded, installed, used
+and shared. However, they may not be modified.
+
+### Free Software / Open Source software  
+These are those applications that may
+be freely downloaded and permits modification of source code by the user
+for further republishing and integration with other software.
+
+### Shareware  
+It is a commercial software that permits a trial period where
+the user can use the software free of cost, after which the application
+has to be purchased, if it has to be used.
+
+### Public Domain Software  
+It is not copyrighted. It is released without
+any conditions upon its use, and may be used without restriction. This
+type of software generally has the lowest level of support available.
+
+### Bannerware 
+It is when free software is distributed as a form of company
+advertisement
+
+
