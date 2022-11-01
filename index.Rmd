@@ -1,5 +1,5 @@
 ---
-title: "TEXTBOOK OF AGRI-INFORMATICS"
+title: "FUNDAMENTALS OF AGRI-INFORMATICS"
 author: "Dr. GEETHA RADHAKRISHNAN"
 date: "2022-01-30"
 site: bookdown::bookdown_site
