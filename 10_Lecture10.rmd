@@ -1,0 +1,285 @@
+# **CYBER THREATS AND VULNERABILITIES**
+
+## **CYBER THREATS**
+
+The threats to information can be due to natural disasters, physical damage of the system and components and conniving humans, who are the biggest menace. The exponential growth in medical and research data has promoted migration of data from a host-based environment to distributed and cloud-based platform thereby increasing the target area for hackers to cuckold and damage data.
+
+Information security threats can be host based, network based and application based.
+
+### **Host based**
+
+Host based raids attempt the violation of the data source through malware attacks, footprinting, password attacks, denial of service, arbitrary code execution, unauthorised entry, privilege escalation and backdoor entries.
+
+### **Net based** 
+
+Net based attacks talk about information gathering, sniffing, spoofing, session hijacking, SQL injection, ARP Poisoning, password attacks, denial of service, compromised key attack.
+
+### **Application based** 
+
+Application based threats deal with attack on the vulnerabilities existing in any software. Some of the major issues could be zero-day attack, data input validation, authentication attacks, buffer overflow, parameter manipulation, configuration management, session hijacking, improper exception handling, auditing and login issues.
+
+
+## **Malware**
+
+**Malware (MALicious softWARE) attack** is the use of malevolent code like spyware, keyloggers, viruses, worms, trojans, ransomware, adware, and scareware, to gain unauthorized entry and disrupt the normal functioning of a system without the owner's awareness.
+
+## **Footprinting**
+
+**Footprinting** or reconnaissance is the process where the hacker tries to glean information about the target machine, through the manipulation of diverse tools and techniques, so that an attack may be executed in the best possible way.
+
+## **Password Attacks**
+
+**Password Attacks** are done in 3 ways as follows:
+
+### **Brute Force Attack**
+
+where a hacker uses a computer program or script to try to log in with possible password combinations, usually starting with the easiest-to-guess passwords.
+
+### **Dictionary Attack**
+
+takes place when a hacker tries the various strings from a pre-arranged list.
+
+### **Key Logger Attack**
+
+where hacker records the keystrokes, including the login and password, of a victim with the help of a program
+
+## **Denial of Service**
+
+**Denial of Service (DoS)** attack floods the net with worthless traffic so that all genuine ping requests are denied. Two examples of DoS methods are *The Ping of Death* which sends malformed ping requests and *Teardrop attacks* that crash the network device by sending fragmented, bugged packets to a target machine so that it cannot be reconstructed.
+
+## **Arbitrary code execution**
+
+**Arbitrary code execution** is when the attacker executes a command/script on a target machine/process so as to acquire absolute control and access to that system.
+
+## **Unauthorized entry**
+
+**Unauthorized entry** happens when illegal access to a system and its resources is obtained and this happens due to ambiguous access policies.
+
+## **Privilege escalation**
+
+**Privilege escalation** is rendered possible by the exploitation of
+a bug, design flaw, or operating system or software application to obtain elevation in status so as gain unauthorized privileged access to resources.
+
+## **Backdoor entry**
+
+**Backdoor entry** means infiltration of a system by circumventing routine authentications and security checks.
+
+## **Sniffing**
+
+**Sniffing** is a passive raid within a network, that uses sniffer applications or devices to monitor and capture network data exchanges and read the contents of packets if they are unencrypted.
+
+## **Spoofing**
+
+**Spoofing** is when a hacker gains access and attacks a target by masquerading as an authentic user.
+
+## **Session Hijacking**
+
+**Session Hijacking** is a proscribed technique that involves the capture of a user session by securing an authorized session ID using clandestine methods.
+
+## **SQL Injection**
+
+**SQL Injection** means augmenting Structured Query Language (SQL) codes to
+the input box for unlawful infiltration into the system. 
+
+## **ARP Poisoning**
+
+**ARP Poisoning** attack is the transmission of counterfeit **ARP** (Address Resolution Protocol) messages over a local area network by exploiting the transition from Layer 3 to Layer 2 addresses, thereby conjoining an attacker\'s MAC address and the IP address of authentic systems.
+
+## **Compromised Key Attack**
+
+**Compromised Key Attack** is the use of a linked key to access a protected transmission. 
+
+## **Zero-day attack**
+
+**Zero-day attack** is the exploitation of a software vulnerability unknown to the vendor.
+
+## **Data input validatiobn attack**
+
+**Data input validation attack** means assaulting data that based on poor data input validation.
+
+## **Authentication attack**
+
+**Authentication attack** is a brute force, trial and error attack that guesses the various permutation and combinations of the victims' password based on some user-related information
+
+## **Buffer overflow attack**
+
+**Buffer overflow attack** results from excessively long input data that escapes the buffer boundary and invades contiguous memory locations.
+
+## **Parameter manipulation**
+
+**Parameter manipulation** is a Web-based attack wherein certain parameters in the Uniform Resource Locator (URL) are tampered with.
+
+At the RSA Conference 2016, the Cloud Security Alliance listed the top 12 threats to data and network security as data breaches, Compromised credentials, and broken authentication, Hacked interfaces and APIs, Exploited system vulnerabilities, Account hijacking, malicious insiders, APT parasites, Permanent data loss, inadequate diligence, Cloud service abuses, Dos attacks, Shared technology, shared dangers.
+
+## **Breaches in Data**
+
+Data breaches occur due to exposure of private data, leading to financial loss and infringed intellectual property rights, thereby bringing in financial heavy losses and loss of privacy. Although the cloud service providers introduce heavy security mechanisms, the ultimate responsibility to safeguard data rests with the user organizations.
+
+### **Compromised credentials and broken authentication **
+
+This is all about insufficient verification, lax authentication, vulnerable passwords, and fragile encrypted key or certificate management that result in data breaches.
+
+### **Hacked Interfaces and Application Programming Interfaces (APIs)**
+
+APIs are routines, protocols, and tools for building software applications. It allows communications between two software components. When third parties are involved in the development of the software, more data are exposed on the network, thereby leading to serious threats.
+
+### **Exploited System Vulnerabilities**
+
+Threats due to system vulnerabilities and gullible bugs in programs, double when organizations share resources.
+
+### **Account Hijacking**
+
+Cloud computing increases the chances of account hijacking due to phishing and sniffing.
+
+### **Malicious insiders**
+
+Malicious insiders are a great threat to the security of data and infrastructure.
+
+### **The Advanced Persistent Threat (APT) Parasite**
+
+There are hackers who consider hacking as their sole job and scour the net with malicious intent. They would continuously attack a victim till success is met and also move from one victim to another.
+
+### **Permanent Data Loss**
+
+Malicious hackers delete data from the cloud permanently so as to bring about loss in business. Data can also be lost due to system damage or natural calamities.
+
+### **Inadequate Diligence**
+
+Lack of alertness, and rare penetration testing within organizations, culminates in severe data loss over the cloud. Also, an altogether lenient attitude towards understanding the cloud technologies before deploying apps to the cloud mitigates data loss.
+
+### **Cloud Service Abuses**
+
+Cloud services can be utilised to crack encryption key, send spam and phishing mails, host malicious content and launch DDoS attacks
+
+### **DoS Attacks**
+
+DoS attacks slow the systems and sometimes bring the entire network to a standstill.
+
+### **Shared Technology, Shared Dangers**
+
+Vulnerabilities in shared technology pose a significant threat to cloud computing. If an integral component gets compromised, it exposes the entire environment to potential compromise and breach.
+
+## **MALWARE (MALicious softWARE)**
+
+ **Virus**
+
+A piece of software that disrupts the service of a computer. It is a small software program that is designed to spread from one computer to another and to interfere with computer operation. A true virus is capable of self replication on a machine. Virus may spread between files or disks.
+
+-   There are estimated 30,000 computer viruses in existence.
+
+-   Over 300 new ones are created each month.
+
+-   First virus was created to show loopholes in software.
+
+-   Today almost 87% of all viruses are spread through the internet.
+
+### **Trojan Horse**
+
+-   Requires Windows to work
+
+-   Once infected, runs in the background
+
+### **Worms**
+
+A worm is a small piece of software that uses computer networks and security holes to replicate itself. A copy of the worm scans the network for another machine that has a specific security hole. It copies itself to the new machine using the security hole, and then starts replicating from there, as well. Worms use computer time and network bandwidth when they replicate. A worm called Code Red made huge headlines in 2001. Experts predicted that this worm could clog the Internet so effectively that things would completely grind to a halt. A worm usually exploits some sort of security hole in a piece of software or the operating system. For example, the Slammer worm (which caused mayhem in January 2003) exploited a hole in Microsoft\'s SQL server. Worms normally move around and infect other machines through computer networks. Using a network, a worm can expand from a single copy incredibly quickly. The Code Red worm replicated itself more than 250,000 times in approximately nine hours on July 19, 2001.
+
+### **Macro**
+
+-   Specific to certain applications
+
+-   Comprise a high percentage of the viruses
+
+### **E-mail viruses**
+
+-   An e-mail virus travels as an attachment to e-mail messages, and usually        replicates itself by automatically mailing itself to dozens of people in the     victim\'s e-mail address book.
+
+-   Some e-mail viruses don\'t even require a double-click \-- they launch when     you view the infected message in the preview pane of your e-mail software.
+
+## **SYMPTOMS OF VIRUS ATTACK**
+
+-   Computer runs slower than usual
+
+-   Computer no longer boots up
+
+-   Screen sometimes flicker
+
+-   Speaker beeps periodically
+
+-   System crashes for no reason
+
+-   Files/directories sometimes disappear
+
+-   Denial of Service (DoS)
+
+## **DATA SECURITY - How to protect data**
+
+Data security must be considered from the physical, technical, and administrative aspects
+
+### **Physical Security** 
+
+- The security of data affects its discretion, veracity, and accessibility Unauthorised persons can gain access to the chamber where the hard copies of data, the main servers, and computer systems are located, to cause espionage, pilfering, or to cause general destruction. Important documents can be lost due to the presence of rodents, termites, and ants and also the physical movement of data files and documents to various locations. Climatic changes and natural disasters such as floods, tsunamis, earthquakes, typhoons, lightning induced fires can all obliterate the physical location of clinical data.
+
+- *Physical security* involves the implementation of secure locking systems, using biometrics to prevent unauthorized access into the room, preparing contingency plans, and maintaining backups of the data on virtual machines and also in different premises.
+
+### **Administrative Security**
+
+Data access is ensured through social engineering if the administration staff are unaware of suave hackers and are not trained sufficiently to maintain access logs. Consistent auditing of system logs, and following a uniform and regular security policy should be a part of *administration security*.
+
+### **Technical/application Security** 
+
+Residual files that remain in the hard disk after deletion, are often retrieved by fraudsters. Inadvertent system configuration and careless system access control measures often lead to data leaks. Data manipulation by hackers could result in erroneous research analysis. Also, flaws during data entries can mar the integrity of data.
+
+### **Network Security**
+
+The sheer volume of clinical data has brought it to the level of Big Data. The data are no longer stored on individual systems but are being slowly moved into the cloud. And as further data gets uploaded onto the cloud, the platform for hackers widens. The IaaS (Infrastructure as a Service) providers like Amazon's EC~2~ (Elastic Compute Cloud) and Google's GFS (Google File System) have their own security measures put in place, in spite of which, data get stolen during the transfer from the user to the cloud.
+
+- **Bring Your Own Gadget Security**: With internet facilities available on the go, organizations have permitted employees to bring their own gadgets to the workplace. The development has proved to be cost-effective for the administration. Operating on the move has become customary and personnel access clinical data from the comforts of their homes. However, this access to secure databases through insecure networks and Wi-Fi systems makes the database vulnerable to malicious operators. Loss of these portable devices and the use of malware-infected gadgets to log on, retrieve or transfer data could put the servers and the databank they host at risk.
+
+## **Ways to protect computer against malware**
+
+-   Gain knowledge about viruses
+
+-   Proper configurations
+
+-   Run only necessary programs
+
+-   Install Anti-virus software and update
+
+## **VACCINES**
+
+Vaccines or Antivirus software is a program that identifies, thwarts, and deactivates/neutralizes malware. However, since the development of new malware takes place at the rate of hundreds of new ones each day, it is important to update the antivirus software periodically. A few common Anti Virus software are listed below:
+
+### **Norton AntiVirus** 
+
+Norton AntiVirus is developed by Norton LifeLock since 1990. It uses signature techniques for the detection of malware. It filters out spam mail and also protects against phishing.
+
+### **AVG Free Edition** 
+
+AVG developed by AVG Technologies and provides real-time protection against spyware and Trojans.
+
+### **McAfee Total Protection**
+
+This software detects viruses, prevents identity theft, warns against harmful websites, removes personal data from harmful sites, and generally provides premium online protection.
+
+### **Kaspersky Anti-Virus**
+
+It is developed by Kaspersky Lab and protects against viruses in the Windows environment.
+
+### **ESET NOD32 - Anti-virus**
+
+It is made by a Slovak company is known for thwarting viruses without slowing down the computer. It is mostly used in a Windows environment.
+
+### **Avast AntiVirus** 
+This software neutralizes viruses, and provides password protection, data shredding, webcam shielding, and sandboxing.  
+
+### **CCleaner**
+This is a software that cleans the computer by removing unwanted and invalid Windows registry files.
+
+### **MalwareBytes**
+This is an anti-virus that is developed by MalwareBytes Corporation, and can be used on computers using Windows, Unix or MacOS, Chrome OS, Android, and iOS.
+
+### **Panda Antivirus**
+This is developed by Panda Security. It processes files on a cloud server and so the computer processing speed does not reduce. It provides protection from online threats, protects VPN and WiFi, and includes parental control
+
+### **Avira** 
+This antivirus protects the computer against malware and also provides real-time cloud based protection on Windows and Linux environments.

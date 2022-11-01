@@ -1,0 +1,57 @@
+# **Hardware- Output Devices**
+
+## **Output Devices**
+
+Output device is a hardware equipment that is capable of providing the results of data manipulation based on the execution of instructions, in a form understood by the user. 
+
+Printers and plotters provide hard copies whereas projectors, monitors and speakers give soft copy results.  Some types of output are text, graphics, tactile, audio, and video. Text consists of symbols, letters and characters that create words, sentences and paragraphs.  The information that is represented in the form of charts, diagrams, photos and animations are called graphics.  Videos constitute of motion pictures whereas pictures or letters with raised lines for use with the blind are called tactile.  
+
+### **Monitor**
+
+Earlier the display monitors displayed characters in a rectangular grid format on the screen, using a single font and color.  However, the monitors available today are capable of supporting many colors and fonts.  A monitor can also be referred to as a terminal.  The display screens, which are available today, support many fonts and colors. Monitors are classified based on the technology used by them. 
+
+#### **Cathode Ray Tube (CRT) Monitor**
+
+CRT contain an empty glass tube with a phosphor coated fluorescent screen and a source of electrons known as electron gun.
+
+#### **Liquid Crystal Display (LCD) Monitor**
+
+Use liquid crystals technology to display the images. An LCD monitor is small in size and light in weight so it occupies less space on the desk.
+
+#### **Thin Film Transistor (TFT) Monitor**
+A TFT monitor is similar to an LCD monitor except for one difference that it uses thin film transistor technology along with liquid crystal technology to improve the quality of the image.
+
+#### **Light Emitting Diode (LED) Monitor**
+Light Emitting Diodes emit light for the display of images. Images so produced have less flicker and are usually more epensive than LCD and TFT monitors
+
+### **Printers**
+
+A printer is a computer hardware that generates the hard copy of the information processed by a computer system.
+
+#### **Impact Printers**
+There exists a mechanical contact between print head and paper. Print head is the part of the printer that resembles a hammer and is responsible for transferring the ink to the paper in the form of required characters. Impact printer contains an individual print head for each character.
+
+#### **Non-Impact Printers**
+There exists no mechanical contact between the print head and paper. These printers spray ink on the paper with the help of a nozzle. The most popular ones are ink-jet printers and laser printers.
+
+### **Plotters**
+
+Plotter is an output device used to print high quality vector graphics and images. It uses one or more pens, pencils or markers to produce a high quality drawing. These pens change their positions and draw continuous lines to produce an image. The plotters were used as a substitute to the colored printers when the printers were very expensive and were also not capable of drawing bigger images such as graphs.  Plotters are used in Computer Aided Designing and work on large sheets of paper, plywood, plastic or cardboard.
+
+### **Voice Based Output System**
+
+Voice output systems record the simple messages in human speech form and then combine all these simple messages to form a single message. The voice response system is of two types: 
+
+-   a reproduction of human voice and other sounds; 
+
+-   speech synthesis
+
+The basic application of a voice output system is in Interactive Voice Response Systems, which are used by the customer care or customer support departments of an organization, such as telecommunication companies.
+
+Speaker is an example of voice output device. For a speaker to work when attached to a computer, it is essential for the computer to have sound cards.
+
+### **Projectors**
+
+-   A projector is a device that is connected to a computer or a video device for     projecting an image from the computer or video device onto the big white         screen.
+
+-   A projector consists of an optic system, a light source and displays, which      contain the original images.

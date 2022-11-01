@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Chapter 8 NUMBER SYSTEM | TEXTBOOK OF AGRI-INFORMATICS</title>
+<meta name="author" content="Dr. GEETHA RADHAKRISHNAN">
+<meta name="description" content="8.1 Number System Decimal number system – base 10 - e.g. 5610 Binary number system – base 2 - e.g. 1012 Octal number system – base 8 - e.g. 688 Hexadecimal number system – base 16 – e.g. 34516 or...">
+<meta name="generator" content="bookdown 0.28 with bs4_book()">
+<meta property="og:title" content="Chapter 8 NUMBER SYSTEM | TEXTBOOK OF AGRI-INFORMATICS">
+<meta property="og:type" content="book">
+<meta property="og:image" content="/images/cover.PNG">
+<meta property="og:description" content="8.1 Number System Decimal number system – base 10 - e.g. 5610 Binary number system – base 2 - e.g. 1012 Octal number system – base 8 - e.g. 688 Hexadecimal number system – base 16 – e.g. 34516 or...">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Chapter 8 NUMBER SYSTEM | TEXTBOOK OF AGRI-INFORMATICS">
+<meta name="twitter:description" content="8.1 Number System Decimal number system – base 10 - e.g. 5610 Binary number system – base 2 - e.g. 1012 Octal number system – base 8 - e.g. 688 Hexadecimal number system – base 16 – e.g. 34516 or...">
+<meta name="twitter:image" content="/images/cover.PNG">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
+<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.4.0/transition.js"></script><script src="libs/bs3compat-0.4.0/tabs.js"></script><script src="libs/bs3compat-0.4.0/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS --><style type="text/css">
+    
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  </style>
+</head>
+<body data-spy="scroll" data-target="#toc">
+
+<div class="container-fluid">
+<div class="row">
+  <header class="col-sm-12 col-lg-3 sidebar sidebar-book"><a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+
+    <div class="d-flex align-items-start justify-content-between">
+      <h1>
+        <a href="index.html" title="">TEXTBOOK OF AGRI-INFORMATICS</a>
+      </h1>
+      <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
+    </div>
+
+    <div id="main-nav" class="collapse-lg">
+      <form role="search">
+        <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+</form>
+
+      <nav aria-label="Table of contents"><h2>Table of contents</h2>
+        <ul class="book-toc list-unstyled">
+<li><a class="" href="index.html">Welcome</a></li>
+<li><a class="" href="preface.html">Preface</a></li>
+<li><a class="" href="introduction-to-computers.html"><span class="header-section-number">1</span> Introduction to Computers</a></li>
+<li><a class="" href="hardware--central-processing-unit.html"><span class="header-section-number">2</span> Hardware- Central Processing Unit</a></li>
+<li><a class="" href="computer-software.html"><span class="header-section-number">3</span> Computer Software</a></li>
+<li><a class="" href="hardware-components--computer-memory.html"><span class="header-section-number">4</span> Hardware Components- Computer Memory</a></li>
+<li><a class="" href="computer--the-major-components.html"><span class="header-section-number">5</span> Computer- The Major Components</a></li>
+<li><a class="" href="hardware--output-devices.html"><span class="header-section-number">6</span> Hardware- Output Devices</a></li>
+<li><a class="" href="programming-languages.html"><span class="header-section-number">7</span> PROGRAMMING LANGUAGES</a></li>
+<li><a class="active" href="number-system.html"><span class="header-section-number">8</span> NUMBER SYSTEM</a></li>
+<li><a class="" href="the-internet.html"><span class="header-section-number">9</span> THE INTERNET</a></li>
+<li><a class="" href="cyber-threats-and-vulnerabilities.html"><span class="header-section-number">10</span> CYBER THREATS AND VULNERABILITIES</a></li>
+<li><a class="" href="references.html"><span class="header-section-number">11</span> References</a></li>
+</ul>
+
+        <div class="book-extra">
+          
+        </div>
+      </nav>
+</div>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="number-system" class="section level1" number="8">
+<h1>
+<span class="header-section-number">8</span> <strong>NUMBER SYSTEM</strong><a class="anchor" aria-label="anchor" href="#number-system"><i class="fas fa-link"></i></a>
+</h1>
+<div id="number-system-1" class="section level2" number="8.1">
+<h2>
+<span class="header-section-number">8.1</span> <strong>Number System</strong><a class="anchor" aria-label="anchor" href="#number-system-1"><i class="fas fa-link"></i></a>
+</h2>
+<ul>
+<li><p>Decimal number system – base 10 - e.g. 56<sub>10</sub></p></li>
+<li><p>Binary number system – base 2 - e.g. 101<sub>2</sub></p></li>
+<li><p>Octal number system – base 8 - e.g. 68<sub>8</sub></p></li>
+<li>
+<p>Hexadecimal number system – base 16 – e.g. 345<sub>16</sub> or BF<sub>16</sub></p>
+<table class="table table-sm">
+<colgroup>
+<col width="25%">
+<col width="25%">
+<col width="25%">
+<col width="25%">
+</colgroup>
+<thead><tr class="header">
+<th align="left"><strong>Decimal</strong></th>
+<th align="left"><strong>Binary</strong></th>
+<th align="left"><strong>Octal</strong></th>
+<th align="left"><strong>Hexa</strong></th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td align="left">0</td>
+<td align="left">0000</td>
+<td align="left">0</td>
+<td align="left">0</td>
+</tr>
+<tr class="even">
+<td align="left">1</td>
+<td align="left">0001</td>
+<td align="left">1</td>
+<td align="left">1</td>
+</tr>
+<tr class="odd">
+<td align="left">2</td>
+<td align="left">0010</td>
+<td align="left">2</td>
+<td align="left">2</td>
+</tr>
+<tr class="even">
+<td align="left">3</td>
+<td align="left">0011</td>
+<td align="left">3</td>
+<td align="left">3</td>
+</tr>
+<tr class="odd">
+<td align="left">4</td>
+<td align="left">0100</td>
+<td align="left">4</td>
+<td align="left">4</td>
+</tr>
+<tr class="even">
+<td align="left">5</td>
+<td align="left">0101</td>
+<td align="left">5</td>
+<td align="left">5</td>
+</tr>
+<tr class="odd">
+<td align="left">6</td>
+<td align="left">0110</td>
+<td align="left">6</td>
+<td align="left">6</td>
+</tr>
+<tr class="even">
+<td align="left">7</td>
+<td align="left">0111</td>
+<td align="left">7</td>
+<td align="left">7</td>
+</tr>
+<tr class="odd">
+<td align="left">8</td>
+<td align="left">1000</td>
+<td align="left">10</td>
+<td align="left">8</td>
+</tr>
+<tr class="even">
+<td align="left">9</td>
+<td align="left">1001</td>
+<td align="left">11</td>
+<td align="left">9</td>
+</tr>
+<tr class="odd">
+<td align="left">10</td>
+<td align="left">1010</td>
+<td align="left"></td>
+<td align="left">A</td>
+</tr>
+<tr class="even">
+<td align="left">11</td>
+<td align="left">1011</td>
+<td align="left"></td>
+<td align="left">B</td>
+</tr>
+<tr class="odd">
+<td align="left">12</td>
+<td align="left">1100</td>
+<td align="left"></td>
+<td align="left">C</td>
+</tr>
+<tr class="even">
+<td align="left">13</td>
+<td align="left">1101</td>
+<td align="left"></td>
+<td align="left">D</td>
+</tr>
+<tr class="odd">
+<td align="left">14</td>
+<td align="left">1110</td>
+<td align="left"></td>
+<td align="left">E</td>
+</tr>
+<tr class="even">
+<td align="left">15</td>
+<td align="left">1111</td>
+<td align="left"></td>
+<td align="left">F</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+</div>
+<div id="conversion-of-decimal-to-binary" class="section level2" number="8.2">
+<h2>
+<span class="header-section-number">8.2</span> <strong>CONVERSION OF DECIMAL TO BINARY</strong><a class="anchor" aria-label="anchor" href="#conversion-of-decimal-to-binary"><i class="fas fa-link"></i></a>
+</h2>
+<div id="algorithm-for-converting-decimal-to-binary" class="section level3" number="8.2.1">
+<h3>
+<span class="header-section-number">8.2.1</span> <strong>Algorithm for converting decimal to binary</strong><a class="anchor" aria-label="anchor" href="#algorithm-for-converting-decimal-to-binary"><i class="fas fa-link"></i></a>
+</h3>
+<ol style="list-style-type: decimal">
+<li><p>Start</p></li>
+<li><p>Divide the given integer by 2 and write down the quotient &amp;
+remainder</p></li>
+<li><p>Divide the quotient by 2 and record the second quotient and
+remainder. Repeat the same steps until the quotient = 0</p></li>
+<li><p>Write out the remainders in reverse order to get binary digit of the
+integer</p></li>
+<li><p>Stop</p></li>
+</ol>
+</div>
+<div id="examples" class="section level3" number="8.2.2">
+<h3>
+<span class="header-section-number">8.2.2</span> <strong>Examples</strong><a class="anchor" aria-label="anchor" href="#examples"><i class="fas fa-link"></i></a>
+</h3>
+<ol style="list-style-type: decimal">
+<li><strong>Convert decimal 24 to binary</strong></li>
+</ol>
+<div class="inline-table"><table style="width:97%;" class="table table-sm">
+<colgroup>
+<col width="28%">
+<col width="24%">
+<col width="45%">
+</colgroup>
+<thead><tr class="header">
+<th align="left">2</th>
+<th align="left">24</th>
+<th align="left">0</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td align="left">2</td>
+<td align="left">12</td>
+<td align="left">0</td>
+</tr>
+<tr class="even">
+<td align="left">2</td>
+<td align="left">6</td>
+<td align="left">0</td>
+</tr>
+<tr class="odd">
+<td align="left">2</td>
+<td align="left">3</td>
+<td align="left">1</td>
+</tr>
+<tr class="even">
+<td align="left">2</td>
+<td align="left">1</td>
+<td align="left">1</td>
+</tr>
+<tr class="odd">
+<td align="left"></td>
+<td align="left">0</td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table></div>
+<p>24<sub>10</sub> = 11000<sub>2</sub></p>
+<ol start="2" style="list-style-type: decimal">
+<li><strong>Convert 15<sub>10</sub> to binary</strong></li>
+</ol>
+<div class="inline-table"><table style="width:97%;" class="table table-sm">
+<colgroup>
+<col width="28%">
+<col width="24%">
+<col width="45%">
+</colgroup>
+<thead><tr class="header">
+<th align="left">2</th>
+<th align="left">15</th>
+<th align="left">1</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td align="left">2</td>
+<td align="left">7</td>
+<td align="left">1</td>
+</tr>
+<tr class="even">
+<td align="left">2</td>
+<td align="left">3</td>
+<td align="left">1</td>
+</tr>
+<tr class="odd">
+<td align="left">2</td>
+<td align="left">1</td>
+<td align="left">1</td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="left">0</td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table></div>
+<p>Binary digit is 1111</p>
+<p>Hence 15<sub>10</sub> = 1111<sub>2</sub></p>
+</div>
+</div>
+<div id="convert-binary-to-decimal" class="section level2" number="8.3">
+<h2>
+<span class="header-section-number">8.3</span> <strong>CONVERT BINARY TO DECIMAL</strong><a class="anchor" aria-label="anchor" href="#convert-binary-to-decimal"><i class="fas fa-link"></i></a>
+</h2>
+<div id="algorithm" class="section level3" number="8.3.1">
+<h3>
+<span class="header-section-number">8.3.1</span> <strong>Algorithm</strong><a class="anchor" aria-label="anchor" href="#algorithm"><i class="fas fa-link"></i></a>
+</h3>
+<ol style="list-style-type: decimal">
+<li><p>Start</p></li>
+<li><p>Start by multiplying the rightmost digit with 2<sup>0</sup></p></li>
+<li><p>Right to left, multiply each digit of the binary number with
+increased power of 2, until no more digits are left</p></li>
+<li><p>Add the products that are obtained</p></li>
+<li><p>Stop</p></li>
+</ol>
+</div>
+<div id="examples-1" class="section level3" number="8.3.2">
+<h3>
+<span class="header-section-number">8.3.2</span> <strong>Examples</strong><a class="anchor" aria-label="anchor" href="#examples-1"><i class="fas fa-link"></i></a>
+</h3>
+<p><strong>Convert binary to decimal</strong></p>
+<ol style="list-style-type: decimal">
+<li><strong>1001<sub>2</sub> to decimal</strong></li>
+</ol>
+<p>1 x 2<sup>3</sup> + 0 x 2<sup>2</sup> + 0 x 2<sup>1</sup> + 1 x 2<sup>0</sup> ; 1 x 8 + 0 x 4 + 0 x 2 + 1 x
+1 ; 8+0+0+1 = 9; 1001<sub>2</sub> = 9<sub>10</sub></p>
+</div>
+</div>
+<div id="converting-binary-fraction-to-decimal-fraction" class="section level2" number="8.4">
+<h2>
+<span class="header-section-number">8.4</span> <strong>CONVERTING BINARY FRACTION TO DECIMAL FRACTION</strong><a class="anchor" aria-label="anchor" href="#converting-binary-fraction-to-decimal-fraction"><i class="fas fa-link"></i></a>
+</h2>
+<div id="algorithm-1" class="section level3" number="8.4.1">
+<h3>
+<span class="header-section-number">8.4.1</span> <strong>Algorithm</strong><a class="anchor" aria-label="anchor" href="#algorithm-1"><i class="fas fa-link"></i></a>
+</h3>
+<ol style="list-style-type: decimal">
+<li><p>Start</p></li>
+<li><p>Starting from left most digit to right, multiply each digit by
+powers of (1/2), starting with the power 1</p></li>
+<li><p>Add the results obtained to get the decimal fraction</p></li>
+<li><p>Stop</p></li>
+</ol>
+</div>
+<div id="examples-2" class="section level3" number="8.4.2">
+<h3>
+<span class="header-section-number">8.4.2</span> <strong>Examples</strong><a class="anchor" aria-label="anchor" href="#examples-2"><i class="fas fa-link"></i></a>
+</h3>
+<p><strong>Convert binary fraction to decimal fraction</strong></p>
+<ol style="list-style-type: decimal">
+<li><strong>0.101<sub>2</sub></strong></li>
+</ol>
+<p>1x (1/2)<sup>1</sup> + 0 x (1/2)<sup>2</sup> + 1 x (1/2)<sup>3</sup></p>
+<p>1 x 0.5 + 0 x 0.25 + 1 x 0.125 = 0.5 + 0 + 0.125 = 0.625</p>
+<p>0.101<sub>2</sub> = 0.625<sub>10</sub></p>
+<ol start="2" style="list-style-type: decimal">
+<li><strong>0.011<sub>2</sub></strong></li>
+</ol>
+<p>0 x (1/2) + 1 x (1/2)<sup>2</sup> + 1 x (1/2)<sup>3</sup> = 0 + 0.25 +0.125 = 0.375<sub>10</sub></p>
+</div>
+</div>
+<div id="converting-decimal-fraction-to-binary-fraction" class="section level2" number="8.5">
+<h2>
+<span class="header-section-number">8.5</span> <strong>CONVERTING DECIMAL FRACTION TO BINARY FRACTION</strong><a class="anchor" aria-label="anchor" href="#converting-decimal-fraction-to-binary-fraction"><i class="fas fa-link"></i></a>
+</h2>
+<div id="algorithm-2" class="section level3" number="8.5.1">
+<h3>
+<span class="header-section-number">8.5.1</span> <strong>Algorithm</strong><a class="anchor" aria-label="anchor" href="#algorithm-2"><i class="fas fa-link"></i></a>
+</h3>
+<ol style="list-style-type: decimal">
+<li><p>Start</p></li>
+<li><p>Multiply the decimal fraction by 2. From the product, separate the
+integral part and note down</p></li>
+<li><p>To the decimal part of the product with multiply once again with 2.
+Note down the integral part. And multiply with 2 the
+fraction/decimal part.</p></li>
+<li><p>Repeat the process until we obtain the 2 or three or more digits
+after decimal point as required</p></li>
+<li><p>The integral part is written down from top to bottom to obtain the
+binary fraction</p></li>
+<li><p>Stop</p></li>
+</ol>
+</div>
+<div id="example" class="section level3" number="8.5.2">
+<h3>
+<span class="header-section-number">8.5.2</span> <strong>Example</strong><a class="anchor" aria-label="anchor" href="#example"><i class="fas fa-link"></i></a>
+</h3>
+<p><strong>Convert 0.47<sub>10</sub> to binary fraction</strong></p>
+<p>0.47 x 2 = 0.94 integral part = 0</p>
+<p>0.94 x 2 = 1.88 integral part = 1</p>
+<p>0.88 x 2 = 1.76 integral part = 1</p>
+<p>0.76 x 2 = 1.52 integral part = 1</p>
+<p>0.52 x 2 = 1.04 integral part = 1</p>
+<p>0.04 x 2 = 0.08 integral part = 0</p>
+<p>0.47<sub>10</sub> = 0.011110<sub>2</sub></p>
+<p><strong>Convert 111001.101<sub>2</sub> to decimal digit</strong></p>
+<p>1 x 2<sup>5</sup> + 1 x 2<sup>4</sup> x 1 x 2<sup>3</sup> + 0 x 2<sup>2</sup> + 0 x 2<sup>1</sup> +1 x 2<sup>0</sup></p>
+<p>=57.625</p>
+<p>Convert 33225.112<sub>10</sub> to binary</p>
+<p>Answer: 1000000111001001. 000111001010110</p>
+</div>
+</div>
+<div id="decimal-to-octal" class="section level2" number="8.6">
+<h2>
+<span class="header-section-number">8.6</span> <strong>DECIMAL TO OCTAL</strong><a class="anchor" aria-label="anchor" href="#decimal-to-octal"><i class="fas fa-link"></i></a>
+</h2>
+<div id="algorithm-for-converting-decimal-to-binary-1" class="section level3" number="8.6.1">
+<h3>
+<span class="header-section-number">8.6.1</span> <strong>Algorithm for converting decimal to binary</strong><a class="anchor" aria-label="anchor" href="#algorithm-for-converting-decimal-to-binary-1"><i class="fas fa-link"></i></a>
+</h3>
+<ol style="list-style-type: decimal">
+<li><p>Start</p></li>
+<li><p>Divide the given integer by 8 and write down the quotient &amp;
+remainder</p></li>
+<li><p>Divide the quotient by 8 and record the second quotient and
+remainder. Repeat the same steps until the quotient = 0</p></li>
+<li><p>Write out the remainders in reverse order to get binary digit of the
+integer</p></li>
+<li><p>Stop</p></li>
+</ol>
+</div>
+<div id="examples-3" class="section level3" number="8.6.2">
+<h3>
+<span class="header-section-number">8.6.2</span> <strong>Examples</strong><a class="anchor" aria-label="anchor" href="#examples-3"><i class="fas fa-link"></i></a>
+</h3>
+<ol style="list-style-type: decimal">
+<li><strong>Convert decimal 24 to binary</strong></li>
+</ol>
+<div class="inline-table"><table style="width:97%;" class="table table-sm">
+<colgroup>
+<col width="28%">
+<col width="24%">
+<col width="45%">
+</colgroup>
+<thead><tr class="header">
+<th align="left">8</th>
+<th align="left">24</th>
+<th align="left">0</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td align="left">8</td>
+<td align="left">3</td>
+<td align="left">3</td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="left">0</td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table></div>
+<p>24<sub>10</sub> = 30<sub>8</sub></p>
+<ol start="2" style="list-style-type: decimal">
+<li><strong>Convert to Octal</strong></li>
+</ol>
+<div class="inline-table"><table style="width:97%;" class="table table-sm">
+<colgroup>
+<col width="25%">
+<col width="32%">
+<col width="40%">
+</colgroup>
+<thead><tr class="header">
+<th align="left">8</th>
+<th align="left">1792</th>
+<th align="left">0</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td align="left">8</td>
+<td align="left">224</td>
+<td align="left">0</td>
+</tr>
+<tr class="even">
+<td align="left">8</td>
+<td align="left">28</td>
+<td align="left">4</td>
+</tr>
+<tr class="odd">
+<td align="left">8</td>
+<td align="left">3</td>
+<td align="left">3</td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="left">0</td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table></div>
+<p>1792<sub>10</sub> = 3400<sub>8</sub></p>
+</div>
+</div>
+<div id="decimal-to-hexadecimal" class="section level2" number="8.7">
+<h2>
+<span class="header-section-number">8.7</span> <strong>DECIMAL TO HEXADECIMAL</strong><a class="anchor" aria-label="anchor" href="#decimal-to-hexadecimal"><i class="fas fa-link"></i></a>
+</h2>
+<div id="algorithm-for-converting-decimal-to-hexadecimal" class="section level3" number="8.7.1">
+<h3>
+<span class="header-section-number">8.7.1</span> <strong>Algorithm for converting decimal to hexadecimal</strong><a class="anchor" aria-label="anchor" href="#algorithm-for-converting-decimal-to-hexadecimal"><i class="fas fa-link"></i></a>
+</h3>
+<ol style="list-style-type: decimal">
+<li><p>Start</p></li>
+<li><p>Divide the given integer by 16 and write down the quotient &amp;
+remainder</p></li>
+<li><p>Divide the quotient by 16 and record the second quotient and
+remainder. Repeat the same steps until the quotient = 0</p></li>
+<li><p>Write out the remainders in reverse order to get binary digit of the
+integer</p></li>
+<li><p>Stop</p></li>
+</ol>
+</div>
+<div id="examples-4" class="section level3" number="8.7.2">
+<h3>
+<span class="header-section-number">8.7.2</span> <strong>Examples</strong><a class="anchor" aria-label="anchor" href="#examples-4"><i class="fas fa-link"></i></a>
+</h3>
+<ol style="list-style-type: decimal">
+<li><strong>Convert to hexadecimal</strong></li>
+</ol>
+<p>1128<sub>10</sub></p>
+<div class="inline-table"><table style="width:97%;" class="table table-sm">
+<colgroup>
+<col width="25%">
+<col width="32%">
+<col width="40%">
+</colgroup>
+<thead><tr class="header">
+<th align="left">16</th>
+<th align="left">1128</th>
+<th align="left">8</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td align="left">16</td>
+<td align="left">70</td>
+<td align="left">6</td>
+</tr>
+<tr class="even">
+<td align="left">16</td>
+<td align="left">4</td>
+<td align="left">4</td>
+</tr>
+<tr class="odd">
+<td align="left"></td>
+<td align="left">0</td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table></div>
+<p>1128<sub>10</sub> = 468<sub>16</sub></p>
+<ol start="2" style="list-style-type: decimal">
+<li><strong>Convert decimal number 188 to hexadecimal</strong></li>
+</ol>
+<div class="inline-table"><table style="width:97%;" class="table table-sm">
+<colgroup>
+<col width="26%">
+<col width="28%">
+<col width="42%">
+</colgroup>
+<thead><tr class="header">
+<th align="left">16</th>
+<th align="left">188</th>
+<th align="left">C</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td align="left">16</td>
+<td align="left">11</td>
+<td align="left">B</td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="left">0</td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div id="hexadecimal-to-decimal" class="section level2" number="8.8">
+<h2>
+<span class="header-section-number">8.8</span> <strong>HEXADECIMAL TO DECIMAL</strong><a class="anchor" aria-label="anchor" href="#hexadecimal-to-decimal"><i class="fas fa-link"></i></a>
+</h2>
+<div id="algorithm-3" class="section level3" number="8.8.1">
+<h3>
+<span class="header-section-number">8.8.1</span> <strong>Algorithm</strong><a class="anchor" aria-label="anchor" href="#algorithm-3"><i class="fas fa-link"></i></a>
+</h3>
+<ol style="list-style-type: decimal">
+<li><p>Start</p></li>
+<li><p>Start by multiplying the rightmost digit with 16<sup>0</sup></p></li>
+<li><p>Right to left, multiply each digit of the binary number with
+increased power of 16, until no more digits are left</p></li>
+<li><p>Add the products that are obtained</p></li>
+<li><p>Stop</p></li>
+</ol>
+<p><strong>A2DE hexadecimal</strong>:
+= ((A) * 16<sup>3</sup>) + (2 * 16<sup>2</sup>) + ((D) * 16<sup>1</sup>) + ((E) * 16<sup>0</sup>)<br>
+= (10 * 16<sup>3</sup>) + (2 * 16<sup>2</sup>) + (13 * 16<sup>1</sup>) + (14 * 16<sup>0</sup>)<br>
+= (10 * 4096) + (2 * 256) + (13 * 16) + (14 * 1)<br>
+= 40960 + 512 + 208 + 14<br>
+= 41694 decimal</p>
+<p><strong>0.625 decimal to octal</strong></p>
+<p>0.625 x 8 = 5.00 integer part 5</p>
+<p>0.000 x 8 = 0.00 integer part =0</p>
+<p>0.5 octal</p>
+<p><strong>Convert 965.198 decimal to octal</strong></p>
+<div class="inline-table"><table style="width:97%;" class="table table-sm">
+<colgroup>
+<col width="26%">
+<col width="28%">
+<col width="42%">
+</colgroup>
+<thead><tr class="header">
+<th align="left">8</th>
+<th align="left">965</th>
+<th align="left">5</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td align="left">8</td>
+<td align="left">120</td>
+<td align="left">0</td>
+</tr>
+<tr class="even">
+<td align="left">8</td>
+<td align="left">15</td>
+<td align="left">7</td>
+</tr>
+<tr class="odd">
+<td align="left">8</td>
+<td align="left">1</td>
+<td align="left">1</td>
+</tr>
+<tr class="even">
+<td align="left"></td>
+<td align="left">0</td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table></div>
+<p>0.198 x 8 = 1.584 integral par = 1</p>
+<p>0.584 x 8 = 4.672 ingegral part = 4</p>
+<p>0.672 x 8 = 5.376 integral part = 5</p>
+<p>0.376 x 8 = 3.008 integer part = 3</p>
+<p>(198.965 )<sub>10</sub> = 1705.1453)<sub>8</sub></p>
+</div>
+</div>
+<div id="converting-octal-fraction-to-decimal-fraction" class="section level2" number="8.9">
+<h2>
+<span class="header-section-number">8.9</span> <strong>Converting octal fraction to decimal fraction</strong><a class="anchor" aria-label="anchor" href="#converting-octal-fraction-to-decimal-fraction"><i class="fas fa-link"></i></a>
+</h2>
+<div id="convert-octal-to-binary" class="section level3" number="8.9.1">
+<h3>
+<span class="header-section-number">8.9.1</span> <strong>CONVERT OCTAL TO BINARY</strong><a class="anchor" aria-label="anchor" href="#convert-octal-to-binary"><i class="fas fa-link"></i></a>
+</h3>
+<div id="algorithm-4" class="section level4" number="8.9.1.1">
+<h4>
+<span class="header-section-number">8.9.1.1</span> <strong>Algorithm</strong><a class="anchor" aria-label="anchor" href="#algorithm-4"><i class="fas fa-link"></i></a>
+</h4>
+<ol style="list-style-type: decimal">
+<li><p>Start</p></li>
+<li><p>For each digit of the Octal number, write out the binary digits in
+groups of three</p></li>
+<li><p>Stop</p></li>
+</ol>
+<p><strong>(540)<sub>8</sub></strong></p>
+<p>(101100000)<sub>2</sub></p>
+<p><strong>352.563<sub>8</sub></strong></p>
+<p>352 = 011101010</p>
+<p>0.563 = 101 110 011</p>
+<p>352.563 = 011101010.101110011</p>
+<p><strong>205 octal to binary</strong></p>
+<p>010000101</p>
+</div>
+</div>
+<div id="binary-to-octal" class="section level3" number="8.9.2">
+<h3>
+<span class="header-section-number">8.9.2</span> <strong>BINARY to OCTAL</strong><a class="anchor" aria-label="anchor" href="#binary-to-octal"><i class="fas fa-link"></i></a>
+</h3>
+<ol style="list-style-type: decimal">
+<li><p>Start</p></li>
+<li><p>Separate and group binary number into sets of three, starting with
+the least significant (rightmost digit)</p></li>
+<li><p>Pad the Most Significant Digit (leftmost) with zeros, if necessary,
+to make a group of three</p></li>
+<li><p>Write out the corresponding Octal digits for each set of three</p></li>
+<li><p>Stop</p></li>
+</ol>
+<p><strong>Convert to octal 1110111111</strong></p>
+<p>001 110 111 111</p>
+<p>1677 octal</p>
+<p>Convert to octal Binary: 011 100 101</p>
+<p>Octal: 3 4 5</p>
+</div>
+<div id="binary-to-hexadecimal" class="section level3" number="8.9.3">
+<h3>
+<span class="header-section-number">8.9.3</span> <strong>BINARY TO HEXADECIMAL</strong><a class="anchor" aria-label="anchor" href="#binary-to-hexadecimal"><i class="fas fa-link"></i></a>
+</h3>
+<ol start="6" style="list-style-type: decimal">
+<li><p>Start</p></li>
+<li><p>Separate and group binary number into sets of four, starting with
+the least significant (rightmost digit)</p></li>
+<li><p>Pad the Most Significant Digit (leftmost) with zeros, if necessary,
+to make a group of four</p></li>
+<li><p>Write out the corresponding Octal digits for each set of four</p></li>
+<li><p>Stop</p></li>
+</ol>
+<p><strong>Convert to Hexadecimal 1110111111</strong></p>
+<p>0011 1011 1111 = 3BF</p>
+<p>Convert binary 1110 0101 to hexa</p>
+<p>1110 = E and 0101 = 5</p>
+<p>Hence Binary: 1110 0101 = Hexa : E5</p>
+</div>
+<div id="hexadecimal-to-binary" class="section level3" number="8.9.4">
+<h3>
+<span class="header-section-number">8.9.4</span> <strong>HEXADECIMAL to BINARY</strong><a class="anchor" aria-label="anchor" href="#hexadecimal-to-binary"><i class="fas fa-link"></i></a>
+</h3>
+<div id="algorithm-5" class="section level4" number="8.9.4.1">
+<h4>
+<span class="header-section-number">8.9.4.1</span> <strong>Algorithm</strong><a class="anchor" aria-label="anchor" href="#algorithm-5"><i class="fas fa-link"></i></a>
+</h4>
+<ol start="4" style="list-style-type: decimal">
+<li><p>Start</p></li>
+<li><p>For each digit of the Octal number, write out the binary digits in
+groups of four</p></li>
+<li><p>Stop</p></li>
+</ol>
+</div>
+<div id="examples-5" class="section level4" number="8.9.4.2">
+<h4>
+<span class="header-section-number">8.9.4.2</span> <strong>Examples</strong><a class="anchor" aria-label="anchor" href="#examples-5"><i class="fas fa-link"></i></a>
+</h4>
+<p>3BF = 0011 1011 1111</p>
+<p>Convert hexadecimal BAD into binary</p>
+<p>1011 1010 1101</p>
+<p>Convert BEEF to binary 1011 1110 1110 1111</p>
+</div>
+</div>
+<div id="octal-to-hexadecimal" class="section level3" number="8.9.5">
+<h3>
+<span class="header-section-number">8.9.5</span> <strong>OCTAL to HEXADECIMAL</strong><a class="anchor" aria-label="anchor" href="#octal-to-hexadecimal"><i class="fas fa-link"></i></a>
+</h3>
+<div id="algorithm-6" class="section level4" number="8.9.5.1">
+<h4>
+<span class="header-section-number">8.9.5.1</span> <strong>Algorithm</strong><a class="anchor" aria-label="anchor" href="#algorithm-6"><i class="fas fa-link"></i></a>
+</h4>
+<ol style="list-style-type: decimal">
+<li><p>Start</p></li>
+<li><p>Convert Octal to binary</p></li>
+<li><p>Drop any zeros at the leftmost end</p></li>
+<li><p>Convert binary to Hexa</p></li>
+<li><p>Stop</p></li>
+</ol>
+<p><strong>Convert Octal 345 to hexadecimal</strong></p>
+<p>Octal: 345 = 011100101 binary</p>
+<p>After dropping zero at leftmost end Binary: 11100101</p>
+<p>Separate into sets of 4 digits : 1110 0101 = E5</p>
+
+</div>
+</div>
+</div>
+</div>
+  <div class="chapter-nav">
+<div class="prev"><a href="programming-languages.html"><span class="header-section-number">7</span> PROGRAMMING LANGUAGES</a></div>
+<div class="next"><a href="the-internet.html"><span class="header-section-number">9</span> THE INTERNET</a></div>
+</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#number-system"><span class="header-section-number">8</span> NUMBER SYSTEM</a></li>
+<li><a class="nav-link" href="#number-system-1"><span class="header-section-number">8.1</span> Number System</a></li>
+<li>
+<a class="nav-link" href="#conversion-of-decimal-to-binary"><span class="header-section-number">8.2</span> CONVERSION OF DECIMAL TO BINARY</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#algorithm-for-converting-decimal-to-binary"><span class="header-section-number">8.2.1</span> Algorithm for converting decimal to binary</a></li>
+<li><a class="nav-link" href="#examples"><span class="header-section-number">8.2.2</span> Examples</a></li>
+</ul>
+</li>
+<li>
+<a class="nav-link" href="#convert-binary-to-decimal"><span class="header-section-number">8.3</span> CONVERT BINARY TO DECIMAL</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#algorithm"><span class="header-section-number">8.3.1</span> Algorithm</a></li>
+<li><a class="nav-link" href="#examples-1"><span class="header-section-number">8.3.2</span> Examples</a></li>
+</ul>
+</li>
+<li>
+<a class="nav-link" href="#converting-binary-fraction-to-decimal-fraction"><span class="header-section-number">8.4</span> CONVERTING BINARY FRACTION TO DECIMAL FRACTION</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#algorithm-1"><span class="header-section-number">8.4.1</span> Algorithm</a></li>
+<li><a class="nav-link" href="#examples-2"><span class="header-section-number">8.4.2</span> Examples</a></li>
+</ul>
+</li>
+<li>
+<a class="nav-link" href="#converting-decimal-fraction-to-binary-fraction"><span class="header-section-number">8.5</span> CONVERTING DECIMAL FRACTION TO BINARY FRACTION</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#algorithm-2"><span class="header-section-number">8.5.1</span> Algorithm</a></li>
+<li><a class="nav-link" href="#example"><span class="header-section-number">8.5.2</span> Example</a></li>
+</ul>
+</li>
+<li>
+<a class="nav-link" href="#decimal-to-octal"><span class="header-section-number">8.6</span> DECIMAL TO OCTAL</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#algorithm-for-converting-decimal-to-binary-1"><span class="header-section-number">8.6.1</span> Algorithm for converting decimal to binary</a></li>
+<li><a class="nav-link" href="#examples-3"><span class="header-section-number">8.6.2</span> Examples</a></li>
+</ul>
+</li>
+<li>
+<a class="nav-link" href="#decimal-to-hexadecimal"><span class="header-section-number">8.7</span> DECIMAL TO HEXADECIMAL</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#algorithm-for-converting-decimal-to-hexadecimal"><span class="header-section-number">8.7.1</span> Algorithm for converting decimal to hexadecimal</a></li>
+<li><a class="nav-link" href="#examples-4"><span class="header-section-number">8.7.2</span> Examples</a></li>
+</ul>
+</li>
+<li>
+<a class="nav-link" href="#hexadecimal-to-decimal"><span class="header-section-number">8.8</span> HEXADECIMAL TO DECIMAL</a><ul class="nav navbar-nav"><li><a class="nav-link" href="#algorithm-3"><span class="header-section-number">8.8.1</span> Algorithm</a></li></ul>
+</li>
+<li>
+<a class="nav-link" href="#converting-octal-fraction-to-decimal-fraction"><span class="header-section-number">8.9</span> Converting octal fraction to decimal fraction</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#convert-octal-to-binary"><span class="header-section-number">8.9.1</span> CONVERT OCTAL TO BINARY</a></li>
+<li><a class="nav-link" href="#binary-to-octal"><span class="header-section-number">8.9.2</span> BINARY to OCTAL</a></li>
+<li><a class="nav-link" href="#binary-to-hexadecimal"><span class="header-section-number">8.9.3</span> BINARY TO HEXADECIMAL</a></li>
+<li><a class="nav-link" href="#hexadecimal-to-binary"><span class="header-section-number">8.9.4</span> HEXADECIMAL to BINARY</a></li>
+<li><a class="nav-link" href="#octal-to-hexadecimal"><span class="header-section-number">8.9.5</span> OCTAL to HEXADECIMAL</a></li>
+</ul>
+</li>
+</ul>
+
+      <div class="book-extra">
+        <ul class="list-unstyled">
+          
+        </ul>
+</div>
+    </nav>
+</div>
+
+</div>
+</div> <!-- .container -->
+
+<footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>"<strong>TEXTBOOK OF AGRI-INFORMATICS</strong>" was written by Dr. GEETHA RADHAKRISHNAN. It was last built on 2022-01-30.</p>
+  </div>
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>This book was built by the <a class="text-light" href="https://bookdown.org">bookdown</a> R package.</p>
+  </div>
+
+</div></div>
+</footer><!-- dynamically load mathjax for compatibility with self-contained --><script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script><script type="text/x-mathjax-config">const popovers = document.querySelectorAll('a.footnote-ref[data-toggle="popover"]');
+for (let popover of popovers) {
+  const div = document.createElement('div');
+  div.setAttribute('style', 'position: absolute; top: 0, left:0; width:0, height:0, overflow: hidden; visibility: hidden;');
+  div.innerHTML = popover.getAttribute('data-content');
+
+  var has_math = div.querySelector("span.math");
+  if (has_math) {
+    document.body.appendChild(div);
+    MathJax.Hub.Queue(["Typeset", MathJax.Hub, div]);
+    MathJax.Hub.Queue(function() {
+      popover.setAttribute('data-content', div.innerHTML);
+      document.body.removeChild(div);
+    })
+  }
+}
+</script>
+</body>
+</html>

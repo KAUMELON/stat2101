@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Chapter 12 1. Low-Level Languages | TEXTBOOK OF AGRI-INFORMATICS</title>
+<meta name="author" content="Dr. GEETHA RADHAKRISHNAN">
+<meta name="description" content="The programming languages that are very close to machine code (0s and 1s) are called low-level programming languages. The program instructions written in these languages are in binary form....">
+<meta name="generator" content="bookdown 0.28 with bs4_book()">
+<meta property="og:title" content="Chapter 12 1. Low-Level Languages | TEXTBOOK OF AGRI-INFORMATICS">
+<meta property="og:type" content="book">
+<meta property="og:image" content="/images/cover.PNG">
+<meta property="og:description" content="The programming languages that are very close to machine code (0s and 1s) are called low-level programming languages. The program instructions written in these languages are in binary form....">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Chapter 12 1. Low-Level Languages | TEXTBOOK OF AGRI-INFORMATICS">
+<meta name="twitter:description" content="The programming languages that are very close to machine code (0s and 1s) are called low-level programming languages. The program instructions written in these languages are in binary form....">
+<meta name="twitter:image" content="/images/cover.PNG">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
+<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.4.0/transition.js"></script><script src="libs/bs3compat-0.4.0/tabs.js"></script><script src="libs/bs3compat-0.4.0/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS --><style type="text/css">
+    
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  </style>
+</head>
+<body data-spy="scroll" data-target="#toc">
+
+<div class="container-fluid">
+<div class="row">
+  <header class="col-sm-12 col-lg-3 sidebar sidebar-book"><a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+
+    <div class="d-flex align-items-start justify-content-between">
+      <h1>
+        <a href="index.html" title="">TEXTBOOK OF AGRI-INFORMATICS</a>
+      </h1>
+      <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
+    </div>
+
+    <div id="main-nav" class="collapse-lg">
+      <form role="search">
+        <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+</form>
+
+      <nav aria-label="Table of contents"><h2>Table of contents</h2>
+        <ul class="book-toc list-unstyled">
+<li><a class="" href="index.html">Welcome</a></li>
+<li><a class="" href="preface.html">Preface</a></li>
+<li><a class="" href="introduction-to-computers.html"><span class="header-section-number">1</span> Introduction to Computers</a></li>
+<li><a class="" href="hardware--central-processing-unit.html"><span class="header-section-number">2</span> Hardware- Central Processing Unit</a></li>
+<li><a class="" href="computer-software.html"><span class="header-section-number">3</span> Computer Software</a></li>
+<li><a class="" href="hardware-components--computer-memory.html"><span class="header-section-number">4</span> Hardware Components- Computer Memory</a></li>
+<li><a class="" href="computer--the-major-components.html"><span class="header-section-number">5</span> Computer- The Major Components</a></li>
+<li><a class="" href="computer-hardware--input-device.html"><span class="header-section-number">6</span> Computer Hardware- Input Device</a></li>
+<li><a class="" href="media-input-devices.html"><span class="header-section-number">7</span> Media Input Devices</a></li>
+<li><a class="" href="hardware--output-devices.html"><span class="header-section-number">8</span> Hardware- Output Devices</a></li>
+<li><a class="" href="programming-languages.html"><span class="header-section-number">9</span> Programming Languages</a></li>
+<li><a class="" href="characteristics-of-a-programming-language.html"><span class="header-section-number">10</span> Characteristics of a Programming Language:</a></li>
+<li><a class="" href="use-of-programming-language.html"><span class="header-section-number">11</span> Use of programming language</a></li>
+<li><a class="active" href="low-level-languages.html"><span class="header-section-number">12</span> 1. Low-Level Languages</a></li>
+<li><a class="" href="high-level-languages.html"><span class="header-section-number">13</span> 2. High-Level Languages</a></li>
+<li><a class="" href="number-system.html"><span class="header-section-number">14</span> Number System</a></li>
+<li><a class="" href="conversion-of-decimal-to-binary.html"><span class="header-section-number">15</span> CONVERSION OF DECIMAL TO BINARY</a></li>
+<li><a class="" href="convert-binary-to-decimal.html"><span class="header-section-number">16</span> CONVERT BINARY TO DECIMAL</a></li>
+<li><a class="" href="converting-binary-fraction-to-decimal-fraction.html"><span class="header-section-number">17</span> CONVERTING BINARY FRACTION TO DECIMAL FRACTION</a></li>
+<li><a class="" href="converting-decimal-fraction-to-binary-fraction.html"><span class="header-section-number">18</span> CONVERTING DECIMAL FRACTION TO BINARY FRACTION</a></li>
+<li><a class="" href="decimal-to-octal.html"><span class="header-section-number">19</span> DECIMAL TO OCTAL</a></li>
+<li><a class="" href="decimal-to-hexadecimal.html"><span class="header-section-number">20</span> DECIMAL TO HEXADECIMAL</a></li>
+<li><a class="" href="hexadecimal-to-decimal.html"><span class="header-section-number">21</span> HEXADECIMAL TO DECIMAL</a></li>
+<li><a class="" href="converting-octal-fraction-to-decimal-fraction.html"><span class="header-section-number">22</span> Converting octal fraction to decimal fraction</a></li>
+<li><a class="" href="the-internet.html"><span class="header-section-number">23</span> THE INTERNET</a></li>
+<li><a class="" href="the-world-wide-web-www.html"><span class="header-section-number">24</span> The World Wide Web (WWW)</a></li>
+<li><a class="" href="web-server.html"><span class="header-section-number">25</span> Web Server</a></li>
+<li><a class="" href="web-browsers.html"><span class="header-section-number">26</span> Web Browsers</a></li>
+<li><a class="" href="internet-service-provider.html"><span class="header-section-number">27</span> Internet Service Provider</a></li>
+<li><a class="" href="website.html"><span class="header-section-number">28</span> Website</a></li>
+<li><a class="" href="cyber-threats-and-vulnerabilities.html"><span class="header-section-number">29</span> CYBER THREATS AND VULNERABILITIES</a></li>
+<li><a class="" href="malware.html"><span class="header-section-number">30</span> Malware</a></li>
+<li><a class="" href="footprinting.html"><span class="header-section-number">31</span> Footprinting</a></li>
+<li><a class="" href="password-attacks.html"><span class="header-section-number">32</span> Password Attacks</a></li>
+<li><a class="" href="denial-of-service.html"><span class="header-section-number">33</span> Denial of Service</a></li>
+<li><a class="" href="arbitrary-code-execution.html"><span class="header-section-number">34</span> Arbitrary code execution</a></li>
+<li><a class="" href="unauthorized-entry.html"><span class="header-section-number">35</span> Unauthorized entry</a></li>
+<li><a class="" href="privilege-escalation.html"><span class="header-section-number">36</span> Privilege escalation</a></li>
+<li><a class="" href="backdoor-entry.html"><span class="header-section-number">37</span> Backdoor entry</a></li>
+<li><a class="" href="sniffing.html"><span class="header-section-number">38</span> Sniffing</a></li>
+<li><a class="" href="spoofing.html"><span class="header-section-number">39</span> Spoofing</a></li>
+<li><a class="" href="session-hijacking.html"><span class="header-section-number">40</span> Session Hijacking</a></li>
+<li><a class="" href="sql-injection.html"><span class="header-section-number">41</span> SQL Injection</a></li>
+<li><a class="" href="arp-poisoning.html"><span class="header-section-number">42</span> ARP Poisoning</a></li>
+<li><a class="" href="compromised-key-attack.html"><span class="header-section-number">43</span> Compromised Key Attack</a></li>
+<li><a class="" href="zero-day-attack.html"><span class="header-section-number">44</span> Zero-day attack</a></li>
+<li><a class="" href="data-input-validatiobn-attack.html"><span class="header-section-number">45</span> Data input validatiobn attack</a></li>
+<li><a class="" href="authentication-attack.html"><span class="header-section-number">46</span> Authentication attack</a></li>
+<li><a class="" href="buffer-overflow-attack.html"><span class="header-section-number">47</span> Buffer overflow attack</a></li>
+<li><a class="" href="parameter-manipulation.html"><span class="header-section-number">48</span> Parameter manipulation</a></li>
+<li><a class="" href="breaches-in-data.html"><span class="header-section-number">49</span> Breaches in Data</a></li>
+<li><a class="" href="malware-malicious-software.html"><span class="header-section-number">50</span> MALWARE (MALicious softWARE)</a></li>
+<li><a class="" href="symptoms-of-virus-attack.html"><span class="header-section-number">51</span> SYMPTOMS OF VIRUS ATTACK</a></li>
+<li><a class="" href="data-security---how-to-protect-data.html"><span class="header-section-number">52</span> DATA SECURITY - How to protect data</a></li>
+<li><a class="" href="ways-to-protect-computer-against-malware.html"><span class="header-section-number">53</span> Ways to protect computer against malware</a></li>
+<li><a class="" href="vaccines.html"><span class="header-section-number">54</span> VACCINES</a></li>
+<li><a class="" href="references.html"><span class="header-section-number">55</span> References</a></li>
+</ul>
+
+        <div class="book-extra">
+          
+        </div>
+      </nav>
+</div>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="low-level-languages" class="section level1" number="12">
+<h1>
+<span class="header-section-number">12</span> <strong>1. Low-Level Languages</strong><a class="anchor" aria-label="anchor" href="#low-level-languages"><i class="fas fa-link"></i></a>
+</h1>
+<p>The programming languages that are very close to machine code (0s and 1s) are called low-level programming languages.</p>
+<p>The program instructions written in these languages are in binary form.</p>
+<p>Examples of low-level languages are:</p>
+<ol style="list-style-type: lower-alpha">
+<li><p>machine language</p></li>
+<li><p>assembly language</p></li>
+</ol>
+<div id="machine-language" class="section level2" number="12.1">
+<h2>
+<span class="header-section-number">12.1</span> <strong>1.1 Machine Language</strong><a class="anchor" aria-label="anchor" href="#machine-language"><i class="fas fa-link"></i></a>
+</h2>
+<p>In a machine language or machine code the instructions in binary form, which can be directly understood by the computer (CPU) without translating them. Which is also known as the first generation of programming language. The program instructions in this language are in binary form (that is 0's and 1's). Machine language will be implemented in different way in different machines. It is not easy to learn machine language.</p>
+<div id="advantages-of-machine-language" class="section level3" number="12.1.1">
+<h3>
+<span class="header-section-number">12.1.1</span> <strong>Advantages of Machine Language</strong><a class="anchor" aria-label="anchor" href="#advantages-of-machine-language"><i class="fas fa-link"></i></a>
+</h3>
+<p>The programs written in machine language runs very fast because no translation program is required.</p>
+</div>
+<div id="disadvantages-of-machine-language" class="section level3" number="12.1.2">
+<h3>
+<span class="header-section-number">12.1.2</span> <strong>Disadvantages of Machine Language</strong><a class="anchor" aria-label="anchor" href="#disadvantages-of-machine-language"><i class="fas fa-link"></i></a>
+</h3>
+<p>Here are some of the main disadvantages of machine languages:</p>
+<p>1.      <strong>Machine Dependent</strong> - the internal design of every computer is different from every other computer; machine language also differs from one computer to another. Hence, if a company decides to change the type, then the programmer will have to learn a new machine language and would have to rewrite all existing programs.</p>
+<p>2.      <strong>Difficult to Modify</strong> - it is difficult to correct or modify this language. Checking machine instructions to locate errors is very difficult and time-consuming.</p>
+<p>3.      <strong>Difficult to Program</strong> - a computer executes a machine language program directly and efficiently. It is difficult to program in machine language. A machine language programmer must be knowledgeable about the hardware structure of the computer.</p>
+</div>
+</div>
+<div id="assembly-language" class="section level2" number="12.2">
+<h2>
+<span class="header-section-number">12.2</span> <strong>1.2 Assembly Language</strong><a class="anchor" aria-label="anchor" href="#assembly-language"><i class="fas fa-link"></i></a>
+</h2>
+<p>It is another low-level programming language because the program instructions written in this language are close to machine language. It is also known as second generation of programming language.</p>
+<p>With assembly language, a programmer writes instructions using symbolic instruction code instead of binary codes. Symbolic codes are meaningful abbreviations such as SUB is used for substation operation, MUL for multiply operation and so on. Therefore this language is also called the low-level symbolic language.</p>
+<p>The set of program instructions written in assembly language are also called as <strong>mnemonic code</strong>.</p>
+<div id="advantages-of-assembly-language" class="section level3" number="12.2.1">
+<h3>
+<span class="header-section-number">12.2.1</span> <strong>Advantages of Assembly Language</strong><a class="anchor" aria-label="anchor" href="#advantages-of-assembly-language"><i class="fas fa-link"></i></a>
+</h3>
+<p>1.      <strong>Easy to understand and use</strong> - due to the use of mnemonic codes
+and symbolic names for data location, it is much easier to understand
+and use in contrast with machine language.</p>
+<p>2.      <strong>Easier to locate and correct errors</strong> - the programmers need not
+keep track of the storage location of the data and instruction, fewer
+errors are made while writing programs in assembly language. And are
+easier to find and correct those are made.</p>
+<p>3.      <strong>Easy to modify</strong> - it is easier to understand, easier to locate,
+correct, and modify instructions of an assembly language program.</p>
+<p>4.      <strong>Efficiency</strong> - Leaving out the translation time required by the
+assembler, the actual execution time for an assembly language program is
+equivalent machine language program.</p>
+</div>
+<div id="disadvantages-of-assembly-languages" class="section level3" number="12.2.2">
+<h3>
+<span class="header-section-number">12.2.2</span> <strong>Disadvantages of Assembly Languages</strong><a class="anchor" aria-label="anchor" href="#disadvantages-of-assembly-languages"><i class="fas fa-link"></i></a>
+</h3>
+<p>1.      <strong>Machine dependent</strong> - each instruction of an assembly language
+program is translated into exactly one machine language instruction, so
+an assembly language program is dependent on machine language.</p>
+<p>2.      <strong>Knowledge of hardware required</strong> – An assembly language
+programmer must have a good knowledge of the characteristics and logical
+structure of his/her computer to write a good assembly language computer
+code since assembly languages are machine-dependent.</p>
+<p>3.      <strong>Machine-level coding</strong> - Like machine language programs, writing assembly language program is also time-consuming and difficult.</p>
+</div>
+</div>
+</div>
+  <div class="chapter-nav">
+<div class="prev"><a href="use-of-programming-language.html"><span class="header-section-number">11</span> Use of programming language</a></div>
+<div class="next"><a href="high-level-languages.html"><span class="header-section-number">13</span> 2. High-Level Languages</a></div>
+</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#low-level-languages"><span class="header-section-number">12</span> 1. Low-Level Languages</a></li>
+<li>
+<a class="nav-link" href="#machine-language"><span class="header-section-number">12.1</span> 1.1 Machine Language</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#advantages-of-machine-language"><span class="header-section-number">12.1.1</span> Advantages of Machine Language</a></li>
+<li><a class="nav-link" href="#disadvantages-of-machine-language"><span class="header-section-number">12.1.2</span> Disadvantages of Machine Language</a></li>
+</ul>
+</li>
+<li>
+<a class="nav-link" href="#assembly-language"><span class="header-section-number">12.2</span> 1.2 Assembly Language</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#advantages-of-assembly-language"><span class="header-section-number">12.2.1</span> Advantages of Assembly Language</a></li>
+<li><a class="nav-link" href="#disadvantages-of-assembly-languages"><span class="header-section-number">12.2.2</span> Disadvantages of Assembly Languages</a></li>
+</ul>
+</li>
+</ul>
+
+      <div class="book-extra">
+        <ul class="list-unstyled">
+          
+        </ul>
+</div>
+    </nav>
+</div>
+
+</div>
+</div> <!-- .container -->
+
+<footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>"<strong>TEXTBOOK OF AGRI-INFORMATICS</strong>" was written by Dr. GEETHA RADHAKRISHNAN. It was last built on 2022-01-30.</p>
+  </div>
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>This book was built by the <a class="text-light" href="https://bookdown.org">bookdown</a> R package.</p>
+  </div>
+
+</div></div>
+</footer><!-- dynamically load mathjax for compatibility with self-contained --><script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script><script type="text/x-mathjax-config">const popovers = document.querySelectorAll('a.footnote-ref[data-toggle="popover"]');
+for (let popover of popovers) {
+  const div = document.createElement('div');
+  div.setAttribute('style', 'position: absolute; top: 0, left:0; width:0, height:0, overflow: hidden; visibility: hidden;');
+  div.innerHTML = popover.getAttribute('data-content');
+
+  var has_math = div.querySelector("span.math");
+  if (has_math) {
+    document.body.appendChild(div);
+    MathJax.Hub.Queue(["Typeset", MathJax.Hub, div]);
+    MathJax.Hub.Queue(function() {
+      popover.setAttribute('data-content', div.innerHTML);
+      document.body.removeChild(div);
+    })
+  }
+}
+</script>
+</body>
+</html>

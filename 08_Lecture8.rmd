@@ -1,0 +1,476 @@
+# **NUMBER SYSTEM**
+
+## **Number System**
+
+- Decimal number system -- base 10 - e.g. 56~10~
+- Binary number system -- base 2 - e.g. 101~2~
+- Octal number system -- base 8 - e.g. 68~8~
+- Hexadecimal number system -- base 16 -- e.g. 345~16~ or BF~16~
+
+  -----------------------------------------------------------------------
+  **Decimal**       **Binary**        **Octal**         **Hexa**
+  ----------------- ----------------- ----------------- -----------------
+  0                 0000              0                 0
+
+  1                 0001              1                 1
+
+  2                 0010              2                 2
+
+  3                 0011              3                 3
+
+  4                 0100              4                 4
+
+  5                 0101              5                 5
+
+  6                 0110              6                 6
+
+  7                 0111              7                 7
+
+  8                 1000              10                8
+
+  9                 1001              11                9
+
+  10                1010                                A
+
+  11                1011                                B
+
+  12                1100                                C
+
+  13                1101                                D
+
+  14                1110                                E
+
+  15                1111                                F
+  -----------------------------------------------------------------------
+
+
+
+## **CONVERSION OF DECIMAL TO BINARY**
+
+### **Algorithm for converting decimal to binary**
+
+1.  Start
+
+2.  Divide the given integer by 2 and write down the quotient &
+    remainder
+
+3.  Divide the quotient by 2 and record the second quotient and
+    remainder. Repeat the same steps until the quotient = 0
+
+4.  Write out the remainders in reverse order to get binary digit of the
+    integer
+
+5.  Stop
+
+### **Examples**
+
+1.  **Convert decimal 24 to binary**
+
+  ------------------------------------------------------------------------
+  2                    24                0
+  -------------------- ----------------- ---------------------------------
+  2                    12                0
+
+  2                    6                 0
+
+  2                    3                 1
+
+  2                    1                 1
+
+                       0                 
+  ------------------------------------------------------------------------
+
+24~10~ = 11000~2~
+
+2.  **Convert 15~10~ to binary**
+
+  ------------------------------------------------------------------------
+  2                    15                1
+  -------------------- ----------------- ---------------------------------
+  2                    7                 1
+
+  2                    3                 1
+
+  2                    1                 1
+
+                       0                 
+  ------------------------------------------------------------------------
+
+Binary digit is 1111
+
+Hence 15~10~ = 1111~2~
+
+## **CONVERT BINARY TO DECIMAL**
+
+### **Algorithm**
+
+1.  Start
+
+2.  Start by multiplying the rightmost digit with 2^0^
+
+3.  Right to left, multiply each digit of the binary number with
+    increased power of 2, until no more digits are left
+
+4.  Add the products that are obtained
+
+5.  Stop
+
+### **Examples**
+
+**Convert binary to decimal**
+
+1.  **1001~2~ to decimal**
+
+1 x 2^3^ + 0 x 2^2^ + 0 x 2^1^ + 1 x 2^0^ ; 1 x 8 + 0 x 4 + 0 x 2 + 1 x
+1 ; 8+0+0+1 = 9; 1001~2~ = 9~10~
+
+## **CONVERTING BINARY FRACTION TO DECIMAL FRACTION**
+
+### **Algorithm**
+
+1.  Start
+
+2.  Starting from left most digit to right, multiply each digit by
+    powers of (1/2), starting with the power 1
+
+3.  Add the results obtained to get the decimal fraction
+
+4.  Stop
+
+### **Examples**
+
+**Convert binary fraction to decimal fraction**
+
+1.  **0.101~2~**
+
+1x (1/2)^1^ + 0 x (1/2)^2^ + 1 x (1/2)^3^
+
+1 x 0.5 + 0 x 0.25 + 1 x 0.125 = 0.5 + 0 + 0.125 = 0.625
+
+0.101~2~ = 0.625~10~
+
+2.  **0.011~2~**
+
+0 x (1/2) + 1 x (1/2)^2^ + 1 x (1/2)^3^ = 0 + 0.25 +0.125 = 0.375~10~
+
+
+## **CONVERTING DECIMAL FRACTION TO BINARY FRACTION**
+
+### **Algorithm**
+
+1.  Start
+
+2.  Multiply the decimal fraction by 2. From the product, separate the
+    integral part and note down
+
+3.  To the decimal part of the product with multiply once again with 2.
+    Note down the integral part. And multiply with 2 the
+    fraction/decimal part.
+
+4.  Repeat the process until we obtain the 2 or three or more digits
+    after decimal point as required
+
+5.  The integral part is written down from top to bottom to obtain the
+    binary fraction
+
+6.  Stop
+
+### **Example**
+
+**Convert 0.47~10~ to binary fraction**
+
+0.47 x 2 = 0.94 integral part = 0
+
+0.94 x 2 = 1.88 integral part = 1
+
+0.88 x 2 = 1.76 integral part = 1
+
+0.76 x 2 = 1.52 integral part = 1
+
+0.52 x 2 = 1.04 integral part = 1
+
+0.04 x 2 = 0.08 integral part = 0
+
+0.47~10~ = 0.011110~2~
+
+**Convert 111001.101~2~ to decimal digit**
+
+1 x 2^5^ + 1 x 2^4^ x 1 x 2^3^ + 0 x 2^2^ + 0 x 2^1^ +1 x 2^0^
+
+=57.625
+
+Convert 33225.112~10~ to binary
+
+Answer: 1000000111001001. 000111001010110
+
+## **DECIMAL TO OCTAL**
+
+### **Algorithm for converting decimal to binary**
+
+1.  Start
+
+2.  Divide the given integer by 8 and write down the quotient &
+    remainder
+
+3.  Divide the quotient by 8 and record the second quotient and
+    remainder. Repeat the same steps until the quotient = 0
+
+4.  Write out the remainders in reverse order to get binary digit of the
+    integer
+
+5.  Stop
+
+###  **Examples**
+
+1.  **Convert decimal 24 to binary**
+
+  ------------------------------------------------------------------------
+  8                    24                0
+  -------------------- ----------------- ---------------------------------
+  8                    3                 3
+
+                       0                 
+  ------------------------------------------------------------------------
+
+24~10~ = 30~8~
+
+2.  **Convert to Octal**
+
+  ------------------------------------------------------------------------
+  8                  1792                    0
+  ------------------ ----------------------- -----------------------------
+  8                  224                     0
+
+  8                  28                      4
+
+  8                  3                       3
+
+                     0                       
+  ------------------------------------------------------------------------
+
+1792~10~ = 3400~8~
+
+## **DECIMAL TO HEXADECIMAL**
+
+### **Algorithm for converting decimal to hexadecimal**
+
+1.  Start
+
+2.  Divide the given integer by 16 and write down the quotient &
+    remainder
+
+3.  Divide the quotient by 16 and record the second quotient and
+    remainder. Repeat the same steps until the quotient = 0
+
+4.  Write out the remainders in reverse order to get binary digit of the
+    integer
+
+5.  Stop
+
+### **Examples**
+
+1.  **Convert to hexadecimal**
+
+1128~10~
+
+  ------------------------------------------------------------------------
+  16                 1128                    8
+  ------------------ ----------------------- -----------------------------
+  16                 70                      6
+
+  16                 4                       4
+
+                     0                       
+
+                                             
+  ------------------------------------------------------------------------
+
+1128~10~ = 468~16~
+
+2.  **Convert decimal number 188 to hexadecimal**
+
+  ------------------------------------------------------------------------
+  16                  188                  C
+  ------------------- -------------------- -------------------------------
+  16                  11                   B
+
+                      0                    
+
+                                           
+
+                                           
+  ------------------------------------------------------------------------
+
+## **HEXADECIMAL TO DECIMAL**
+
+### **Algorithm**
+
+1.  Start
+
+2.  Start by multiplying the rightmost digit with 16^0^
+
+3.  Right to left, multiply each digit of the binary number with
+    increased power of 16, until no more digits are left
+
+4.  Add the products that are obtained
+
+5.  Stop
+
+**A2DE hexadecimal**:
+= ((A) \* 16^3^) + (2 \* 16^2^) + ((D) \* 16^1^) + ((E) \* 16^0^)\
+= (10 \* 16^3^) + (2 \* 16^2^) + (13 \* 16^1^) + (14 \* 16^0^)\
+= (10 \* 4096) + (2 \* 256) + (13 \* 16) + (14 \* 1)\
+= 40960 + 512 + 208 + 14\
+= 41694 decimal
+
+**0.625 decimal to octal**
+
+0.625 x 8 = 5.00 integer part 5
+
+0.000 x 8 = 0.00 integer part =0
+
+0.5 octal
+
+**Convert 965.198 decimal to octal**
+
+  ------------------------------------------------------------------------
+  8                   965                  5
+  ------------------- -------------------- -------------------------------
+  8                   120                  0
+
+  8                   15                   7
+
+  8                   1                    1
+
+                      0                    
+  ------------------------------------------------------------------------
+
+0.198 x 8 = 1.584 integral par = 1
+
+0.584 x 8 = 4.672 ingegral part = 4
+
+0.672 x 8 = 5.376 integral part = 5
+
+0.376 x 8 = 3.008 integer part = 3
+
+(198.965 )~10~ = 1705.1453)~8~
+
+## **Converting octal fraction to decimal fraction**
+
+### **CONVERT OCTAL TO BINARY**
+
+#### **Algorithm**
+
+1.  Start
+
+2.  For each digit of the Octal number, write out the binary digits in
+    groups of three
+
+3.  Stop
+
+**(540)~8~**
+
+(101100000)~2~
+
+**352.563~8~**
+
+352 = 011101010
+
+0.563 = 101 110 011
+
+352.563 = 011101010.101110011
+
+**205 octal to binary**
+
+010000101
+
+### **BINARY to OCTAL**
+
+1.  Start
+
+2.  Separate and group binary number into sets of three, starting with
+    the least significant (rightmost digit)
+
+3.  Pad the Most Significant Digit (leftmost) with zeros, if necessary,
+    to make a group of three
+
+4.  Write out the corresponding Octal digits for each set of three
+
+5.  Stop
+
+**Convert to octal 1110111111**
+
+001 110 111 111
+
+1677 octal
+
+Convert to octal Binary: 011 100 101
+
+Octal: 3 4 5
+
+### **BINARY TO HEXADECIMAL**
+
+6.  Start
+
+7.  Separate and group binary number into sets of four, starting with
+    the least significant (rightmost digit)
+
+8.  Pad the Most Significant Digit (leftmost) with zeros, if necessary,
+    to make a group of four
+
+9.  Write out the corresponding Octal digits for each set of four
+
+10. Stop
+
+**Convert to Hexadecimal 1110111111**
+
+0011 1011 1111 = 3BF
+
+Convert binary 1110 0101 to hexa
+
+1110 = E and 0101 = 5
+
+Hence Binary: 1110 0101 = Hexa : E5
+
+### **HEXADECIMAL to BINARY**
+
+#### **Algorithm**
+
+4.  Start
+
+5.  For each digit of the Octal number, write out the binary digits in
+    groups of four
+
+6.  Stop
+
+#### **Examples**
+
+3BF = 0011 1011 1111
+
+Convert hexadecimal BAD into binary
+
+1011 1010 1101
+
+Convert BEEF to binary 1011 1110 1110 1111
+
+### **OCTAL to HEXADECIMAL**
+
+#### **Algorithm**
+
+1.  Start
+
+2.  Convert Octal to binary
+
+3.  Drop any zeros at the leftmost end
+
+4.  Convert binary to Hexa
+
+5.  Stop
+
+**Convert Octal 345 to hexadecimal**
+
+Octal: 345 = 011100101 binary
+
+After dropping zero at leftmost end Binary: 11100101
+
+Separate into sets of 4 digits : 1110 0101 = E5

@@ -1,0 +1,145 @@
+# **THE INTERNET**
+
+## **INTERNET**
+
+The Internet is a global wide area network that connects devices across the world using Transfer Control Protocol/Internet Protocol suite (TCP/IP).   It is the network of networks that incorporates private, public, government, and business networks of both the local and global scope that are linked by a large array of various networking technologies.  The Internet also comprises of numerous high-bandwidth data lines, known as the Internet \"backbone", that are linked to major Internet hubs such as web servers and ISPs, which are involved in data distribution to distant locations.  It can also be defined as the infrastructure that hosts the world wide web.
+
+The Internet neither has single centralized governance in technological implementation nor policies for access and usage.  Each of these network constituents sets up its own policies.
+
+In order to connect to the Internet, access to an Internet Service Provider (ISP) is imperative.  The ISP acts as the middleman between the user and the Internet.  Most ISPs offer broadband access through a cable, DSL or fiber connection.  Also, when a user connects to the Internet using a public Wireless Fidelity (WiFi), the corresponding router is connected to an ISP.  Even cellular data towers must connect to an ISP to provide Internet to all devices connected through it. 
+
+The Internet provides various online services such as
+
+-   Web -- a collection of billions of web pages that can be viewed with a web             browser
+
+-   Email -- the most common method of sending and receiving messages online
+
+-   Social Media -- websites and apps that allow people to share comments,                          photos, and videos
+
+-   Online Gaming -- games that allow people to play with and against each other                      over the Internet
+
+-   Software Updates -- operating systems and application updates can be                                downloaded from the internet. 
+
+At the advent, users connected to the Internet using a home computer and a dial-up modem.  DSL and cable modems eventually provided users with continuous connections that always remained ON.  More recent developments have enabled mobile devices, such as tablets and smartphones, to connect to the internet at will.  Common home appliances and applications have transformed into *smart* devices, through the introduction of the Internet of Things (IoT).  The control and manipulation of these appliances are now done remotely over the internet. 
+
+## **The World Wide Web (WWW)**
+
+In 1990, Tim Berner-Lee of the European Particle Physics Lab (CERN), Switzerland was the person who wrote the code for the first web browser, using C programming language on a computer having NeXTSTEP operating system.  According to Tim-Berner Lee, who also founded the WWW Consortium (W3C), the www is the universe of network-accessible information, an embodiment of human knowledge.
+
+In other words, the www is a compendium of resources and information that is hosted as a service on the Internet and which can also be retrieved via the Internet.  All web pages are transferred using the Hyper Text Transfer Protocol (HTTP) and formatted using Hyper Text Markup Language (HTML).  Each web page/ resource is located using a Uniform Resource Locator (URL) and may be accessed by an application software called the web browser.
+
+In simple terms, The World Wide Web is a way of exchanging information between computers on the Internet, tying them together into a vast collection of interactive multimedia resources.  It is a single interface that enables access to all internet protocols in a convenient manner.
+
+### **WWW operations**
+
+The www utilizes a client-server approach. The working is as shown below:
+
+-   The URL of the requisite webpage is provided on the address bar of the web      browser
+
+-   The browser requests the corresponding IP address from the domain name          server
+
+-   The IP address is used as the means of communicating with the web server, to     request for the web page.  The request is made through HTTP.
+
+-   When the web server receives the request, the required web page is retrieved     and transferred back to the browser and the HTTP connection is closed.
+
+-   Upon receipt of the web page, the browser displays its contents on a            window. 
+
+### **The WWW components**
+
+The structural and semantic components of the www are:
+
+-   Structural Components: Servers, browsers, Caches, Websites
+
+-   Semantic Components: HTTP, HTML, URL
+
+## **Web Server**
+
+**Client-Server** computing deals with the fact that one computer requests the other for information.  The system that makes the request is the web client and the one that provides the response is the web server.
+
+Web server is a computer where website/ web contents are stored and are always connected to the Internet.  Web servers connected to the internet have unique addresses.  These addresses are made up of 4 sets of numbers separated by dots.  Each number ranges from 0 to 255.  For example, 68.178.157.132 or 68.122.35.127.
+
+Upon registration of a web address/ domain name, specifying the IP address of the web server that will host the site is requisite. 
+
+Some commonly used web servers are
+
+### **Apache HTTP Server **
+
+Open-source software developed by Apache, that can be installed on all operating systems, like LINUX, UNIX, Windows, FreeBSD, and Mac OS X. 
+
+### **Internet Information Services (IIS)**
+
+IIS is a web server from Microsoft and runs on the Windows platform.
+
+### **Lighttpd**
+
+Pronounced as lighty is an unrestricted, rapid, protected web server distributed with the FreeBSD OS. It utilizes less CPU power and can also be used with other operating systems. 
+
+### **Sun Java System**
+
+This web server is from Sun Microsystems** and is best suited for medium and large websites.  It runs on Windows, Unix, and Linux-based systems and supports LSP, Java Servlets, PHP, Pel, Python, Ruby, ASP, and Coldfusion.  However, it is a paid server.
+
+### **Jigsaw **
+
+From W3C is a free server written in Java and has the ability to run on various OS platforms.  They support CGI scripts and PHP programs. 
+
+### **SMTP Server**
+
+Simple Mail Transfer Protocol Server, ensures the delivery of emails from the server of the sender to the server of the recipient.
+
+## **Web Browsers**
+
+The world wide web (www) is a collection of websites/ web pages that are stored in web servers and connected to local computers via the internet. Web pages can have text, images, and videos as their content and may be accessed from any point on the globe with an internet facility. The web pages are written using Hyper Text Markup Language (HTML) and are connected to each other through hyperlinks/hypertexts. Hypertext enables the user to search for data by typing text. Each webpage has got an address. This address is called Uniform Resource Locator (URL). A collection of webpages related to a specific item is a website e.g.Facebook, Gmail, Pinterest,
+
+Software that permits users to browse/access the www is called a web browser. Web browsers can be used to access data provided on the internet and also on private networks. Navigation through websites and web pages is called browsing or surfing. 
+
+The major function of a web browser is to assist users with the retrieval of information via the internet, with the use of a URL. The URL starts with HTTP: or HTTPS. HTTPS means that the site is secured. Some browsers like Usenet and Internet Relay Chats include web browsers and email. Hence, they are called web browser suites.
+
+To assist with easy access to web pages, web browsers can bookmark pages that are frequently loaded by the user. Browsers can also identify the taste of the user based on previous references and keep ready the probable pages for browsing by the user.
+
+Examples of web browsers are Mosaic, Netscape Navigator, *Book Link Technologies Internet Works*, Internet Explorer (by Microsoft), Safari (by Apple), Mozilla Firefox (by Mozilla Foundation), Google Chrome, Microsoft Edge, and Opera (by Nintendo Wii gaming console).
+
+### **Mosaic** 
+
+Mosaic was developed by Marc Andreessen at the University of Illinois in 1993 to enable web browsing by aiming and clicking icons on the desktop of the personal computer.
+
+### **Netscape Navigator**
+
+Netscape Navigator was the next web browser that was developed by Netscape Communications Corporation in 1994 and was a proprietary browser.  However, it is no longer in use due to the various security options. 
+
+### **Book Link Technologies Internet Works**
+
+Book Link Technologies Internet Works is the first browser with tabs in which it is possible to open a new site without closing the previous one.
+
+### **Internet Explorer (IE)**
+
+Internet Explorer was developed by Microsoft Corporation and was integrated with the Windows operating system, in 1996.  It was initially based on Mosaic and was developed on the Trident engine.  It could be used in all OS and supported pages written in the C++ Operating System. 
+
+### **Safari**
+
+Safari was released by Apple in 2003 and is the default browser on Macintosh computers and iPhones.  It became the first browser with privacy browsing mode.  It is a graphical browser based on the Webkit engine.  The mobile version available on iOS devices is called Panther and is available since 2007. 
+
+### **Mozilla Firefox**
+
+Mozilla Firefox was released in 2004 with intention to eliminate security and speed issues existing in Internet Explorer.  It was developed by the Mozilla Foundation using the Gecko layout engine.  It is a free and open-source browser available on Windows, Mac, Linux, and Unix operating systems and is capable of retrieving supporting pages using JavaScript,Cascading Style Sheets, HTML, C, XML, C++, Rust, XBL.  It also implements the current and futuristic web standards. 
+
+### **Google Chrome**
+
+Google Chrome was launched in 2008 for the Windows OS, using the Webkit engine.  It was developed by T.V. Raman of Google Corporation.  It can be used on Windows and Android OS and supports the C++, C and Java programming languages. 
+
+### **Microsoft Edge**
+
+Microsoft Edge is the web browser with proprietary license that was released by Microsoft Corporation in 2015 to replace the IE.  It was developed on the Blink engine and supports pages in C++ and C#.  Although initially it was meant for Windows 10 and the Xbox One OS, by 2017 it supported Android and iOS and then by 2019 the support was extended to the Mac OS.   
+
+### **Opera**
+
+Opera is a freeware web browser that is Chromium based and uses a Blink engine layout.  It has been developed by Otello Corporation in 1995 using C++ language and can be used with almost all OS like Android, Linux, Unix, Microsoft Windows, and Mac OS.
+
+Currently, smartphones can be used for surfing.  Examples of browsers used in smartphones are Kindle web browser, Polaris browser, Opera Mini, Microsoft Edge, IE for mobiles, Amazon Silk, Android browser, and many more 
+
+## **Internet Service Provider**
+
+**ISP**/Internet Service Provider. These companies deliver service in terms of Internet access.  The ISP provides space on a web server that can be used to host the company website.
+
+## **Website**
+
+**A website** is a collection of varied pages written in HTML.  It is a location on the web, where users are able to retrieve data and information.  There are millions of websites available on the web. Each page on the website is called a web page and the first page of any website is called home/index page for that site. When searching for a website in the webserver, the server looks for the home page in the directory.

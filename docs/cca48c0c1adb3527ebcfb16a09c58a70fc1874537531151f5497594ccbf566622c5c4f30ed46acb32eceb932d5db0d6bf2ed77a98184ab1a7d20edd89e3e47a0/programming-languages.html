@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Chapter 7 PROGRAMMING LANGUAGES | TEXTBOOK OF AGRI-INFORMATICS</title>
+<meta name="author" content="Dr. GEETHA RADHAKRISHNAN">
+<meta name="description" content="7.1 Definition A programming language is the set of vocabulary used to write up instructions through which humans interact with computers. A programming language can be defined as a vocabulary and...">
+<meta name="generator" content="bookdown 0.28 with bs4_book()">
+<meta property="og:title" content="Chapter 7 PROGRAMMING LANGUAGES | TEXTBOOK OF AGRI-INFORMATICS">
+<meta property="og:type" content="book">
+<meta property="og:image" content="/images/cover.PNG">
+<meta property="og:description" content="7.1 Definition A programming language is the set of vocabulary used to write up instructions through which humans interact with computers. A programming language can be defined as a vocabulary and...">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Chapter 7 PROGRAMMING LANGUAGES | TEXTBOOK OF AGRI-INFORMATICS">
+<meta name="twitter:description" content="7.1 Definition A programming language is the set of vocabulary used to write up instructions through which humans interact with computers. A programming language can be defined as a vocabulary and...">
+<meta name="twitter:image" content="/images/cover.PNG">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
+<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.4.0/transition.js"></script><script src="libs/bs3compat-0.4.0/tabs.js"></script><script src="libs/bs3compat-0.4.0/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS --><style type="text/css">
+    
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  </style>
+</head>
+<body data-spy="scroll" data-target="#toc">
+
+<div class="container-fluid">
+<div class="row">
+  <header class="col-sm-12 col-lg-3 sidebar sidebar-book"><a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+
+    <div class="d-flex align-items-start justify-content-between">
+      <h1>
+        <a href="index.html" title="">TEXTBOOK OF AGRI-INFORMATICS</a>
+      </h1>
+      <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
+    </div>
+
+    <div id="main-nav" class="collapse-lg">
+      <form role="search">
+        <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+</form>
+
+      <nav aria-label="Table of contents"><h2>Table of contents</h2>
+        <ul class="book-toc list-unstyled">
+<li><a class="" href="index.html">Welcome</a></li>
+<li><a class="" href="preface.html">Preface</a></li>
+<li><a class="" href="introduction-to-computers.html"><span class="header-section-number">1</span> Introduction to Computers</a></li>
+<li><a class="" href="hardware--central-processing-unit.html"><span class="header-section-number">2</span> Hardware- Central Processing Unit</a></li>
+<li><a class="" href="computer-software.html"><span class="header-section-number">3</span> Computer Software</a></li>
+<li><a class="" href="hardware-components--computer-memory.html"><span class="header-section-number">4</span> Hardware Components- Computer Memory</a></li>
+<li><a class="" href="computer--the-major-components.html"><span class="header-section-number">5</span> Computer- The Major Components</a></li>
+<li><a class="" href="hardware--output-devices.html"><span class="header-section-number">6</span> Hardware- Output Devices</a></li>
+<li><a class="active" href="programming-languages.html"><span class="header-section-number">7</span> PROGRAMMING LANGUAGES</a></li>
+<li><a class="" href="number-system.html"><span class="header-section-number">8</span> NUMBER SYSTEM</a></li>
+<li><a class="" href="the-internet.html"><span class="header-section-number">9</span> THE INTERNET</a></li>
+<li><a class="" href="cyber-threats-and-vulnerabilities.html"><span class="header-section-number">10</span> CYBER THREATS AND VULNERABILITIES</a></li>
+<li><a class="" href="references.html"><span class="header-section-number">11</span> References</a></li>
+</ul>
+
+        <div class="book-extra">
+          
+        </div>
+      </nav>
+</div>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="programming-languages" class="section level1" number="7">
+<h1>
+<span class="header-section-number">7</span> <strong>PROGRAMMING LANGUAGES</strong><a class="anchor" aria-label="anchor" href="#programming-languages"><i class="fas fa-link"></i></a>
+</h1>
+<div id="definition-1" class="section level2" number="7.1">
+<h2>
+<span class="header-section-number">7.1</span> <strong>Definition</strong><a class="anchor" aria-label="anchor" href="#definition-1"><i class="fas fa-link"></i></a>
+</h2>
+<p><strong>A programming language is the set of vocabulary used to write up instructions through which humans interact with computers.</strong></p>
+<p>A programming language can be defined as a vocabulary and set of grammatical rules for instructing a computer or computing device to perform specific tasks. Some programming languages are BASIC, C, C++, COBOL, Java, Python, and R which are also called as high-level languages.</p>
+<p>Programming languages are used to write programs or codes. What is a program? <strong>A program in simple terms is a set of instructions given to the computer to perform a specific task</strong>. While executing the program, raw data is processed into the desired output format.  A computer understands binary language only but the programs are going to be written in a high-level language which is almost similar to human language. Which will be later converted into machine language for executing the task.</p>
+<p>The hierarchy of computer languages can be given as:</p>
+<ul>
+<li><p>High-level language</p></li>
+<li><p>Assemble language</p></li>
+<li><p>Machine language</p></li>
+<li><p>Computer hardware</p></li>
+</ul>
+</div>
+<div id="characteristics-of-a-programming-language" class="section level2" number="7.2">
+<h2>
+<span class="header-section-number">7.2</span> <strong>Characteristics of a Programming Language:</strong><a class="anchor" aria-label="anchor" href="#characteristics-of-a-programming-language"><i class="fas fa-link"></i></a>
+</h2>
+<ul>
+<li><p>A programming language must be simple, easy to learn and use, have good readability and human recognizable.</p></li>
+<li><p>Abstraction is a must-have Characteristics for a programming language in which ability to define the complex structure and then its degree of usability comes.</p></li>
+<li><p>A portable programming language is always preferred.</p></li>
+<li><p>Programming language’s efficiency must be high so that it can be easily converted into a machine code and executed consumes little space in memory.</p></li>
+<li><p>A programming language should be well structured and documented so that it is suitable for application development.</p></li>
+<li><p>Necessary tools for development, debugging, testing and maintenance of a program must be provided by a programming language.</p></li>
+<li><p>A programming language should provide single environment known as Integrated Development Environment (IDE).</p></li>
+<li><p>A programming language must be consistent in terms of syntax and semantics.</p></li>
+</ul>
+</div>
+<div id="use-of-programming-language" class="section level2" number="7.3">
+<h2>
+<span class="header-section-number">7.3</span> <strong>Use of programming language</strong><a class="anchor" aria-label="anchor" href="#use-of-programming-language"><i class="fas fa-link"></i></a>
+</h2>
+<ol style="list-style-type: decimal">
+<li><p>Web development</p></li>
+<li><p>Game development</p></li>
+<li><p>Operating system development</p></li>
+<li><p>Application/ Software development</p></li>
+</ol>
+<p>There are basically two types of computer programming languages given below:</p>
+<ol style="list-style-type: decimal">
+<li><p>Low-level language</p></li>
+<li><p>High-level language</p></li>
+</ol>
+</div>
+<div id="low-level-languages" class="section level2" number="7.4">
+<h2>
+<span class="header-section-number">7.4</span> <strong>1. Low-Level Languages</strong><a class="anchor" aria-label="anchor" href="#low-level-languages"><i class="fas fa-link"></i></a>
+</h2>
+<p>The programming languages that are very close to machine code (0s and 1s) are called low-level programming languages.</p>
+<p>The program instructions written in these languages are in binary form.</p>
+<p>Examples of low-level languages are:</p>
+<ol style="list-style-type: lower-alpha">
+<li><p>machine language</p></li>
+<li><p>assembly language</p></li>
+</ol>
+<div id="machine-language" class="section level3" number="7.4.1">
+<h3>
+<span class="header-section-number">7.4.1</span> <strong>1.1 Machine Language</strong><a class="anchor" aria-label="anchor" href="#machine-language"><i class="fas fa-link"></i></a>
+</h3>
+<p>In a machine language or machine code the instructions in binary form, which can be directly understood by the computer (CPU) without translating them. Which is also known as the first generation of programming language. The program instructions in this language are in binary form (that is 0's and 1's). Machine language will be implemented in different way in different machines. It is not easy to learn machine language.</p>
+<div id="advantages-of-machine-language" class="section level4" number="7.4.1.1">
+<h4>
+<span class="header-section-number">7.4.1.1</span> <strong>Advantages of Machine Language</strong><a class="anchor" aria-label="anchor" href="#advantages-of-machine-language"><i class="fas fa-link"></i></a>
+</h4>
+<p>The programs written in machine language runs very fast because no translation program is required.</p>
+</div>
+<div id="disadvantages-of-machine-language" class="section level4" number="7.4.1.2">
+<h4>
+<span class="header-section-number">7.4.1.2</span> <strong>Disadvantages of Machine Language</strong><a class="anchor" aria-label="anchor" href="#disadvantages-of-machine-language"><i class="fas fa-link"></i></a>
+</h4>
+<p>Here are some of the main disadvantages of machine languages:</p>
+<p>1.      <strong>Machine Dependent</strong> - the internal design of every computer is different from every other computer; machine language also differs from one computer to another. Hence, if a company decides to change the type, then the programmer will have to learn a new machine language and would have to rewrite all existing programs.</p>
+<p>2.      <strong>Difficult to Modify</strong> - it is difficult to correct or modify this language. Checking machine instructions to locate errors is very difficult and time-consuming.</p>
+<p>3.      <strong>Difficult to Program</strong> - a computer executes a machine language program directly and efficiently. It is difficult to program in machine language. A machine language programmer must be knowledgeable about the hardware structure of the computer.</p>
+</div>
+</div>
+<div id="assembly-language" class="section level3" number="7.4.2">
+<h3>
+<span class="header-section-number">7.4.2</span> <strong>1.2 Assembly Language</strong><a class="anchor" aria-label="anchor" href="#assembly-language"><i class="fas fa-link"></i></a>
+</h3>
+<p>It is another low-level programming language because the program instructions written in this language are close to machine language. It is also known as second generation of programming language.</p>
+<p>With assembly language, a programmer writes instructions using symbolic instruction code instead of binary codes. Symbolic codes are meaningful abbreviations such as SUB is used for substation operation, MUL for multiply operation and so on. Therefore this language is also called the low-level symbolic language.</p>
+<p>The set of program instructions written in assembly language are also called as <strong>mnemonic code</strong>.</p>
+<div id="advantages-of-assembly-language" class="section level4" number="7.4.2.1">
+<h4>
+<span class="header-section-number">7.4.2.1</span> <strong>Advantages of Assembly Language</strong><a class="anchor" aria-label="anchor" href="#advantages-of-assembly-language"><i class="fas fa-link"></i></a>
+</h4>
+<p>1.      <strong>Easy to understand and use</strong> - due to the use of mnemonic codes
+and symbolic names for data location, it is much easier to understand
+and use in contrast with machine language.</p>
+<p>2.      <strong>Easier to locate and correct errors</strong> - the programmers need not
+keep track of the storage location of the data and instruction, fewer
+errors are made while writing programs in assembly language. And are
+easier to find and correct those are made.</p>
+<p>3.      <strong>Easy to modify</strong> - it is easier to understand, easier to locate,
+correct, and modify instructions of an assembly language program.</p>
+<p>4.      <strong>Efficiency</strong> - Leaving out the translation time required by the
+assembler, the actual execution time for an assembly language program is
+equivalent machine language program.</p>
+</div>
+<div id="disadvantages-of-assembly-languages" class="section level4" number="7.4.2.2">
+<h4>
+<span class="header-section-number">7.4.2.2</span> <strong>Disadvantages of Assembly Languages</strong><a class="anchor" aria-label="anchor" href="#disadvantages-of-assembly-languages"><i class="fas fa-link"></i></a>
+</h4>
+<p>1.      <strong>Machine dependent</strong> - each instruction of an assembly language
+program is translated into exactly one machine language instruction, so
+an assembly language program is dependent on machine language.</p>
+<p>2.      <strong>Knowledge of hardware required</strong> – An assembly language
+programmer must have a good knowledge of the characteristics and logical
+structure of his/her computer to write a good assembly language computer
+code since assembly languages are machine-dependent.</p>
+<p>3.      <strong>Machine-level coding</strong> - Like machine language programs, writing assembly language program is also time-consuming and difficult.</p>
+</div>
+</div>
+</div>
+<div id="high-level-languages" class="section level2" number="7.5">
+<h2>
+<span class="header-section-number">7.5</span> <strong>2. High-Level Languages</strong><a class="anchor" aria-label="anchor" href="#high-level-languages"><i class="fas fa-link"></i></a>
+</h2>
+<p>The programming languages that are close to human languages (example like English languages) are called high-level languages.</p>
+<p>Examples of high-level languages are:</p>
+<ul>
+<li><p>Fortran</p></li>
+<li><p>COBOL</p></li>
+<li><p>Basic</p></li>
+<li><p>Pascal</p></li>
+<li><p>C</p></li>
+<li><p>C++</p></li>
+<li><p>Java</p></li>
+</ul>
+<p>The high-level languages are similar to the English language. The program instructions are written using English words, for example, print, input, etc. But each high-level language has its own rule and grammar for writing program instructions. These rules are called the syntax of the language.</p>
+<p>The program written in a high-level language must be translated into machine code before running it. Each high-level language has its own translator program.</p>
+<p>The high-level programming languages are further divided into:</p>
+<p>1.      <em>Procedural languages</em></p>
+<p>2.      <em>Non-procedural languages</em></p>
+<p>3.      <em>Object-oriented programming languages</em></p>
+<div id="advantages-of-high-level-languages" class="section level3" number="7.5.1">
+<h3>
+<span class="header-section-number">7.5.1</span> <strong>Advantages of High-Level Languages</strong><a class="anchor" aria-label="anchor" href="#advantages-of-high-level-languages"><i class="fas fa-link"></i></a>
+</h3>
+<p>1.      <strong>Easy to learn-</strong> high-level languages are very easy to learn than low-level languages. The statements written for the program are similar to English-like statements.</p>
+<p>2.      <strong>Easy to understand</strong> - programs written in high-level language by one programmer can easily be understood by another because the program instructions are similar to the English language.</p>
+<p>3.      <strong>Easy to write program</strong> - a new program can easily be written in a very short time. Larger and more complicated software can be developed in a few days or months.</p>
+<p>4.      <strong>Easy to detect and remove errors</strong> - errors in a program can be easily detected and removed. Most of the errors will be identified during the compilation of the program.</p>
+<p>5.      <strong>Built-in library functions</strong> - Each high-level language provides a large number of built-in functions or procedures that can be used to perform specific tasks during the designing of new programs.</p>
+<p>6.      <strong>Machine Independence</strong> – a program written in a high-level language is machine-independent. It means that a program written in one type of computer can be executed on another type of computer.</p>
+</div>
+<div id="limitations-of-high-level-language" class="section level3" number="7.5.2">
+<h3>
+<span class="header-section-number">7.5.2</span> <strong>Limitations of High-Level Language</strong><a class="anchor" aria-label="anchor" href="#limitations-of-high-level-language"><i class="fas fa-link"></i></a>
+</h3>
+<p>1.      <strong>Low efficiency</strong> - a program written in high-level languages has lower efficiency than one written in a machine/assembly language to do the same job. That is, a program written in high-level languages result in multiple machine language instruction that may not be optimized, taking more time to execute and requiring more memory space.</p>
+<p>2.      <strong>Less flexibility</strong> – high-level languages are less flexible than assembly languages because they do not normally have instructions or mechanisms to control a computer's CPU, memory and register.</p>
+</div>
+<div id="procedural-language" class="section level3" number="7.5.3">
+<h3>
+<span class="header-section-number">7.5.3</span> <strong>1. Procedural Language</strong><a class="anchor" aria-label="anchor" href="#procedural-language"><i class="fas fa-link"></i></a>
+</h3>
+<p>Procedural languages are also known as third-generation languages (3GLs). In procedural language, a program is designed using procedures. A procedure is a sequence of instructions having a unique name. The instructions of the procedure are executed with the reference of its name. In procedural programming languages, the program instructions are written in a sequence or in a specific order in which they must be executed to solve a specific problem. It means that the order of program instructions is very important.</p>
+<p>Some popular procedural languages are described below:</p>
+<div id="fortran" class="section level4" number="7.5.3.1">
+<h4>
+<span class="header-section-number">7.5.3.1</span> <strong>FORTRAN</strong><a class="anchor" aria-label="anchor" href="#fortran"><i class="fas fa-link"></i></a>
+</h4>
+<p>It stands for formula translation. It was developed in 1957 for IBM computers. It was the first earliest high-level programming language used to introduce the concept of modular programming. It has been revised many times. Its commonly used version is FORTRAN 77</p>
+</div>
+<div id="cobol" class="section level4" number="7.5.3.2">
+<h4>
+<span class="header-section-number">7.5.3.2</span> <strong>COBOL</strong><a class="anchor" aria-label="anchor" href="#cobol"><i class="fas fa-link"></i></a>
+</h4>
+<p>It stands for common business-oriented language. It was developed in 1959. this high-level language was specially developed for business and commercial applications. It was suitable for handling a large amount of data such as:</p>
+<ul>
+<li><p>To prepare payroll</p></li>
+<li><p>To process credit and debit account</p></li>
+<li><p>To control inventory system and many other business applications</p></li>
+</ul>
+</div>
+<div id="pascal" class="section level4" number="7.5.3.3">
+<h4>
+<span class="header-section-number">7.5.3.3</span> <strong>Pascal</strong><a class="anchor" aria-label="anchor" href="#pascal"><i class="fas fa-link"></i></a>
+</h4>
+<p>This programming language is named in the honor of Blaise Pascal, a mathematician, and scientist who invented the first mechanical calculator. Structured programming language and is popular in computer science development in 1971. It is suitable for the scientific field.</p>
+</div>
+<div id="ada" class="section level4" number="7.5.3.4">
+<h4>
+<span class="header-section-number">7.5.3.4</span> <strong>ADA</strong><a class="anchor" aria-label="anchor" href="#ada"><i class="fas fa-link"></i></a>
+</h4>
+<p>It is developed in 1980 and is named in the honor of Lady Augusta ADA. She was the first computer programmer. The high-level structure language Pascal was used as a model for the development of the ADA language. This language is mainly used for defense purposes such as for controlling military weapons like missiles etc.</p>
+</div>
+<div id="c-language" class="section level4" number="7.5.3.5">
+<h4>
+<span class="header-section-number">7.5.3.5</span> <strong>C language</strong><a class="anchor" aria-label="anchor" href="#c-language"><i class="fas fa-link"></i></a>
+</h4>
+<p>Dennis Ritchie and Brian Karnighan developed it in 1972 at Bell Laboratories. It is a high-level language but it can also support assembly language codes (low-level codes). It is because C language is also referred to as middle-level language. The program written in C can be compiled and run on any type of computer. In other words, programs written in C language are portable. C language is a structured programming language. The main feature of language is that it uses a large number of built-in functions to perform various tasks. The user can also create its own functions.</p>
+</div>
+</div>
+<div id="non-procedural-languages" class="section level3" number="7.5.4">
+<h3>
+<span class="header-section-number">7.5.4</span> <strong>2. Non-Procedural Languages</strong><a class="anchor" aria-label="anchor" href="#non-procedural-languages"><i class="fas fa-link"></i></a>
+</h3>
+<p>Non-procedural programming languages are also known as fourth-generation languages. In non-procedural programming languages, the order of program instructions is not important. The importance is given only to, what is to be done.</p>
+<p>With a non-procedural language, the user/programmer writes English-like instructions to retrieve data from databases. These languages are easier to use than procedural languages. These languages provide user-friendly program development tools to write instructions. The programmers do not have to spend much time coding the program.</p>
+<p>The most important non-procedural languages and tools are discussed below:</p>
+<p>1.      <strong>SQL </strong>- it stands for the structured query language. it is a very popular database access language and is specially used to access and manipulate the data of databases. The word query represents that this language is used to make queries (or inquiries) to perform various operations on data of a database. However, SQL can also be used to <strong>create tables, add data, delete data, update data of database tables</strong>, etc.</p>
+<p>2.      <strong>RPG</strong> - it stands for report program generator. This language was introduced by IBM to generate business reports. Typically, RPG is used for application development on IBM midrange computers, such as AS/400.</p>
+</div>
+<div id="object-oriented-programming-languages" class="section level3" number="7.5.5">
+<h3>
+<span class="header-section-number">7.5.5</span> <strong>Object Oriented Programming Languages</strong><a class="anchor" aria-label="anchor" href="#object-oriented-programming-languages"><i class="fas fa-link"></i></a>
+</h3>
+<p>The object-oriented programming concept was introduced in the late 1960s, but now it has become the most popular approach to developing software.</p>
+<p>In object-oriented programming, the software is developed by using a set of interfacing objects. An object is a component of the program that has a set of modules and data structures. The modules are also called methods and are used to access the data from the object. The modern technique to design the program is the object-oriented approach. It is a very easy approach, in which the program is designed by using objects. Once an object for any program is designed, it can be reused in any other program.</p>
+<p>Nowadays, the most popular and commonly used object-oriented programming (OOPs) languages are C++ and Java.</p>
+
+</div>
+</div>
+</div>
+  <div class="chapter-nav">
+<div class="prev"><a href="hardware--output-devices.html"><span class="header-section-number">6</span> Hardware- Output Devices</a></div>
+<div class="next"><a href="number-system.html"><span class="header-section-number">8</span> NUMBER SYSTEM</a></div>
+</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#programming-languages"><span class="header-section-number">7</span> PROGRAMMING LANGUAGES</a></li>
+<li><a class="nav-link" href="#definition-1"><span class="header-section-number">7.1</span> Definition</a></li>
+<li><a class="nav-link" href="#characteristics-of-a-programming-language"><span class="header-section-number">7.2</span> Characteristics of a Programming Language:</a></li>
+<li><a class="nav-link" href="#use-of-programming-language"><span class="header-section-number">7.3</span> Use of programming language</a></li>
+<li>
+<a class="nav-link" href="#low-level-languages"><span class="header-section-number">7.4</span> 1. Low-Level Languages</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#machine-language"><span class="header-section-number">7.4.1</span> 1.1 Machine Language</a></li>
+<li><a class="nav-link" href="#assembly-language"><span class="header-section-number">7.4.2</span> 1.2 Assembly Language</a></li>
+</ul>
+</li>
+<li>
+<a class="nav-link" href="#high-level-languages"><span class="header-section-number">7.5</span> 2. High-Level Languages</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#advantages-of-high-level-languages"><span class="header-section-number">7.5.1</span> Advantages of High-Level Languages</a></li>
+<li><a class="nav-link" href="#limitations-of-high-level-language"><span class="header-section-number">7.5.2</span> Limitations of High-Level Language</a></li>
+<li><a class="nav-link" href="#procedural-language"><span class="header-section-number">7.5.3</span> 1. Procedural Language</a></li>
+<li><a class="nav-link" href="#non-procedural-languages"><span class="header-section-number">7.5.4</span> 2. Non-Procedural Languages</a></li>
+<li><a class="nav-link" href="#object-oriented-programming-languages"><span class="header-section-number">7.5.5</span> Object Oriented Programming Languages</a></li>
+</ul>
+</li>
+</ul>
+
+      <div class="book-extra">
+        <ul class="list-unstyled">
+          
+        </ul>
+</div>
+    </nav>
+</div>
+
+</div>
+</div> <!-- .container -->
+
+<footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>"<strong>TEXTBOOK OF AGRI-INFORMATICS</strong>" was written by Dr. GEETHA RADHAKRISHNAN. It was last built on 2022-01-30.</p>
+  </div>
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>This book was built by the <a class="text-light" href="https://bookdown.org">bookdown</a> R package.</p>
+  </div>
+
+</div></div>
+</footer><!-- dynamically load mathjax for compatibility with self-contained --><script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script><script type="text/x-mathjax-config">const popovers = document.querySelectorAll('a.footnote-ref[data-toggle="popover"]');
+for (let popover of popovers) {
+  const div = document.createElement('div');
+  div.setAttribute('style', 'position: absolute; top: 0, left:0; width:0, height:0, overflow: hidden; visibility: hidden;');
+  div.innerHTML = popover.getAttribute('data-content');
+
+  var has_math = div.querySelector("span.math");
+  if (has_math) {
+    document.body.appendChild(div);
+    MathJax.Hub.Queue(["Typeset", MathJax.Hub, div]);
+    MathJax.Hub.Queue(function() {
+      popover.setAttribute('data-content', div.innerHTML);
+      document.body.removeChild(div);
+    })
+  }
+}
+</script>
+</body>
+</html>

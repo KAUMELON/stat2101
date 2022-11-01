@@ -1,0 +1,111 @@
+# **Computer- The Major Components**
+
+## **Major Components**
+
+The major components of general-purpose computer system are its hardware and software. 
+
+### **Hardware**
+
+Hardware is any part of your computer that has a physical structure, is visible and can be touched.  Input devices, Output devices, Memory Unit and Central Processing Unit (CPU) constitute the system hardware.  The CPU further includes the Registers, Arithmetic logic unit (ALU) and the Control Unit (CU). Devices that are not integral part of CPU are referred to as peripherals.
+
+### **Software**
+
+Software is any set of instructions that tells the hardware what to do. It is what guides the hardware and tells it how to accomplish each task. Some examples of software are web browsers, games, and word processors such as Microsoft Word
+
+```{r softw1, echo=FALSE,fig.cap='Components of computer',out.width="50%", fig.align='center'}
+knitr::include_graphics(rep("images/image1.png"))
+```
+
+### **Computer Hardware- Input Device**
+
+Input devices are electro-mechanical devices that are used to provide data to a computer for storing and further processing, if necessary.  Depending upon the type or method of input, the input device may belong to one of the following categories:
+
+Input devices can be classified as:
+
+1.      Human interface device e.g. keyboard
+
+2.      Pointing Devices e.g. mouse, touch pad, pointing stick, light pen, touch         screen and trackball
+
+3.      High Degree of Freedom Input Device e.g. used in virtual reality systems
+
+4.      Composite devices e.g. joystick, gamepad/joypad), paddle/game                   controller, Wii Remote
+
+5.     Scanning Devices:
+
+-   Image Scanning Devices -- permit the scanning of text and images.n              e.g. [[Image
+    scanner]{.underline}](https://en.wikipedia.org/wiki/Image_scanner),
+    text scanner
+
+-   Optical Scanning Devices -- Optical Character Recogniser, Optical Mark          Recogniser, Magnetic Ink Character Recogniser, Barcode Reader, Laser            Range finder
+
+-   Biometric Devices - Fingerprint Scanner, Iris scanner/Eyegaze tracker
+
+-   Integrated Scanner -- found in the ATMs for scanning authenticity of cheques     that are deposited
+
+-   Medical Data Acquisition Sensors Computed Tomography Scan, Magnetic             Resonance Scanning, Positron Emission Tomography, Medical Ultra-Sonography
+
+-   3D scanner, Laser Rangefinder
+
+6.      Media Input Devices- This includes both audio and video inputs
+
+-   Video Input Device - are used to digitize images or video from the outside      world into the computer. The information can be stored in a multitude of        formats depending on the user\'s requirement.  Examples of a few video input     devices are as follows:digital camers, digital camcorder, portable media        player, webcam
+
+-   Audio Input Devices allow a user to send audio signals to a computer for        processing, recording, or carrying out commands.
+    e.g.microphone. MIDI keyboard/other digital musical instrument
+
+7.      Composite Input Devices/ Miscellaneous Types of Input Devices
+        e.g. gesture recognition, voice recognition device, digital pen,                Sip-and-Puff input device.
+
+#### **Keyboard**
+
+A standard keyboard includes alphanumeric keys, function keys, modifier keys, cursor movement keys, numeric keypad and some special keys. The alphanumeric keys include the number keys and the alphabet keys. The function keys are the keys that help perform a specific task such as searching a file or refreshing a web page. The modifier keys such as Shift and Control keys modify the casing style of a character or symbol. The cursor movement keys include up, down, left and right keys, and are used to modify the direction of the cursor on the screen, The numeric keypad uses separate keypads for numbers and mathematical operators.
+
+#### **Pointing devices **
+
+Pointing devives are the input devices that are generally used for moving the cursor to a particular location to point an object on the screen. With the help of pointing devices, we can easily select the icons, menus, windows, etc on the Graphical User Interface. Some of the commonly used pointing devices are (1) Mouse (2) Trackball (3) Light pen (4) Joystick (5) Touchscreen
+
+Ø   **Mouse: **The mouse allows the user to select elements on the screen, such as tool, icons and buttons, by pointing and clicking them. We can also use a mouse to draw and paint on the screen of the computer system. The mouse is also known as the pointing device because it helps change the position of the pointer or cursor on the screen. The mouse consists of two buttons, a wheel at the top and a ball at the bottom of the mouse. When the ball moves, the cursor on the screen moves in the direction in which the ball rotates. The left button of the mouse is used to select an element and the right button, when clicked displays the special options such as open and explore and shortcut menus. The wheel is used to scroll down in a document or web page.
+
+#### **Scanning Device/Scanner**
+
+A scanner is an input device that converts documents and images as digitized images understandable by the computer system. The digitized images can be produced as black and white images, grey images or coloured images. In case of coloured images, an image is considered as a collection of dots with each dot representing a combination of red, green and blue colours, varying in proportions. The proportions of red, green and blue colours assigned to a dot are together called as colour description. The scanner uses the colour description of the dot to produce a digitized image.  Scanners can be flatbed or handheld types.
+
+#### **Optical Recognition Devices **
+
+Optical recognition Devices are used for recognising the characters optically. The optical recognition devices basically make use of optical scanner for inputting data. Unlike keyboards, the opticalrecognition devices do notenter the data by pressing the keys. They help the users in saving a lot of time. Commonly used optical recognition devices are:
+
+##### **Optical Character Recognition (OCR) devices**: 
+
+OCR devices scan a particular document by recognizing its individual characters and converting it into the editable form.
+
+##### **Optical Mark Recognition (OMR) devices**: 
+
+OMR devices help in obtaining the datafrom the marked fields. These devices prove to be of great use in recognizing characters in question sheets, enrolment forms, registration forms, employee payroll, etc. Most popularly, the OMR devices are used for scanning the documents having multiple choices as in the question papers used in schools, colleges, etc.
+
+##### **Magnetic Ink Character Recognition (MICR) devices**: 
+
+Special devices used for recognizing the characters written with magnetic ink consisting of iron oxide particles. These devices were specially developed for the banking operations. The details on the bank cheques, such as cheque number, bank and branch code are written with the magnetic.
+
+#### **Digital Camera**
+
+Digital cameras capture images electronically. The digital camera digitizes the image, compresses it and stores it on a special disk or memory card. The user can then copy the information to a PC, where the image can be edited, copied, printed and embedded in a document or transmitted to another user.
+
+#### **Voice Recognition Devices: **
+
+Generally record the voice of a person and transform it into electrical signals. The electrical signals are then converted into the machine readable code.  The voice recognition system only recognises the voice of the speaking person rather than whathe speaks.  The voice recognition devices are used for various purposes such as dictation, training air-traffic controllers, etc. These systems allow users to communicate with computers directly without using a keyboard or mouse.
+
+#### **Data Acquisition Sensors: **
+
+Sensors are the devices that are used for detecting and measuring the physical quantities, such as heat, temperature, and converting them into electrical signals. The sensors are most commonly used in data acquisition systems.  The data acquisition system collects the electrical signals from various devices and converts them into the digital signals for further assessment.
+
+### **Media Input Devices**
+
+Media Input devices which are generally used in media for communicating with the mass audiences, are known as media input devices. The following are the most popularly used media input devices:
+
+- Microphone
+
+- Webcam
+
+- Graphics tablet
+
+Ø   **Microphone:**In computers, microphones are input devices to record speech. Spoken input is used most often in multimedia. For sound input, you need a microphone and a sound card that translates the analog signal ie., sound waves from microphone into digital codes, the computer can store and process. This process is called digitizing. Using simple audio recording software built into your Windows operating system, you can use a microphone to record your voice, thus creating files on disks. Sound card translates sound waves created by your voice into code that becomes an audio file.

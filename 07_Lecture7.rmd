@@ -1,0 +1,226 @@
+# **PROGRAMMING LANGUAGES**
+
+## **Definition**
+
+**A programming language is the set of vocabulary used to write up instructions through which humans interact with computers.**
+
+A programming language can be defined as a vocabulary and set of grammatical rules for instructing a computer or computing device to perform specific tasks. Some programming languages are BASIC, C, C++, COBOL, Java, Python, and R which are also called as high-level languages.
+
+Programming languages are used to write programs or codes. What is a program? **A program in simple terms is a set of instructions given to the computer to perform a specific task**. While executing the program, raw data is processed into the desired output format.  A computer understands binary language only but the programs are going to be written in a high-level language which is almost similar to human language. Which will be later converted into machine language for executing the task.
+
+The hierarchy of computer languages can be given as:
+
+-   High-level language
+
+-   Assemble language
+
+-   Machine language
+
+-   Computer hardware
+
+## **Characteristics of a Programming Language:**
+
+- A programming language must be simple, easy to learn and use, have good readability and human recognizable.
+
+- Abstraction is a must-have Characteristics for a programming language in which ability to define the complex structure and then its degree of usability comes.
+
+- A portable programming language is always preferred.
+
+- Programming language's efficiency must be high so that it can be easily converted into a machine code and executed consumes little space in memory.
+
+- A programming language should be well structured and documented so that it is suitable for application development.
+
+- Necessary tools for development, debugging, testing and maintenance of a program must be provided by a programming language.
+
+- A programming language should provide single environment known as Integrated Development Environment (IDE).
+
+- A programming language must be consistent in terms of syntax and semantics.
+
+## **Use of programming language**
+
+1.  Web development
+
+2.  Game development
+
+3.  Operating system development
+
+4.  Application/ Software development
+
+There are basically two types of computer programming languages given below:
+
+1.  Low-level language
+
+2.  High-level language
+
+## **1. Low-Level Languages**
+
+The programming languages that are very close to machine code (0s and 1s) are called low-level programming languages.
+
+The program instructions written in these languages are in binary form.
+
+Examples of low-level languages are:
+
+a.  machine language
+
+b.  assembly language
+
+### **1.1 Machine Language**
+
+In a machine language or machine code the instructions in binary form, which can be directly understood by the computer (CPU) without translating them. Which is also known as the first generation of programming language. The program instructions in this language are in binary form (that is 0\'s and 1\'s). Machine language will be implemented in different way in different machines. It is not easy to learn machine language.
+
+#### **Advantages of Machine Language** 
+
+The programs written in machine language runs very fast because no translation program is required.
+
+#### **Disadvantages of Machine Language**
+
+Here are some of the main disadvantages of machine languages:
+
+1.      **Machine Dependent** - the internal design of every computer is different from every other computer; machine language also differs from one computer to another. Hence, if a company decides to change the type, then the programmer will have to learn a new machine language and would have to rewrite all existing programs.
+
+2.      **Difficult to Modify** - it is difficult to correct or modify this language. Checking machine instructions to locate errors is very difficult and time-consuming.
+
+3.      **Difficult to Program** - a computer executes a machine language program directly and efficiently. It is difficult to program in machine language. A machine language programmer must be knowledgeable about the hardware structure of the computer.
+
+### **1.2 Assembly Language**
+
+It is another low-level programming language because the program instructions written in this language are close to machine language. It is also known as second generation of programming language.
+
+With assembly language, a programmer writes instructions using symbolic instruction code instead of binary codes. Symbolic codes are meaningful abbreviations such as SUB is used for substation operation, MUL for multiply operation and so on. Therefore this language is also called the low-level symbolic language.
+
+The set of program instructions written in assembly language are also called as **mnemonic code**.
+
+#### **Advantages of Assembly Language**
+
+1.      **Easy to understand and use** - due to the use of mnemonic codes
+and symbolic names for data location, it is much easier to understand
+and use in contrast with machine language.
+
+2.      **Easier to locate and correct errors** - the programmers need not
+keep track of the storage location of the data and instruction, fewer
+errors are made while writing programs in assembly language. And are
+easier to find and correct those are made.
+
+3.      **Easy to modify** - it is easier to understand, easier to locate,
+correct, and modify instructions of an assembly language program.
+
+4.      **Efficiency** - Leaving out the translation time required by the
+assembler, the actual execution time for an assembly language program is
+equivalent machine language program.
+
+#### **Disadvantages of Assembly Languages**
+
+1.      **Machine dependent** - each instruction of an assembly language
+program is translated into exactly one machine language instruction, so
+an assembly language program is dependent on machine language.
+
+2.      **Knowledge of hardware required** -- An assembly language
+programmer must have a good knowledge of the characteristics and logical
+structure of his/her computer to write a good assembly language computer
+code since assembly languages are machine-dependent.
+
+3.      **Machine-level coding** - Like machine language programs, writing assembly language program is also time-consuming and difficult.
+
+## **2. High-Level Languages**
+
+The programming languages that are close to human languages (example like English languages) are called high-level languages.
+
+Examples of high-level languages are:
+
+-   Fortran
+
+-   COBOL
+
+-   Basic
+
+-   Pascal
+
+-   C
+
+-   C++
+
+-   Java
+
+The high-level languages are similar to the English language. The program instructions are written using English words, for example, print, input, etc. But each high-level language has its own rule and grammar for writing program instructions. These rules are called the syntax of the language.
+
+The program written in a high-level language must be translated into machine code before running it. Each high-level language has its own translator program.
+
+The high-level programming languages are further divided into:
+
+1.      *Procedural languages*
+
+2.      *Non-procedural languages*
+
+3.      *Object-oriented programming languages*
+
+### **Advantages of High-Level Languages**
+
+1.      **Easy to learn-** high-level languages are very easy to learn than low-level languages. The statements written for the program are similar to English-like statements.
+
+2.      **Easy to understand** - programs written in high-level language by one programmer can easily be understood by another because the program instructions are similar to the English language.
+
+3.      **Easy to write program** - a new program can easily be written in a very short time. Larger and more complicated software can be developed in a few days or months.
+
+4.      **Easy to detect and remove errors** - errors in a program can be easily detected and removed. Most of the errors will be identified during the compilation of the program.
+
+5.      **Built-in library functions** - Each high-level language provides a large number of built-in functions or procedures that can be used to perform specific tasks during the designing of new programs.
+
+6.      **Machine Independence** -- a program written in a high-level language is machine-independent. It means that a program written in one type of computer can be executed on another type of computer.
+
+### **Limitations of High-Level Language**
+
+1.      **Low efficiency** - a program written in high-level languages has lower efficiency than one written in a machine/assembly language to do the same job. That is, a program written in high-level languages result in multiple machine language instruction that may not be optimized, taking more time to execute and requiring more memory space.
+
+2.      **Less flexibility** -- high-level languages are less flexible than assembly languages because they do not normally have instructions or mechanisms to control a computer\'s CPU, memory and register.
+
+### **1. Procedural Language**
+
+Procedural languages are also known as third-generation languages (3GLs). In procedural language, a program is designed using procedures. A procedure is a sequence of instructions having a unique name. The instructions of the procedure are executed with the reference of its name. In procedural programming languages, the program instructions are written in a sequence or in a specific order in which they must be executed to solve a specific problem. It means that the order of program instructions is very important.
+
+Some popular procedural languages are described below:
+
+#### **FORTRAN**
+
+It stands for formula translation. It was developed in 1957 for IBM computers. It was the first earliest high-level programming language used to introduce the concept of modular programming. It has been revised many times. Its commonly used version is FORTRAN 77
+
+#### **COBOL**
+
+It stands for common business-oriented language. It was developed in 1959. this high-level language was specially developed for business and commercial applications. It was suitable for handling a large amount of data such as:
+
+-   To prepare payroll
+
+-   To process credit and debit account
+
+-   To control inventory system and many other business applications
+
+#### **Pascal**
+
+This programming language is named in the honor of Blaise Pascal, a mathematician, and scientist who invented the first mechanical calculator. Structured programming language and is popular in computer science development in 1971. It is suitable for the scientific field.
+
+#### **ADA**
+
+It is developed in 1980 and is named in the honor of Lady Augusta ADA. She was the first computer programmer. The high-level structure language Pascal was used as a model for the development of the ADA language. This language is mainly used for defense purposes such as for controlling military weapons like missiles etc.
+
+#### **C language**
+
+Dennis Ritchie and Brian Karnighan developed it in 1972 at Bell Laboratories. It is a high-level language but it can also support assembly language codes (low-level codes). It is because C language is also referred to as middle-level language. The program written in C can be compiled and run on any type of computer. In other words, programs written in C language are portable. C language is a structured programming language. The main feature of language is that it uses a large number of built-in functions to perform various tasks. The user can also create its own functions.
+
+### **2. Non-Procedural Languages**
+
+Non-procedural programming languages are also known as fourth-generation languages. In non-procedural programming languages, the order of program instructions is not important. The importance is given only to, what is to be done.
+
+With a non-procedural language, the user/programmer writes English-like instructions to retrieve data from databases. These languages are easier to use than procedural languages. These languages provide user-friendly program development tools to write instructions. The programmers do not have to spend much time coding the program.
+
+The most important non-procedural languages and tools are discussed below:
+
+1.      **SQL **- it stands for the structured query language. it is a very popular database access language and is specially used to access and manipulate the data of databases. The word query represents that this language is used to make queries (or inquiries) to perform various operations on data of a database. However, SQL can also be used to **create tables, add data, delete data, update data of database tables**, etc.
+
+2.      **RPG** - it stands for report program generator. This language was introduced by IBM to generate business reports. Typically, RPG is used for application development on IBM midrange computers, such as AS/400.
+
+### **Object Oriented Programming Languages**
+
+The object-oriented programming concept was introduced in the late 1960s, but now it has become the most popular approach to developing software.
+
+In object-oriented programming, the software is developed by using a set of interfacing objects. An object is a component of the program that has a set of modules and data structures. The modules are also called methods and are used to access the data from the object. The modern technique to design the program is the object-oriented approach. It is a very easy approach, in which the program is designed by using objects. Once an object for any program is designed, it can be reused in any other program.
+
+Nowadays, the most popular and commonly used object-oriented programming (OOPs) languages are C++ and Java.

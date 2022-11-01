@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Chapter 10 CYBER THREATS AND VULNERABILITIES | TEXTBOOK OF AGRI-INFORMATICS</title>
+<meta name="author" content="Dr. GEETHA RADHAKRISHNAN">
+<meta name="description" content="10.1 CYBER THREATS The threats to information can be due to natural disasters, physical damage of the system and components and conniving humans, who are the biggest menace. The exponential growth...">
+<meta name="generator" content="bookdown 0.28 with bs4_book()">
+<meta property="og:title" content="Chapter 10 CYBER THREATS AND VULNERABILITIES | TEXTBOOK OF AGRI-INFORMATICS">
+<meta property="og:type" content="book">
+<meta property="og:image" content="/images/cover.PNG">
+<meta property="og:description" content="10.1 CYBER THREATS The threats to information can be due to natural disasters, physical damage of the system and components and conniving humans, who are the biggest menace. The exponential growth...">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Chapter 10 CYBER THREATS AND VULNERABILITIES | TEXTBOOK OF AGRI-INFORMATICS">
+<meta name="twitter:description" content="10.1 CYBER THREATS The threats to information can be due to natural disasters, physical damage of the system and components and conniving humans, who are the biggest menace. The exponential growth...">
+<meta name="twitter:image" content="/images/cover.PNG">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
+<script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.4.0/transition.js"></script><script src="libs/bs3compat-0.4.0/tabs.js"></script><script src="libs/bs3compat-0.4.0/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
+<script src="libs/bs4_book-1.0.0/bs4_book.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/autocomplete.js/0.38.0/autocomplete.jquery.min.js" integrity="sha512-GU9ayf+66Xx2TmpxqJpliWbT5PiGYxpaG8rfnBEk1LL8l1KGkRShhngwdXK1UgqhAzWpZHSiYPc09/NwDQIGyg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js" integrity="sha512-5CYOlHXGh6QpOFA/TeTylKLWfB3ftPsde7AnmhuitiTX4K5SqCLBeKro6sPS8ilsz1Q4NRx3v8Ko2IBiszzdww==" crossorigin="anonymous"></script><!-- CSS --><style type="text/css">
+    
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  </style>
+</head>
+<body data-spy="scroll" data-target="#toc">
+
+<div class="container-fluid">
+<div class="row">
+  <header class="col-sm-12 col-lg-3 sidebar sidebar-book"><a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+
+    <div class="d-flex align-items-start justify-content-between">
+      <h1>
+        <a href="index.html" title="">TEXTBOOK OF AGRI-INFORMATICS</a>
+      </h1>
+      <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
+    </div>
+
+    <div id="main-nav" class="collapse-lg">
+      <form role="search">
+        <input id="search" class="form-control" type="search" placeholder="Search" aria-label="Search">
+</form>
+
+      <nav aria-label="Table of contents"><h2>Table of contents</h2>
+        <ul class="book-toc list-unstyled">
+<li><a class="" href="index.html">Welcome</a></li>
+<li><a class="" href="preface.html">Preface</a></li>
+<li><a class="" href="introduction-to-computers.html"><span class="header-section-number">1</span> Introduction to Computers</a></li>
+<li><a class="" href="hardware--central-processing-unit.html"><span class="header-section-number">2</span> Hardware- Central Processing Unit</a></li>
+<li><a class="" href="computer-software.html"><span class="header-section-number">3</span> Computer Software</a></li>
+<li><a class="" href="hardware-components--computer-memory.html"><span class="header-section-number">4</span> Hardware Components- Computer Memory</a></li>
+<li><a class="" href="computer--the-major-components.html"><span class="header-section-number">5</span> Computer- The Major Components</a></li>
+<li><a class="" href="hardware--output-devices.html"><span class="header-section-number">6</span> Hardware- Output Devices</a></li>
+<li><a class="" href="programming-languages.html"><span class="header-section-number">7</span> PROGRAMMING LANGUAGES</a></li>
+<li><a class="" href="number-system.html"><span class="header-section-number">8</span> NUMBER SYSTEM</a></li>
+<li><a class="" href="the-internet.html"><span class="header-section-number">9</span> THE INTERNET</a></li>
+<li><a class="active" href="cyber-threats-and-vulnerabilities.html"><span class="header-section-number">10</span> CYBER THREATS AND VULNERABILITIES</a></li>
+<li><a class="" href="references.html"><span class="header-section-number">11</span> References</a></li>
+</ul>
+
+        <div class="book-extra">
+          
+        </div>
+      </nav>
+</div>
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="cyber-threats-and-vulnerabilities" class="section level1" number="10">
+<h1>
+<span class="header-section-number">10</span> <strong>CYBER THREATS AND VULNERABILITIES</strong><a class="anchor" aria-label="anchor" href="#cyber-threats-and-vulnerabilities"><i class="fas fa-link"></i></a>
+</h1>
+<div id="cyber-threats" class="section level2" number="10.1">
+<h2>
+<span class="header-section-number">10.1</span> <strong>CYBER THREATS</strong><a class="anchor" aria-label="anchor" href="#cyber-threats"><i class="fas fa-link"></i></a>
+</h2>
+<p>The threats to information can be due to natural disasters, physical damage of the system and components and conniving humans, who are the biggest menace. The exponential growth in medical and research data has promoted migration of data from a host-based environment to distributed and cloud-based platform thereby increasing the target area for hackers to cuckold and damage data.</p>
+<p>Information security threats can be host based, network based and application based.</p>
+<div id="host-based" class="section level3" number="10.1.1">
+<h3>
+<span class="header-section-number">10.1.1</span> <strong>Host based</strong><a class="anchor" aria-label="anchor" href="#host-based"><i class="fas fa-link"></i></a>
+</h3>
+<p>Host based raids attempt the violation of the data source through malware attacks, footprinting, password attacks, denial of service, arbitrary code execution, unauthorised entry, privilege escalation and backdoor entries.</p>
+</div>
+<div id="net-based" class="section level3" number="10.1.2">
+<h3>
+<span class="header-section-number">10.1.2</span> <strong>Net based</strong><a class="anchor" aria-label="anchor" href="#net-based"><i class="fas fa-link"></i></a>
+</h3>
+<p>Net based attacks talk about information gathering, sniffing, spoofing, session hijacking, SQL injection, ARP Poisoning, password attacks, denial of service, compromised key attack.</p>
+</div>
+<div id="application-based" class="section level3" number="10.1.3">
+<h3>
+<span class="header-section-number">10.1.3</span> <strong>Application based</strong><a class="anchor" aria-label="anchor" href="#application-based"><i class="fas fa-link"></i></a>
+</h3>
+<p>Application based threats deal with attack on the vulnerabilities existing in any software. Some of the major issues could be zero-day attack, data input validation, authentication attacks, buffer overflow, parameter manipulation, configuration management, session hijacking, improper exception handling, auditing and login issues.</p>
+</div>
+</div>
+<div id="malware" class="section level2" number="10.2">
+<h2>
+<span class="header-section-number">10.2</span> <strong>Malware</strong><a class="anchor" aria-label="anchor" href="#malware"><i class="fas fa-link"></i></a>
+</h2>
+<p><strong>Malware (MALicious softWARE) attack</strong> is the use of malevolent code like spyware, keyloggers, viruses, worms, trojans, ransomware, adware, and scareware, to gain unauthorized entry and disrupt the normal functioning of a system without the owner’s awareness.</p>
+</div>
+<div id="footprinting" class="section level2" number="10.3">
+<h2>
+<span class="header-section-number">10.3</span> <strong>Footprinting</strong><a class="anchor" aria-label="anchor" href="#footprinting"><i class="fas fa-link"></i></a>
+</h2>
+<p><strong>Footprinting</strong> or reconnaissance is the process where the hacker tries to glean information about the target machine, through the manipulation of diverse tools and techniques, so that an attack may be executed in the best possible way.</p>
+</div>
+<div id="password-attacks" class="section level2" number="10.4">
+<h2>
+<span class="header-section-number">10.4</span> <strong>Password Attacks</strong><a class="anchor" aria-label="anchor" href="#password-attacks"><i class="fas fa-link"></i></a>
+</h2>
+<p><strong>Password Attacks</strong> are done in 3 ways as follows:</p>
+<div id="brute-force-attack" class="section level3" number="10.4.1">
+<h3>
+<span class="header-section-number">10.4.1</span> <strong>Brute Force Attack</strong><a class="anchor" aria-label="anchor" href="#brute-force-attack"><i class="fas fa-link"></i></a>
+</h3>
+<p>where a hacker uses a computer program or script to try to log in with possible password combinations, usually starting with the easiest-to-guess passwords.</p>
+</div>
+<div id="dictionary-attack" class="section level3" number="10.4.2">
+<h3>
+<span class="header-section-number">10.4.2</span> <strong>Dictionary Attack</strong><a class="anchor" aria-label="anchor" href="#dictionary-attack"><i class="fas fa-link"></i></a>
+</h3>
+<p>takes place when a hacker tries the various strings from a pre-arranged list.</p>
+</div>
+<div id="key-logger-attack" class="section level3" number="10.4.3">
+<h3>
+<span class="header-section-number">10.4.3</span> <strong>Key Logger Attack</strong><a class="anchor" aria-label="anchor" href="#key-logger-attack"><i class="fas fa-link"></i></a>
+</h3>
+<p>where hacker records the keystrokes, including the login and password, of a victim with the help of a program</p>
+</div>
+</div>
+<div id="denial-of-service" class="section level2" number="10.5">
+<h2>
+<span class="header-section-number">10.5</span> <strong>Denial of Service</strong><a class="anchor" aria-label="anchor" href="#denial-of-service"><i class="fas fa-link"></i></a>
+</h2>
+<p><strong>Denial of Service (DoS)</strong> attack floods the net with worthless traffic so that all genuine ping requests are denied. Two examples of DoS methods are <em>The Ping of Death</em> which sends malformed ping requests and <em>Teardrop attacks</em> that crash the network device by sending fragmented, bugged packets to a target machine so that it cannot be reconstructed.</p>
+</div>
+<div id="arbitrary-code-execution" class="section level2" number="10.6">
+<h2>
+<span class="header-section-number">10.6</span> <strong>Arbitrary code execution</strong><a class="anchor" aria-label="anchor" href="#arbitrary-code-execution"><i class="fas fa-link"></i></a>
+</h2>
+<p><strong>Arbitrary code execution</strong> is when the attacker executes a command/script on a target machine/process so as to acquire absolute control and access to that system.</p>
+</div>
+<div id="unauthorized-entry" class="section level2" number="10.7">
+<h2>
+<span class="header-section-number">10.7</span> <strong>Unauthorized entry</strong><a class="anchor" aria-label="anchor" href="#unauthorized-entry"><i class="fas fa-link"></i></a>
+</h2>
+<p><strong>Unauthorized entry</strong> happens when illegal access to a system and its resources is obtained and this happens due to ambiguous access policies.</p>
+</div>
+<div id="privilege-escalation" class="section level2" number="10.8">
+<h2>
+<span class="header-section-number">10.8</span> <strong>Privilege escalation</strong><a class="anchor" aria-label="anchor" href="#privilege-escalation"><i class="fas fa-link"></i></a>
+</h2>
+<p><strong>Privilege escalation</strong> is rendered possible by the exploitation of
+a bug, design flaw, or operating system or software application to obtain elevation in status so as gain unauthorized privileged access to resources.</p>
+</div>
+<div id="backdoor-entry" class="section level2" number="10.9">
+<h2>
+<span class="header-section-number">10.9</span> <strong>Backdoor entry</strong><a class="anchor" aria-label="anchor" href="#backdoor-entry"><i class="fas fa-link"></i></a>
+</h2>
+<p><strong>Backdoor entry</strong> means infiltration of a system by circumventing routine authentications and security checks.</p>
+</div>
+<div id="sniffing" class="section level2" number="10.10">
+<h2>
+<span class="header-section-number">10.10</span> <strong>Sniffing</strong><a class="anchor" aria-label="anchor" href="#sniffing"><i class="fas fa-link"></i></a>
+</h2>
+<p><strong>Sniffing</strong> is a passive raid within a network, that uses sniffer applications or devices to monitor and capture network data exchanges and read the contents of packets if they are unencrypted.</p>
+</div>
+<div id="spoofing" class="section level2" number="10.11">
+<h2>
+<span class="header-section-number">10.11</span> <strong>Spoofing</strong><a class="anchor" aria-label="anchor" href="#spoofing"><i class="fas fa-link"></i></a>
+</h2>
+<p><strong>Spoofing</strong> is when a hacker gains access and attacks a target by masquerading as an authentic user.</p>
+</div>
+<div id="session-hijacking" class="section level2" number="10.12">
+<h2>
+<span class="header-section-number">10.12</span> <strong>Session Hijacking</strong><a class="anchor" aria-label="anchor" href="#session-hijacking"><i class="fas fa-link"></i></a>
+</h2>
+<p><strong>Session Hijacking</strong> is a proscribed technique that involves the capture of a user session by securing an authorized session ID using clandestine methods.</p>
+</div>
+<div id="sql-injection" class="section level2" number="10.13">
+<h2>
+<span class="header-section-number">10.13</span> <strong>SQL Injection</strong><a class="anchor" aria-label="anchor" href="#sql-injection"><i class="fas fa-link"></i></a>
+</h2>
+<p><strong>SQL Injection</strong> means augmenting Structured Query Language (SQL) codes to
+the input box for unlawful infiltration into the system. </p>
+</div>
+<div id="arp-poisoning" class="section level2" number="10.14">
+<h2>
+<span class="header-section-number">10.14</span> <strong>ARP Poisoning</strong><a class="anchor" aria-label="anchor" href="#arp-poisoning"><i class="fas fa-link"></i></a>
+</h2>
+<p><strong>ARP Poisoning</strong> attack is the transmission of counterfeit <strong>ARP</strong> (Address Resolution Protocol) messages over a local area network by exploiting the transition from Layer 3 to Layer 2 addresses, thereby conjoining an attacker's MAC address and the IP address of authentic systems.</p>
+</div>
+<div id="compromised-key-attack" class="section level2" number="10.15">
+<h2>
+<span class="header-section-number">10.15</span> <strong>Compromised Key Attack</strong><a class="anchor" aria-label="anchor" href="#compromised-key-attack"><i class="fas fa-link"></i></a>
+</h2>
+<p><strong>Compromised Key Attack</strong> is the use of a linked key to access a protected transmission. </p>
+</div>
+<div id="zero-day-attack" class="section level2" number="10.16">
+<h2>
+<span class="header-section-number">10.16</span> <strong>Zero-day attack</strong><a class="anchor" aria-label="anchor" href="#zero-day-attack"><i class="fas fa-link"></i></a>
+</h2>
+<p><strong>Zero-day attack</strong> is the exploitation of a software vulnerability unknown to the vendor.</p>
+</div>
+<div id="data-input-validatiobn-attack" class="section level2" number="10.17">
+<h2>
+<span class="header-section-number">10.17</span> <strong>Data input validatiobn attack</strong><a class="anchor" aria-label="anchor" href="#data-input-validatiobn-attack"><i class="fas fa-link"></i></a>
+</h2>
+<p><strong>Data input validation attack</strong> means assaulting data that based on poor data input validation.</p>
+</div>
+<div id="authentication-attack" class="section level2" number="10.18">
+<h2>
+<span class="header-section-number">10.18</span> <strong>Authentication attack</strong><a class="anchor" aria-label="anchor" href="#authentication-attack"><i class="fas fa-link"></i></a>
+</h2>
+<p><strong>Authentication attack</strong> is a brute force, trial and error attack that guesses the various permutation and combinations of the victims’ password based on some user-related information</p>
+</div>
+<div id="buffer-overflow-attack" class="section level2" number="10.19">
+<h2>
+<span class="header-section-number">10.19</span> <strong>Buffer overflow attack</strong><a class="anchor" aria-label="anchor" href="#buffer-overflow-attack"><i class="fas fa-link"></i></a>
+</h2>
+<p><strong>Buffer overflow attack</strong> results from excessively long input data that escapes the buffer boundary and invades contiguous memory locations.</p>
+</div>
+<div id="parameter-manipulation" class="section level2" number="10.20">
+<h2>
+<span class="header-section-number">10.20</span> <strong>Parameter manipulation</strong><a class="anchor" aria-label="anchor" href="#parameter-manipulation"><i class="fas fa-link"></i></a>
+</h2>
+<p><strong>Parameter manipulation</strong> is a Web-based attack wherein certain parameters in the Uniform Resource Locator (URL) are tampered with.</p>
+<p>At the RSA Conference 2016, the Cloud Security Alliance listed the top 12 threats to data and network security as data breaches, Compromised credentials, and broken authentication, Hacked interfaces and APIs, Exploited system vulnerabilities, Account hijacking, malicious insiders, APT parasites, Permanent data loss, inadequate diligence, Cloud service abuses, Dos attacks, Shared technology, shared dangers.</p>
+</div>
+<div id="breaches-in-data" class="section level2" number="10.21">
+<h2>
+<span class="header-section-number">10.21</span> <strong>Breaches in Data</strong><a class="anchor" aria-label="anchor" href="#breaches-in-data"><i class="fas fa-link"></i></a>
+</h2>
+<p>Data breaches occur due to exposure of private data, leading to financial loss and infringed intellectual property rights, thereby bringing in financial heavy losses and loss of privacy. Although the cloud service providers introduce heavy security mechanisms, the ultimate responsibility to safeguard data rests with the user organizations.</p>
+<div id="compromised-credentials-and-broken-authentication" class="section level3" number="10.21.1">
+<h3>
+<span class="header-section-number">10.21.1</span> <strong>Compromised credentials and broken authentication </strong><a class="anchor" aria-label="anchor" href="#compromised-credentials-and-broken-authentication"><i class="fas fa-link"></i></a>
+</h3>
+<p>This is all about insufficient verification, lax authentication, vulnerable passwords, and fragile encrypted key or certificate management that result in data breaches.</p>
+</div>
+<div id="hacked-interfaces-and-application-programming-interfaces-apis" class="section level3" number="10.21.2">
+<h3>
+<span class="header-section-number">10.21.2</span> <strong>Hacked Interfaces and Application Programming Interfaces (APIs)</strong><a class="anchor" aria-label="anchor" href="#hacked-interfaces-and-application-programming-interfaces-apis"><i class="fas fa-link"></i></a>
+</h3>
+<p>APIs are routines, protocols, and tools for building software applications. It allows communications between two software components. When third parties are involved in the development of the software, more data are exposed on the network, thereby leading to serious threats.</p>
+</div>
+<div id="exploited-system-vulnerabilities" class="section level3" number="10.21.3">
+<h3>
+<span class="header-section-number">10.21.3</span> <strong>Exploited System Vulnerabilities</strong><a class="anchor" aria-label="anchor" href="#exploited-system-vulnerabilities"><i class="fas fa-link"></i></a>
+</h3>
+<p>Threats due to system vulnerabilities and gullible bugs in programs, double when organizations share resources.</p>
+</div>
+<div id="account-hijacking" class="section level3" number="10.21.4">
+<h3>
+<span class="header-section-number">10.21.4</span> <strong>Account Hijacking</strong><a class="anchor" aria-label="anchor" href="#account-hijacking"><i class="fas fa-link"></i></a>
+</h3>
+<p>Cloud computing increases the chances of account hijacking due to phishing and sniffing.</p>
+</div>
+<div id="malicious-insiders" class="section level3" number="10.21.5">
+<h3>
+<span class="header-section-number">10.21.5</span> <strong>Malicious insiders</strong><a class="anchor" aria-label="anchor" href="#malicious-insiders"><i class="fas fa-link"></i></a>
+</h3>
+<p>Malicious insiders are a great threat to the security of data and infrastructure.</p>
+</div>
+<div id="the-advanced-persistent-threat-apt-parasite" class="section level3" number="10.21.6">
+<h3>
+<span class="header-section-number">10.21.6</span> <strong>The Advanced Persistent Threat (APT) Parasite</strong><a class="anchor" aria-label="anchor" href="#the-advanced-persistent-threat-apt-parasite"><i class="fas fa-link"></i></a>
+</h3>
+<p>There are hackers who consider hacking as their sole job and scour the net with malicious intent. They would continuously attack a victim till success is met and also move from one victim to another.</p>
+</div>
+<div id="permanent-data-loss" class="section level3" number="10.21.7">
+<h3>
+<span class="header-section-number">10.21.7</span> <strong>Permanent Data Loss</strong><a class="anchor" aria-label="anchor" href="#permanent-data-loss"><i class="fas fa-link"></i></a>
+</h3>
+<p>Malicious hackers delete data from the cloud permanently so as to bring about loss in business. Data can also be lost due to system damage or natural calamities.</p>
+</div>
+<div id="inadequate-diligence" class="section level3" number="10.21.8">
+<h3>
+<span class="header-section-number">10.21.8</span> <strong>Inadequate Diligence</strong><a class="anchor" aria-label="anchor" href="#inadequate-diligence"><i class="fas fa-link"></i></a>
+</h3>
+<p>Lack of alertness, and rare penetration testing within organizations, culminates in severe data loss over the cloud. Also, an altogether lenient attitude towards understanding the cloud technologies before deploying apps to the cloud mitigates data loss.</p>
+</div>
+<div id="cloud-service-abuses" class="section level3" number="10.21.9">
+<h3>
+<span class="header-section-number">10.21.9</span> <strong>Cloud Service Abuses</strong><a class="anchor" aria-label="anchor" href="#cloud-service-abuses"><i class="fas fa-link"></i></a>
+</h3>
+<p>Cloud services can be utilised to crack encryption key, send spam and phishing mails, host malicious content and launch DDoS attacks</p>
+</div>
+<div id="dos-attacks" class="section level3" number="10.21.10">
+<h3>
+<span class="header-section-number">10.21.10</span> <strong>DoS Attacks</strong><a class="anchor" aria-label="anchor" href="#dos-attacks"><i class="fas fa-link"></i></a>
+</h3>
+<p>DoS attacks slow the systems and sometimes bring the entire network to a standstill.</p>
+</div>
+<div id="shared-technology-shared-dangers" class="section level3" number="10.21.11">
+<h3>
+<span class="header-section-number">10.21.11</span> <strong>Shared Technology, Shared Dangers</strong><a class="anchor" aria-label="anchor" href="#shared-technology-shared-dangers"><i class="fas fa-link"></i></a>
+</h3>
+<p>Vulnerabilities in shared technology pose a significant threat to cloud computing. If an integral component gets compromised, it exposes the entire environment to potential compromise and breach.</p>
+</div>
+</div>
+<div id="malware-malicious-software" class="section level2" number="10.22">
+<h2>
+<span class="header-section-number">10.22</span> <strong>MALWARE (MALicious softWARE)</strong><a class="anchor" aria-label="anchor" href="#malware-malicious-software"><i class="fas fa-link"></i></a>
+</h2>
+<p><strong>Virus</strong></p>
+<p>A piece of software that disrupts the service of a computer. It is a small software program that is designed to spread from one computer to another and to interfere with computer operation. A true virus is capable of self replication on a machine. Virus may spread between files or disks.</p>
+<ul>
+<li><p>There are estimated 30,000 computer viruses in existence.</p></li>
+<li><p>Over 300 new ones are created each month.</p></li>
+<li><p>First virus was created to show loopholes in software.</p></li>
+<li><p>Today almost 87% of all viruses are spread through the internet.</p></li>
+</ul>
+<div id="trojan-horse" class="section level3" number="10.22.1">
+<h3>
+<span class="header-section-number">10.22.1</span> <strong>Trojan Horse</strong><a class="anchor" aria-label="anchor" href="#trojan-horse"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li><p>Requires Windows to work</p></li>
+<li><p>Once infected, runs in the background</p></li>
+</ul>
+</div>
+<div id="worms" class="section level3" number="10.22.2">
+<h3>
+<span class="header-section-number">10.22.2</span> <strong>Worms</strong><a class="anchor" aria-label="anchor" href="#worms"><i class="fas fa-link"></i></a>
+</h3>
+<p>A worm is a small piece of software that uses computer networks and security holes to replicate itself. A copy of the worm scans the network for another machine that has a specific security hole. It copies itself to the new machine using the security hole, and then starts replicating from there, as well. Worms use computer time and network bandwidth when they replicate. A worm called Code Red made huge headlines in 2001. Experts predicted that this worm could clog the Internet so effectively that things would completely grind to a halt. A worm usually exploits some sort of security hole in a piece of software or the operating system. For example, the Slammer worm (which caused mayhem in January 2003) exploited a hole in Microsoft's SQL server. Worms normally move around and infect other machines through computer networks. Using a network, a worm can expand from a single copy incredibly quickly. The Code Red worm replicated itself more than 250,000 times in approximately nine hours on July 19, 2001.</p>
+</div>
+<div id="macro" class="section level3" number="10.22.3">
+<h3>
+<span class="header-section-number">10.22.3</span> <strong>Macro</strong><a class="anchor" aria-label="anchor" href="#macro"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li><p>Specific to certain applications</p></li>
+<li><p>Comprise a high percentage of the viruses</p></li>
+</ul>
+</div>
+<div id="e-mail-viruses" class="section level3" number="10.22.4">
+<h3>
+<span class="header-section-number">10.22.4</span> <strong>E-mail viruses</strong><a class="anchor" aria-label="anchor" href="#e-mail-viruses"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li><p>An e-mail virus travels as an attachment to e-mail messages, and usually replicates itself by automatically mailing itself to dozens of people in the victim's e-mail address book.</p></li>
+<li><p>Some e-mail viruses don't even require a double-click -- they launch when you view the infected message in the preview pane of your e-mail software.</p></li>
+</ul>
+</div>
+</div>
+<div id="symptoms-of-virus-attack" class="section level2" number="10.23">
+<h2>
+<span class="header-section-number">10.23</span> <strong>SYMPTOMS OF VIRUS ATTACK</strong><a class="anchor" aria-label="anchor" href="#symptoms-of-virus-attack"><i class="fas fa-link"></i></a>
+</h2>
+<ul>
+<li><p>Computer runs slower than usual</p></li>
+<li><p>Computer no longer boots up</p></li>
+<li><p>Screen sometimes flicker</p></li>
+<li><p>Speaker beeps periodically</p></li>
+<li><p>System crashes for no reason</p></li>
+<li><p>Files/directories sometimes disappear</p></li>
+<li><p>Denial of Service (DoS)</p></li>
+</ul>
+</div>
+<div id="data-security---how-to-protect-data" class="section level2" number="10.24">
+<h2>
+<span class="header-section-number">10.24</span> <strong>DATA SECURITY - How to protect data</strong><a class="anchor" aria-label="anchor" href="#data-security---how-to-protect-data"><i class="fas fa-link"></i></a>
+</h2>
+<p>Data security must be considered from the physical, technical, and administrative aspects</p>
+<div id="physical-security" class="section level3" number="10.24.1">
+<h3>
+<span class="header-section-number">10.24.1</span> <strong>Physical Security</strong><a class="anchor" aria-label="anchor" href="#physical-security"><i class="fas fa-link"></i></a>
+</h3>
+<ul>
+<li><p>The security of data affects its discretion, veracity, and accessibility Unauthorised persons can gain access to the chamber where the hard copies of data, the main servers, and computer systems are located, to cause espionage, pilfering, or to cause general destruction. Important documents can be lost due to the presence of rodents, termites, and ants and also the physical movement of data files and documents to various locations. Climatic changes and natural disasters such as floods, tsunamis, earthquakes, typhoons, lightning induced fires can all obliterate the physical location of clinical data.</p></li>
+<li><p><em>Physical security</em> involves the implementation of secure locking systems, using biometrics to prevent unauthorized access into the room, preparing contingency plans, and maintaining backups of the data on virtual machines and also in different premises.</p></li>
+</ul>
+</div>
+<div id="administrative-security" class="section level3" number="10.24.2">
+<h3>
+<span class="header-section-number">10.24.2</span> <strong>Administrative Security</strong><a class="anchor" aria-label="anchor" href="#administrative-security"><i class="fas fa-link"></i></a>
+</h3>
+<p>Data access is ensured through social engineering if the administration staff are unaware of suave hackers and are not trained sufficiently to maintain access logs. Consistent auditing of system logs, and following a uniform and regular security policy should be a part of <em>administration security</em>.</p>
+</div>
+<div id="technicalapplication-security" class="section level3" number="10.24.3">
+<h3>
+<span class="header-section-number">10.24.3</span> <strong>Technical/application Security</strong><a class="anchor" aria-label="anchor" href="#technicalapplication-security"><i class="fas fa-link"></i></a>
+</h3>
+<p>Residual files that remain in the hard disk after deletion, are often retrieved by fraudsters. Inadvertent system configuration and careless system access control measures often lead to data leaks. Data manipulation by hackers could result in erroneous research analysis. Also, flaws during data entries can mar the integrity of data.</p>
+</div>
+<div id="network-security" class="section level3" number="10.24.4">
+<h3>
+<span class="header-section-number">10.24.4</span> <strong>Network Security</strong><a class="anchor" aria-label="anchor" href="#network-security"><i class="fas fa-link"></i></a>
+</h3>
+<p>The sheer volume of clinical data has brought it to the level of Big Data. The data are no longer stored on individual systems but are being slowly moved into the cloud. And as further data gets uploaded onto the cloud, the platform for hackers widens. The IaaS (Infrastructure as a Service) providers like Amazon’s EC<sub>2</sub> (Elastic Compute Cloud) and Google’s GFS (Google File System) have their own security measures put in place, in spite of which, data get stolen during the transfer from the user to the cloud.</p>
+<ul>
+<li>
+<strong>Bring Your Own Gadget Security</strong>: With internet facilities available on the go, organizations have permitted employees to bring their own gadgets to the workplace. The development has proved to be cost-effective for the administration. Operating on the move has become customary and personnel access clinical data from the comforts of their homes. However, this access to secure databases through insecure networks and Wi-Fi systems makes the database vulnerable to malicious operators. Loss of these portable devices and the use of malware-infected gadgets to log on, retrieve or transfer data could put the servers and the databank they host at risk.</li>
+</ul>
+</div>
+</div>
+<div id="ways-to-protect-computer-against-malware" class="section level2" number="10.25">
+<h2>
+<span class="header-section-number">10.25</span> <strong>Ways to protect computer against malware</strong><a class="anchor" aria-label="anchor" href="#ways-to-protect-computer-against-malware"><i class="fas fa-link"></i></a>
+</h2>
+<ul>
+<li><p>Gain knowledge about viruses</p></li>
+<li><p>Proper configurations</p></li>
+<li><p>Run only necessary programs</p></li>
+<li><p>Install Anti-virus software and update</p></li>
+</ul>
+</div>
+<div id="vaccines" class="section level2" number="10.26">
+<h2>
+<span class="header-section-number">10.26</span> <strong>VACCINES</strong><a class="anchor" aria-label="anchor" href="#vaccines"><i class="fas fa-link"></i></a>
+</h2>
+<p>Vaccines or Antivirus software is a program that identifies, thwarts, and deactivates/neutralizes malware. However, since the development of new malware takes place at the rate of hundreds of new ones each day, it is important to update the antivirus software periodically. A few common Anti Virus software are listed below:</p>
+<div id="norton-antivirus" class="section level3" number="10.26.1">
+<h3>
+<span class="header-section-number">10.26.1</span> <strong>Norton AntiVirus</strong><a class="anchor" aria-label="anchor" href="#norton-antivirus"><i class="fas fa-link"></i></a>
+</h3>
+<p>Norton AntiVirus is developed by Norton LifeLock since 1990. It uses signature techniques for the detection of malware. It filters out spam mail and also protects against phishing.</p>
+</div>
+<div id="avg-free-edition" class="section level3" number="10.26.2">
+<h3>
+<span class="header-section-number">10.26.2</span> <strong>AVG Free Edition</strong><a class="anchor" aria-label="anchor" href="#avg-free-edition"><i class="fas fa-link"></i></a>
+</h3>
+<p>AVG developed by AVG Technologies and provides real-time protection against spyware and Trojans.</p>
+</div>
+<div id="mcafee-total-protection" class="section level3" number="10.26.3">
+<h3>
+<span class="header-section-number">10.26.3</span> <strong>McAfee Total Protection</strong><a class="anchor" aria-label="anchor" href="#mcafee-total-protection"><i class="fas fa-link"></i></a>
+</h3>
+<p>This software detects viruses, prevents identity theft, warns against harmful websites, removes personal data from harmful sites, and generally provides premium online protection.</p>
+</div>
+<div id="kaspersky-anti-virus" class="section level3" number="10.26.4">
+<h3>
+<span class="header-section-number">10.26.4</span> <strong>Kaspersky Anti-Virus</strong><a class="anchor" aria-label="anchor" href="#kaspersky-anti-virus"><i class="fas fa-link"></i></a>
+</h3>
+<p>It is developed by Kaspersky Lab and protects against viruses in the Windows environment.</p>
+</div>
+<div id="eset-nod32---anti-virus" class="section level3" number="10.26.5">
+<h3>
+<span class="header-section-number">10.26.5</span> <strong>ESET NOD32 - Anti-virus</strong><a class="anchor" aria-label="anchor" href="#eset-nod32---anti-virus"><i class="fas fa-link"></i></a>
+</h3>
+<p>It is made by a Slovak company is known for thwarting viruses without slowing down the computer. It is mostly used in a Windows environment.</p>
+</div>
+<div id="avast-antivirus" class="section level3" number="10.26.6">
+<h3>
+<span class="header-section-number">10.26.6</span> <strong>Avast AntiVirus</strong><a class="anchor" aria-label="anchor" href="#avast-antivirus"><i class="fas fa-link"></i></a>
+</h3>
+<p>This software neutralizes viruses, and provides password protection, data shredding, webcam shielding, and sandboxing.  </p>
+</div>
+<div id="ccleaner" class="section level3" number="10.26.7">
+<h3>
+<span class="header-section-number">10.26.7</span> <strong>CCleaner</strong><a class="anchor" aria-label="anchor" href="#ccleaner"><i class="fas fa-link"></i></a>
+</h3>
+<p>This is a software that cleans the computer by removing unwanted and invalid Windows registry files.</p>
+</div>
+<div id="malwarebytes" class="section level3" number="10.26.8">
+<h3>
+<span class="header-section-number">10.26.8</span> <strong>MalwareBytes</strong><a class="anchor" aria-label="anchor" href="#malwarebytes"><i class="fas fa-link"></i></a>
+</h3>
+<p>This is an anti-virus that is developed by MalwareBytes Corporation, and can be used on computers using Windows, Unix or MacOS, Chrome OS, Android, and iOS.</p>
+</div>
+<div id="panda-antivirus" class="section level3" number="10.26.9">
+<h3>
+<span class="header-section-number">10.26.9</span> <strong>Panda Antivirus</strong><a class="anchor" aria-label="anchor" href="#panda-antivirus"><i class="fas fa-link"></i></a>
+</h3>
+<p>This is developed by Panda Security. It processes files on a cloud server and so the computer processing speed does not reduce. It provides protection from online threats, protects VPN and WiFi, and includes parental control</p>
+</div>
+<div id="avira" class="section level3" number="10.26.10">
+<h3>
+<span class="header-section-number">10.26.10</span> <strong>Avira</strong><a class="anchor" aria-label="anchor" href="#avira"><i class="fas fa-link"></i></a>
+</h3>
+<p>This antivirus protects the computer against malware and also provides real-time cloud based protection on Windows and Linux environments.</p>
+
+</div>
+</div>
+</div>
+  <div class="chapter-nav">
+<div class="prev"><a href="the-internet.html"><span class="header-section-number">9</span> THE INTERNET</a></div>
+<div class="next"><a href="references.html"><span class="header-section-number">11</span> References</a></div>
+</div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
+    <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#cyber-threats-and-vulnerabilities"><span class="header-section-number">10</span> CYBER THREATS AND VULNERABILITIES</a></li>
+<li>
+<a class="nav-link" href="#cyber-threats"><span class="header-section-number">10.1</span> CYBER THREATS</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#host-based"><span class="header-section-number">10.1.1</span> Host based</a></li>
+<li><a class="nav-link" href="#net-based"><span class="header-section-number">10.1.2</span> Net based</a></li>
+<li><a class="nav-link" href="#application-based"><span class="header-section-number">10.1.3</span> Application based</a></li>
+</ul>
+</li>
+<li><a class="nav-link" href="#malware"><span class="header-section-number">10.2</span> Malware</a></li>
+<li><a class="nav-link" href="#footprinting"><span class="header-section-number">10.3</span> Footprinting</a></li>
+<li>
+<a class="nav-link" href="#password-attacks"><span class="header-section-number">10.4</span> Password Attacks</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#brute-force-attack"><span class="header-section-number">10.4.1</span> Brute Force Attack</a></li>
+<li><a class="nav-link" href="#dictionary-attack"><span class="header-section-number">10.4.2</span> Dictionary Attack</a></li>
+<li><a class="nav-link" href="#key-logger-attack"><span class="header-section-number">10.4.3</span> Key Logger Attack</a></li>
+</ul>
+</li>
+<li><a class="nav-link" href="#denial-of-service"><span class="header-section-number">10.5</span> Denial of Service</a></li>
+<li><a class="nav-link" href="#arbitrary-code-execution"><span class="header-section-number">10.6</span> Arbitrary code execution</a></li>
+<li><a class="nav-link" href="#unauthorized-entry"><span class="header-section-number">10.7</span> Unauthorized entry</a></li>
+<li><a class="nav-link" href="#privilege-escalation"><span class="header-section-number">10.8</span> Privilege escalation</a></li>
+<li><a class="nav-link" href="#backdoor-entry"><span class="header-section-number">10.9</span> Backdoor entry</a></li>
+<li><a class="nav-link" href="#sniffing"><span class="header-section-number">10.10</span> Sniffing</a></li>
+<li><a class="nav-link" href="#spoofing"><span class="header-section-number">10.11</span> Spoofing</a></li>
+<li><a class="nav-link" href="#session-hijacking"><span class="header-section-number">10.12</span> Session Hijacking</a></li>
+<li><a class="nav-link" href="#sql-injection"><span class="header-section-number">10.13</span> SQL Injection</a></li>
+<li><a class="nav-link" href="#arp-poisoning"><span class="header-section-number">10.14</span> ARP Poisoning</a></li>
+<li><a class="nav-link" href="#compromised-key-attack"><span class="header-section-number">10.15</span> Compromised Key Attack</a></li>
+<li><a class="nav-link" href="#zero-day-attack"><span class="header-section-number">10.16</span> Zero-day attack</a></li>
+<li><a class="nav-link" href="#data-input-validatiobn-attack"><span class="header-section-number">10.17</span> Data input validatiobn attack</a></li>
+<li><a class="nav-link" href="#authentication-attack"><span class="header-section-number">10.18</span> Authentication attack</a></li>
+<li><a class="nav-link" href="#buffer-overflow-attack"><span class="header-section-number">10.19</span> Buffer overflow attack</a></li>
+<li><a class="nav-link" href="#parameter-manipulation"><span class="header-section-number">10.20</span> Parameter manipulation</a></li>
+<li>
+<a class="nav-link" href="#breaches-in-data"><span class="header-section-number">10.21</span> Breaches in Data</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#compromised-credentials-and-broken-authentication"><span class="header-section-number">10.21.1</span> Compromised credentials and broken authentication </a></li>
+<li><a class="nav-link" href="#hacked-interfaces-and-application-programming-interfaces-apis"><span class="header-section-number">10.21.2</span> Hacked Interfaces and Application Programming Interfaces (APIs)</a></li>
+<li><a class="nav-link" href="#exploited-system-vulnerabilities"><span class="header-section-number">10.21.3</span> Exploited System Vulnerabilities</a></li>
+<li><a class="nav-link" href="#account-hijacking"><span class="header-section-number">10.21.4</span> Account Hijacking</a></li>
+<li><a class="nav-link" href="#malicious-insiders"><span class="header-section-number">10.21.5</span> Malicious insiders</a></li>
+<li><a class="nav-link" href="#the-advanced-persistent-threat-apt-parasite"><span class="header-section-number">10.21.6</span> The Advanced Persistent Threat (APT) Parasite</a></li>
+<li><a class="nav-link" href="#permanent-data-loss"><span class="header-section-number">10.21.7</span> Permanent Data Loss</a></li>
+<li><a class="nav-link" href="#inadequate-diligence"><span class="header-section-number">10.21.8</span> Inadequate Diligence</a></li>
+<li><a class="nav-link" href="#cloud-service-abuses"><span class="header-section-number">10.21.9</span> Cloud Service Abuses</a></li>
+<li><a class="nav-link" href="#dos-attacks"><span class="header-section-number">10.21.10</span> DoS Attacks</a></li>
+<li><a class="nav-link" href="#shared-technology-shared-dangers"><span class="header-section-number">10.21.11</span> Shared Technology, Shared Dangers</a></li>
+</ul>
+</li>
+<li>
+<a class="nav-link" href="#malware-malicious-software"><span class="header-section-number">10.22</span> MALWARE (MALicious softWARE)</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#trojan-horse"><span class="header-section-number">10.22.1</span> Trojan Horse</a></li>
+<li><a class="nav-link" href="#worms"><span class="header-section-number">10.22.2</span> Worms</a></li>
+<li><a class="nav-link" href="#macro"><span class="header-section-number">10.22.3</span> Macro</a></li>
+<li><a class="nav-link" href="#e-mail-viruses"><span class="header-section-number">10.22.4</span> E-mail viruses</a></li>
+</ul>
+</li>
+<li><a class="nav-link" href="#symptoms-of-virus-attack"><span class="header-section-number">10.23</span> SYMPTOMS OF VIRUS ATTACK</a></li>
+<li>
+<a class="nav-link" href="#data-security---how-to-protect-data"><span class="header-section-number">10.24</span> DATA SECURITY - How to protect data</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#physical-security"><span class="header-section-number">10.24.1</span> Physical Security</a></li>
+<li><a class="nav-link" href="#administrative-security"><span class="header-section-number">10.24.2</span> Administrative Security</a></li>
+<li><a class="nav-link" href="#technicalapplication-security"><span class="header-section-number">10.24.3</span> Technical/application Security</a></li>
+<li><a class="nav-link" href="#network-security"><span class="header-section-number">10.24.4</span> Network Security</a></li>
+</ul>
+</li>
+<li><a class="nav-link" href="#ways-to-protect-computer-against-malware"><span class="header-section-number">10.25</span> Ways to protect computer against malware</a></li>
+<li>
+<a class="nav-link" href="#vaccines"><span class="header-section-number">10.26</span> VACCINES</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#norton-antivirus"><span class="header-section-number">10.26.1</span> Norton AntiVirus</a></li>
+<li><a class="nav-link" href="#avg-free-edition"><span class="header-section-number">10.26.2</span> AVG Free Edition</a></li>
+<li><a class="nav-link" href="#mcafee-total-protection"><span class="header-section-number">10.26.3</span> McAfee Total Protection</a></li>
+<li><a class="nav-link" href="#kaspersky-anti-virus"><span class="header-section-number">10.26.4</span> Kaspersky Anti-Virus</a></li>
+<li><a class="nav-link" href="#eset-nod32---anti-virus"><span class="header-section-number">10.26.5</span> ESET NOD32 - Anti-virus</a></li>
+<li><a class="nav-link" href="#avast-antivirus"><span class="header-section-number">10.26.6</span> Avast AntiVirus</a></li>
+<li><a class="nav-link" href="#ccleaner"><span class="header-section-number">10.26.7</span> CCleaner</a></li>
+<li><a class="nav-link" href="#malwarebytes"><span class="header-section-number">10.26.8</span> MalwareBytes</a></li>
+<li><a class="nav-link" href="#panda-antivirus"><span class="header-section-number">10.26.9</span> Panda Antivirus</a></li>
+<li><a class="nav-link" href="#avira"><span class="header-section-number">10.26.10</span> Avira</a></li>
+</ul>
+</li>
+</ul>
+
+      <div class="book-extra">
+        <ul class="list-unstyled">
+          
+        </ul>
+</div>
+    </nav>
+</div>
+
+</div>
+</div> <!-- .container -->
+
+<footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>"<strong>TEXTBOOK OF AGRI-INFORMATICS</strong>" was written by Dr. GEETHA RADHAKRISHNAN. It was last built on 2022-01-30.</p>
+  </div>
+
+  <div class="col-12 col-md-6 mt-3">
+    <p>This book was built by the <a class="text-light" href="https://bookdown.org">bookdown</a> R package.</p>
+  </div>
+
+</div></div>
+</footer><!-- dynamically load mathjax for compatibility with self-contained --><script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script><script type="text/x-mathjax-config">const popovers = document.querySelectorAll('a.footnote-ref[data-toggle="popover"]');
+for (let popover of popovers) {
+  const div = document.createElement('div');
+  div.setAttribute('style', 'position: absolute; top: 0, left:0; width:0, height:0, overflow: hidden; visibility: hidden;');
+  div.innerHTML = popover.getAttribute('data-content');
+
+  var has_math = div.querySelector("span.math");
+  if (has_math) {
+    document.body.appendChild(div);
+    MathJax.Hub.Queue(["Typeset", MathJax.Hub, div]);
+    MathJax.Hub.Queue(function() {
+      popover.setAttribute('data-content', div.innerHTML);
+      document.body.removeChild(div);
+    })
+  }
+}
+</script>
+</body>
+</html>
