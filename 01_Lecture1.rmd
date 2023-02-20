@@ -7,7 +7,7 @@ manipulates data. It is an *electronic machine* that takes input from
 the *user*, processes the given input and generates output in the form
 of useful information.
 
-## Characteristics
+
 
 -   **Speed**: Computers can process data at an extremely fast rate.Computers need only a few seconds to complete a task that a normal human being may take days or even years to complete. Powerful computers are capable of performing billions of operations in one second.
 
